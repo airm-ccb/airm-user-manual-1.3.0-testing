@@ -1,3 +1,3 @@
-- ** AIRM Rulebook **
-  - Introduction
+- **AIRM Guidance**
+  - [AIRM Rulebook](rulebook/rulebook.md)
   - todo
