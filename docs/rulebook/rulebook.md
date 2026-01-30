@@ -119,21 +119,23 @@ in the relevant group. Therefore, the numbering of the items is not consecutive.
 The following layout is adopted to ease the use of the document.
 
 ### Rule template
-AIRM_Rule number
 
-<mark style="color:blue">Rule statement</mark>
+| AIRM_Rule number | 
+| :- |
+| <mark style="background-color:blue">Rule statement</mark> |
 
 ### Recommendation template
-AIRM_Recommendation number
 
-<mark color="blue">Recommendation statement</mark>
+| AIRM_Recommendation number |
+| :- |
+| <mark style="background-color:yellow">Recommendation statement</mark> |
 
 ### Principle template
-AIRM_Principle number
 
-<mark style="background-color:lightgrey">Principle statement TEST</mark>
+| AIRM_Principle number |
+| :- |
+| <mark style="background-color:lightgrey">Principle statement</mark> |
 
-<p><span style="background:blue">Principle statement</span></p>
 
 ### Last Version
 When the phrase “latest version” is used it always means at the time of publication of the AIRM Rulebook for this version of the AIRM.
