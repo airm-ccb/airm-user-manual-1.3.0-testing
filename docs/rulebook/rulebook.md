@@ -122,7 +122,7 @@ The following layout is adopted to ease the use of the document.
 
 | AIRM_Rule number | 
 | :- |
-| <mark style="background-color:blue">Rule statement</mark> |
+| <mark style="background-color:lightblue">Rule statement</mark> |
 
 ### Recommendation template
 
