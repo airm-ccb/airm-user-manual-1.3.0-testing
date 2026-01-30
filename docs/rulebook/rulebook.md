@@ -131,7 +131,8 @@ AIRM_Recommendation number
 ### Principle template
 AIRM_Principle number
 
-<mark style="background-color:grey">Principle statement</mark>
+<mark style="background-color:lightgrey">Principle statement TEST</mark>
+
 <p><span style="background:blue">Principle statement</span></p>
 
 ### Last Version
