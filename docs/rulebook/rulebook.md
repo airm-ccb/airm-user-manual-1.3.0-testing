@@ -120,15 +120,19 @@ The following layout is adopted to ease the use of the document.
 
 ### Rule template
 AIRM_Rule number
-<span style="color:blue">Rule statement</span>
+
+<mark style="color:blue">Rule statement</mark>
 
 ### Recommendation template
 AIRM_Recommendation number
-<span style="color:yellow">Recommendation statement</span>
+
+<mark color="blue">Recommendation statement</mark>
 
 ### Principle template
 AIRM_Principle number
-<span style="color:grey">Principle statement</span>
+
+<mark style="background-color:grey">Principle statement</mark>
+<p><span style="background:blue">Principle statement</span></p>
 
 ### Last Version
 When the phrase “latest version” is used it always means at the time of publication of the AIRM Rulebook for this version of the AIRM.
