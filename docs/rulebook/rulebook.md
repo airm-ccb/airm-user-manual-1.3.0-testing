@@ -119,6 +119,10 @@ The following layout is adopted to ease the use of the document.
 
 #### Rule template
 
+| <mark style="background-color:lightblue">AIRM_Rule</mark> *`number`* | 
+| :- |
+| Rule statement |
+
 | AIRM_Rule *`number`* | 
 | :- |
 | <mark style="background-color:lightblue">Rule statement</mark> |
