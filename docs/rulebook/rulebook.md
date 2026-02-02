@@ -564,237 +564,227 @@ SyntacticallyEqual: Syntax corrections (grammar, spelling)<br>Rewritten: The def
 
 ### Evolution
 
-| <mark style="background-color:lightgrey">AIRM_Principle</mark> 22 |
+| <mark style="background-color:lightgrey">AIRM_Principle</mark> `22` |
 | :- |
 | Evolution refers to how model elements evolve over time (e.g. version, status, lifecycle, etc). |
 
-| <mark style="background-color:lightblue">AIRM_Rule</mark> 65 |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `65` |
 | :- |
 | The status of a model element shall be given in the "Status" property. The value shall be one of the following: <br>Proposed: The model element has been created but is not mature enough for use by others or for publication.<br>Implemented: The model element has been finalised and has been verified. It is mature enough for use by other parties involved in building the AIRM but is not ready for publication.<br>Published: The model element is implemented and has been included in an official AIRM release.<br>Validated: The model element has been published and validated.<br>Under Rework: The model element has been published/validated but is being reworked. (Note: it is still part of the AIRM in its latest released version.)<br>Deprecated: The model element is no longer fit for use and will deleted in the version stated in the AIRM::TaggedValue "Deprecated:TargetRelease".<br>Obsolete: The model element has been marked deprecated in the current release version and will be deleted in the next release. |
 
-| <mark style="background-color:lightblue">AIRM_Rule</mark> 115 |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `115` |
 | :- |
 | The allowed combination of model element status (AIRM_Rule 65) and definition status (AIRM_Rule 61) are:<br>If the status of a model element is "Proposed", its Definition:Status shall be "Proposed", "Under Review", "Approved", or "Under Rework".<br>If the status of a model element is "Implemented", its Definition:Status shall be "Under Review" or "Approved".<br>If the status of a model element is "Published", its Definition:Status shall be "Under Review " or "Approved".<br>If the status of a model element is "Validated", its Definition:Status shall be "Approved".<br>If the status of a model element is "Under Rework", its Definition:Status shall be "Proposed", 'Under Review", "Approved" or "Under Rework". |
 
 
 ### Deprecation
 
-AIRM_Principle 8
-Deprecation of a model element indicates that it is about to be deleted in a subsequent release.
+| <mark style="background-color:lightgrey">AIRM_Principle</mark> `8` |
+| :- |
+| Deprecation of a model element indicates that it is about to be deleted in a subsequent release. |
 
-AIRM_Recommendation 15
-A model element that is marked as deprecated should not further be used and a warning or error should be emitted if it is actually used.
+| <mark style="background-color:yellow">AIRM_Recommendation</mark> `15` |
+| :- |
+| A model element that is marked as deprecated should not further be used and a warning or error should be emitted if it is actually used. |
 
-AIRM_Rule 50
-A model element that is marked as deprecated shall contain the following AIRM::TaggedValues:
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `50` |
+| :- |
+| A model element that is marked as deprecated shall contain the following AIRM::TaggedValues:<br>`Deprecated:DecisionDate`: (mandatory) date of deprecation decision<br>`Deprecated:Rationale`: (mandatory) short rational for the deprecation<br>`Deprecated:TargetRelease`: (optional) planned release when the deprecated element will be deleted<br>`Deprecated:Replacement`: (optional) reference to other elements that should or shall be used instead |
 
-Deprecated:DecisionDate: (mandatory) date of deprecation decision
-Deprecated:Rationale: (mandatory) short rational for the deprecation
-Deprecated:TargetRelease: (optional) planned release when the deprecated element will be deleted
-Deprecated:Replacement: (optional) reference to other elements that should or shall be used instead
-AIRM_Rule 51
-A model element shall be deleted from the model only after it has been marked as “Deprecated” in a previous release.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `51` |
+| :- |
+| A model element shall be deleted from the model only after it has been marked as “Deprecated” in a previous release. |
 
-AIRM_Rule 52
-A model element that is to be deprecated shall be listed in the AIRM Release Notes.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `52` |
+| :- |
+| A model element that is to be deprecated shall be listed in the AIRM Release Notes. |
 
-AIRM Internal Semantic Trace from Logical Model to Conceptual Model
-AIRM_Rule 137
-In the AIRM Logical Model, every entity shall have at least one semantic trace to at least one model element in the AIRM Conceptual Model.
+### AIRM Internal Semantic Trace from Logical Model to Conceptual Model
+
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `137` |
+| :- |
+| In the AIRM Logical Model, every entity shall have at least one semantic trace to at least one model element in the AIRM Conceptual Model. |
+
+### Supplements
 
-Supplements
+| <mark style="background-color:lightgrey">AIRM_Principle</mark> `36` |
+| :- |
+| An AIRM supplement is a package within the AIRM that elaborates the AIRM content for a specific community |
 
-AIRM_Principle 36
-An AIRM supplement is a package within the AIRM that elaborates the AIRM content for a specific community
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `144` |
+| :- |
+| The supplements shall fit within the scope of the AIRM, meaning that it should be relevant to ATM. |
 
-AIRM_Rule 144
-The supplements shall fit within the scope of the AIRM, meaning that it should be relevant to ATM.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `145` |
+| :- |
+| The supplement shall follow the same rules as other AIRM content.<br><br>*Note: this means following naming conventions, stereotypes, completion of metadata about a model element, etc.* |
 
-AIRM_Rule 145
-The supplement shall follow the same rules as other AIRM content.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `146` |
+| :- |
+| The supplement shall follow the structure of the main AIRM.<br><br>*Note: this means it may have a contextual, a conceptual and a logical model. Indeed, it must have at least one of these.* |
 
-Note: this means following naming conventions, stereotypes, completion of metadata about a model element, etc.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `147` |
+| :- |
+| The supplement shall not introduce new model types such as physical models. |
 
-AIRM_Rule 146
-The supplement shall follow the structure of the main AIRM.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `148` |
+| :- |
+| The supplement should not have dependencies on the content of other supplements.<br><br>*Note: this is to ensure that the change management of one supplement does not affect another supplement. However, reuse of definitions across supplements is to be encouraged.* |
 
-Note: this means it may have a contextual, a conceptual and a logical model. Indeed, it must have at least one of these.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `149` |
+| :- |
+| The supplement shall not remove or otherwise restrict the content of the main AIRM.<br><br>*Note: supplements are about elaborating the content of the main AIRM. The ability to restrict the AIRM is handled by the AIRM derivation rules and should be handled as a separate step in the development cycle.* |
 
-AIRM_Rule 147
-The supplement shall not introduce new model types such as physical models.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `150` |
+| :- |
+| Supplements shall contain, where necessary: <br>additional subjects;<br>additional entities;<br>additional objects;<br>additional data types;<br>additional relationships;<br>additional properties;<br>additional local definitions. |
 
-AIRM_Rule 148
-The supplement should not have dependencies on the content of other supplements.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `151` |
+| :- |
+| The model elements in the supplement shall have URNs. |
 
-Note: this is to ensure that the change management of one supplement does not affect another supplement. However, reuse of definitions across supplements is to be encouraged.
+| <mark style="background-color:lightgrey">AIRM_Principle</mark> `37` |
+| :- |
+| The relationship between two model elements is owned by the source. This applies to associations between model elements and to the properties of a model element that are typed by another model element. For example, if Class1 “has” Class2, the “has” association is owned by Class1; if Class 1 contains a property “name” that is typed as a CharacterString, the “name” property is owned by Class 1. |
+ 
+| <mark style="background-color:lightgrey">AIRM_Principle</mark> `38` |
+| :- |
+| The main AIRM content cannot “own” an association or property where the target exists in a supplement. |
 
-AIRM_Rule 149
-The supplement shall not remove or otherwise restrict the content of the main AIRM.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `152` |
+| :- |
+| When supplementing a model element from the main AIRM, the supplement shall use the same name as the model element that it is supplementing. |
 
-Note: supplements are about elaborating the content of the main AIRM. The ability to restrict the AIRM is handled by the AIRM derivation rules and should be handled as a separate step in the development cycle.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `153` |
+| :- |
+| When supplementing a model element from the main AIRM, the supplement shall use the same definition as the model element that it is supplementing. |
 
-AIRM_Rule 150
-Supplements shall contain, where necessary:
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `154` |
+| :- |
+| When adding properties to a model element from the main AIRM, the supplement shall use a specialization of the model element that it is supplementing. |
 
-additional subjects;
-additional entities;
-additional objects;
-additional data types;
-additional relationships;
-additional properties;
-additional local definitions.
-AIRM_Rule 151
-The model elements in the supplement shall have URNs.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `155` |
+| :- |
+| When adding relationships to a model element from the main AIRM, the supplement shall use a specialization of the model element that it is supplementing. |
 
-AIRM_Principle 37
-The relationship between two model elements is owned by the source. This applies to associations between model elements and to the properties of a model element that are typed by another model element. For example, if Class1 “has” Class2, the “has” association is owned by Class1; if Class 1 contains a property “name” that is typed as a CharacterString, the “name” property is owned by Class 1.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `156` |
+| :- |
+| The specialization association shall be stereotyped <<supplement>>. <br><br>*Note: This makes the exact nature of the specialization clear.* |
 
-AIRM_Principle 38
-The main AIRM content cannot “own” an association or property where the target exists in a supplement.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `157` |
+| :- |
+| Additional local definitions shall be added to the note field, below the existing definition, separated by a <<supplement>> stereotype |
 
-AIRM_Rule 152
-When supplementing a model element from the main AIRM, the supplement shall use the same name as the model element that it is supplementing.
+### Derivation
 
-AIRM_Rule 153
-When supplementing a model element from the main AIRM, the supplement shall use the same definition as the model element that it is supplementing.
+| <mark style="background-color:lightgrey">AIRM_Principle</mark> `23` |
+| :- |
+| Derivation refers to the way in which model elements can be restricted and subsetted by users of the AIRM. Adaptation is also related to compliance. |
 
-AIRM_Rule 154
-When adding properties to a model element from the main AIRM, the supplement shall use a specialization of the model element that it is supplementing.
+| <mark style="background-color:lightgrey">AIRM_Principle</mark> `10` |
+| :- |
+| An AIRM Derived Model is a model that uses the AIRM to define its semantics but serves a specific restricted purpose.<br><br>Examples:<br>A NSV-11b product shall be a derived model.<br>Existing models shall prove they are "derivable from" the AIRM as a key element in claiming compliance with the AIRM. |
 
-AIRM_Rule 155
-When adding relationships to a model element from the main AIRM, the supplement shall use a specialization of the model element that it is supplementing.
+| <mark style="background-color:lightgrey">AIRM_Principle</mark> `11` |
+| :- |
+| AIRM Derivation Rules are the set of rules to apply in order to establish traceability of the semantics of a given model to the AIRM. |
 
-AIRM_Rule 156
-The specialization association shall be stereotyped <<supplement>>.
+| <mark style="background-color:lightgrey">AIRM_Principle</mark> `12` |
+| :- |
+| Derivation of the AIRM works by restriction. Therefore:<br>Any additional model elements of an AIRM Derived Model, assumed to be within the scope of the AIRM, should be traced to a Change Request identifier in the semantic correspondence statement of the Information Definition.<br>Any additional model elements, assumed to be outside the scope of the AIRM, should be traced to the “Out-Of-Scope” construct in the semantic correspondence statement of the Information Definition. |
 
-Note: This makes the exact nature of the specialization clear.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `54` |
+| :- |
+| A derived model shall declare any deviation from the AIRM Rulebook.<br><br>*Note: For example, the AIRM naming conventions may not be applicable to an already existing model. In that case, deviations from the AIRM Rulebook shall be documented and explained.* |
 
-AIRM_Rule 157
-Additional local definitions shall be added to the note field, below the existing definition, separated by a <<supplement>> stereotype
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `55` |
+| :- |
+| The upper bound of the multiplicity specified in a derived model shall be lower or equal to the upper bound of the multiplicity and greater or equal to the lower bound of the multiplicity specified in the AIRM. |
 
-Derivation
-AIRM_Principle 23
-Derivation refers to the way in which model elements can be restricted and subsetted by users of the AIRM. Adaptation is also related to compliance.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `56` |
+| :- |
+| The lower bound of the multiplicity specified in a derived model shall be greater or equal to the lower bound of the multiplicity and lower or equal to the upper bound of the multiplicity specified in the AIRM. |
 
-AIRM_Principle 10
-An AIRM Derived Model is a model that uses the AIRM to define its semantics but serves a specific restricted purpose.
+| <mark style="background-color:lightgrey">AIRM_Principle</mark> `13` |
+| :- |
+| A derived model may declare leaf nodes final. |
 
-Examples:
+| <mark style="background-color:lightgrey">AIRM_Principle</mark> `14` |
+| :- |
+| A derived model may describe physical implementations of generalisation. |
 
-A NSV-11b product shall be a derived model.
-Existing models shall prove they are "derivable from" the AIRM as a key element in claiming compliance with the AIRM.
-AIRM_Principle 11
-AIRM Derivation Rules are the set of rules to apply in order to establish traceability of the semantics of a given model to the AIRM.
+| <mark style="background-color:lightgrey">AIRM_Principle</mark> `16` |
+| :- |
+| A derived model may describe physical implementations of generalisation. |
 
-AIRM_Principle 12
-Derivation of the AIRM works by restriction. Therefore:
+| <mark style="background-color:lightgrey">AIRM_Principle</mark> `15` |
+| :- |
+| A derived model may add navigability to its relationships.<br><br>*Note: This does not mean that the associations cannot be navigated in the other direction but the directionality is a hint that implementations should make the navigation in the primary direction convenient and efficient.* |
 
-Any additional model elements of an AIRM Derived Model, assumed to be within the scope of the AIRM, should be traced to a Change Request identifier in the semantic correspondence statement of the Information Definition.
-Any additional model elements, assumed to be outside the scope of the AIRM, should be traced to the “Out-Of-Scope” construct in the semantic correspondence statement of the Information Definition.
-AIRM_Rule 54
-A derived model shall declare any deviation from the AIRM Rulebook.
+| <mark style="background-color:lightgrey">AIRM_Principle</mark> `17` |
+| :- |
+| Constraints and business rules present in the AIRM can be further restricted in a derived model. They cannot be extended.<br><br>Example: A business rule restricts the length of a CharacterString to 4 characters. It can be restricted to length [2] but cannot be extended to length [7]. |
 
-Note: For example, the AIRM naming conventions may not be applicable to an already existing model. In that case, deviations from the AIRM Rulebook shall be documented and explained.
+| <mark style="background-color:lightgrey">AIRM_Principle</mark> `18` |
+| :- |
+| Further constraints (including patterns, maximum values) may be added to a derived model.<br><br>Example: The length of datatypes may be restricted. For example, in the AIRM CharacterStrings are not given a maximum length. They can be restricted e.g. to length [10]. |
 
-AIRM_Rule 55
-The upper bound of the multiplicity specified in a derived model shall be lower or equal to the upper bound of the multiplicity and greater or equal to the lower bound of the multiplicity specified in the AIRM.
+| <mark style="background-color:lightgrey">AIRM_Principle</mark> `20` |
+| :- |
+| A derived model may convert an attribute to a role name or vice versa. This means:<br>A property modelled as an UML attribute in the AIRM may be converted into a property modelled as a role, with a complex “constructed” type.<br>A property modelled as a role name in the AIRM may be converted into an attribute (e.g. if multiplicity is restricted to 1..1). |
 
-AIRM_Rule 56
-The lower bound of the multiplicity specified in a derived model shall be greater or equal to the lower bound of the multiplicity and lower or equal to the upper bound of the multiplicity specified in the AIRM.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `59` |
+| :- |
+| A derived model shall not use an AIRM term with a conflicting definition.<br><br>*Note: If a derived model does not use the original AIRM definition, a reference to the AIRM definition needs to be provided.* |
 
-AIRM_Principle 13
-A derived model may declare leaf nodes final.
+| <mark style="background-color:lightgrey">AIRM_Principle</mark> `19` |
+| :- |
+| In a derived model, AIRM codelists:<br>May remain as codelists; or<br>May be converted to enumerations (which can be seen as a restricted codelist); or<br>May be converted to a series of classes. |
 
-AIRM_Principle 14
-A derived model may describe physical implementations of generalisation.
+### AIRM Uniform Resource Name (URN)
 
-AIRM_Principle 16
-A derived model may describe physical implementations of generalisation.
+| <mark style="background-color:lightgrey">AIRM_Principle</mark> `35` |
+| :- |
+| To facilitate the referencing of the AIRM, each AIRM model element has a globally unique name. This unique name is defined according to the Uniform Resource Name (URN) standard [6]. |
 
-AIRM_Principle 15
-A derived model may add navigability to its relationships.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `76` |
+| :- |
+| The URN of an AIRM model element shall use the structure: <URN> ::= "urn:" <NID> ":" <NSS> <br><br>Example: A full URN to a property of an entity: urn:aero:airm:1.0.0:ConceptualModel:Subjects:AirTrafficOperations:AirportOperationsManagement:TaxiOut@EXOT<br><br>*Note: An AIRM namespace identifier (NID) and namespace specific string (NSS) are defined in Rules 70-72 and 74, respectively.* |
 
-Note: This does not mean that the associations cannot be navigated in the other direction but the directionality is a hint that implementations should make the navigation in the primary direction convenient and efficient.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `70` |
+| :- |
+| AIRM model elements shall use the namespace identifier (NID): NID = aero |
 
-AIRM_Principle 17
-Constraints and business rules present in the AIRM can be further restricted in a derived model. They cannot be extended.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `71` |
+| :- |
+| The namespace specific string (NSS) shall use the structure: NSS = <MODEL_NSS>:<ELEMENT_NSS> |
 
-Example: A business rule restricts the length of a CharacterString to 4 characters. It can be restricted to length [2] but cannot be extended to length [7].
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `72` |
+| :- |
+| The Model Namespace Specific Strings (MODEL_NSS) shall use the structure: MODEL_NSS = <ISSUER>?':'<PRODUCT>':'<VERSION><br>The following terms are used in <MODEL_NSS><br><ISSUER> defines the agency responsible for the AIRM version in question (where applicable). This item shall be a URI itself.<br><PRODUCT> identifies the AIRM (or an AIRM Derived Model by the same issuer).<br><VERSION> is the version number of the product in question. The syntax and semantics are issuer specific (e.g. may or may not include issuer specific branch information).<br><br>*Note: The components of the MODEL_NSS are considered as case insensitive, e.g. AIRM and “airm” refer to the same product.* |
 
-AIRM_Principle 18
-Further constraints (including patterns, maximum values) may be added to a derived model.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `74` |
+| :- |
+| The Element Namespace Specific Strings (ELEMENT_NSS) shall use the structure: ELEMENT_NSS = (<NAME_OF_PACKAGE>':')+(<NAME_OF_CLASS>(@<NAME_OF_PROPERTY)?)?<br>The following terms are used in <ELEMENT_NSS><br><NAME_OF_PACKAGE> is the recursive definition of the model element’s position within the AIRM UML Package structure<br><NAME_OF_CLASS> is the name of the UML Class in question (where applicable)<br><NAME_OF_PROPERTY> is the name of the UML property within the class (where applicable)<br><br>*Note: The components of the ELEMENT_NSS are considered case sensitive.* |
 
-Example: The length of datatypes may be restricted. For example, in the AIRM CharacterStrings are not given a maximum length. They can be restricted e.g. to length [10].
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `79` |
+| :- |
+| The ISSUER component of the MODEL_NSS shall be left empty. |
 
-AIRM_Principle 20
-A derived model may convert an attribute to a role name or vice versa. This means:
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `77` |
+| :- |
+| The PRODUCT component of the MODEL_NSS shall be: PRODUCT = AIRM. |
 
-A property modelled as an UML attribute in the AIRM may be converted into a property modelled as a role, with a complex “constructed” type.
-A property modelled as a role name in the AIRM may be converted into an attribute (e.g. if multiplicity is restricted to 1..1).
-AIRM_Rule 59
-A derived model shall not use an AIRM term with a conflicting definition.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `73` |
+| :- |
+| The URN of AIRM Contextual Model elements that already have a URN issued by their originator shall be respected. This means that these elements shall uniformly be referenced by the original URN and the AIRM shall not issue an additional URN for these elements. |
 
-Note: If a derived model does not use the original AIRM definition, a reference to the AIRM definition needs to be provided.
+| <mark style="background-color:yellow">AIRM_Recommendation</mark> `16` |
+| :- |
+| Models derived from the AIRM should reference MODEL_NSS to disambiguate their semantic binding to the AIRM. |
 
-AIRM_Principle 19
-In a derived model, AIRM codelists:
-
-May remain as codelists; or
-May be converted to enumerations (which can be seen as a restricted codelist); or
-May be converted to a series of classes.
-AIRM Uniform Resource Name (URN)
-AIRM_Principle 35
-To facilitate the referencing of the AIRM, each AIRM model element has a globally unique name. This unique name is defined according to the Uniform Resource Name (URN) standard [6].
-
-AIRM_Rule 76
-The URN of an AIRM model element shall use the structure: <URN> ::= "urn:" <NID> ":" <NSS>
-
-Example: A full URN to a property of an entity: urn:aero:airm:1.0.0:ConceptualModel:Subjects:AirTrafficOperations:AirportOperationsManagement:TaxiOut@EXOT
-
-Note: An AIRM namespace identifier (NID) and namespace specific string (NSS) are defined in Rules 70-72 and 74, respectively.
-
-AIRM_Rule 70
-AIRM model elements shall use the namespace identifier (NID): NID = aero
-
-AIRM_Rule 71
-The namespace specific string (NSS) shall use the structure: NSS = <MODEL_NSS>:<ELEMENT_NSS>
-
-AIRM_Rule 72
-The Model Namespace Specific Strings (MODEL_NSS) shall use the structure: MODEL_NSS = <ISSUER>?':'<PRODUCT>':'<VERSION>
-
-The following terms are used in <MODEL_NSS>
-
-<ISSUER> defines the agency responsible for the AIRM version in question (where applicable). This item shall be a URI itself.
-<PRODUCT> identifies the AIRM (or an AIRM Derived Model by the same issuer).
-<VERSION> is the version number of the product in question. The syntax and semantics are issuer specific (e.g. may or may not include issuer specific branch information).
-Note: The components of the MODEL_NSS are considered as case insensitive, e.g. AIRM and “airm” refer to the same product.
-
-AIRM_Rule 74
-The Element Namespace Specific Strings (ELEMENT_NSS) shall use the structure: ELEMENT_NSS = (<NAME_OF_PACKAGE>':')+(<NAME_OF_CLASS>(@<NAME_OF_PROPERTY)?)?
-
-The following terms are used in <ELEMENT_NSS>
-
-<NAME_OF_PACKAGE> is the recursive definition of the model element’s position within the AIRM UML Package structure
-<NAME_OF_CLASS> is the name of the UML Class in question (where applicable)
-<NAME_OF_PROPERTY> is the name of the UML property within the class (where applicable)
-Note: The components of the ELEMENT_NSS are considered case sensitive.
-
-AIRM_Rule 79
-The ISSUER component of the MODEL_NSS shall be left empty.
-
-AIRM_Rule 77
-The PRODUCT component of the MODEL_NSS shall be: PRODUCT = AIRM.
-
-AIRM_Rule 73
-The URN of AIRM Contextual Model elements that already have a URN issued by their originator shall be respected. This means that these elements shall uniformly be referenced by the original URN and the AIRM shall not issue an additional URN for these elements.
-
-AIRM_Recommendation 16
-Models derived from the AIRM should reference MODEL_NSS to disambiguate their semantic binding to the AIRM.
-
-AIRM_Rule 75
-Published AIRM model element semantics shall be backward compatible.
-
-That is, a given ELEMENT_NSS referring to an AIRM model element in development status “published”, “validated”, “under rework” or “deprecated” shall always refer to the same logical concept. Its semantics shall not depend on the context of a MODEL_NSS.
-
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `75` |
+| :- |
+| Published AIRM model element semantics shall be backward compatible. <br>That is, a given ELEMENT_NSS referring to an AIRM model element in development status “published”, “validated”, “under rework” or “deprecated” shall always refer to the same logical concept. Its semantics shall not depend on the context of a MODEL_NSS. |
 
 
