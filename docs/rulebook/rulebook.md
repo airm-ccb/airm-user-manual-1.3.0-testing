@@ -221,7 +221,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 | AIRM_Rule `81` |
 | :- |
 | <mark style="background-color:lightblue">The model elements in the AIRM Conceptual Model and AIRM Logical Model shall use one of the following stereotypes:</mark> |
-| <mark style="background-color:lightblue">- **<<Subject>>**. Represents a field of specific knowledge. These appear as packages in the AIRM.</mark> |
+| <mark style="background-color:lightblue">- **< < Subject > >**. Represents a field of specific knowledge. These appear as packages in the AIRM.</mark> |
 | <mark style="background-color:lightblue">- **<<Information_Message>>**. ATM specific message type. This appears as a UML class in the AIRM.</mark> |
 | <mark style="background-color:lightblue">- **<<Information_Entity>>**. A definition (type) of an operational ATM item of interest that is subject to constraints. This appears as a UML class in the AIRM.</mark> |
 | <mark style="background-color:lightblue">- **<<Data_Entity>>**. A definition (type) of a data (ATM) item of interest that is implementation independent and is subject to constraints. This appears as a UML class in the AIRM.</mark> |
