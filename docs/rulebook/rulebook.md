@@ -336,7 +336,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `83` |
 | :- |
-| A model element with the stereotype `<<Data_Entity>>` shall be a specialisation of the abstract Entity.<br>Note: Entity is obviously exempt from this rule.<br>Note: The specialisation can be via a more generalised entity e.g. TemporalEnabledEntity. |
+| A model element with the stereotype `<<Data_Entity>>` shall be a specialisation of the abstract Entity.<br><br>*Note: Entity is obviously exempt from this rule.* <br><br>*Note: The specialisation can be via a more generalised entity e.g. TemporalEnabledEntity.* |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `80` |
 | :- |
@@ -350,7 +350,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `113` |
 | :- |
-| A model element with the stereotype `<<Data_Object>>` shall be a specialisation of the abstract Object.<br><br>*Note: Object is obviously exempt from this rule.<br>Note: The specialisation can be via a more generalised object.* |
+| A model element with the stereotype `<<Data_Object>>` shall be a specialisation of the abstract Object.<br><br>*Note: Object is obviously exempt from this rule.* <br><br>*Note: The specialisation can be via a more generalised object.* |
 
 
 ### Properties
@@ -377,49 +377,51 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 ### Associations
 
-AIRM_Rule 47
-Datatypes shall not be used as an end-point in an UML::Association.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `47` |
+| :- |
+| Datatypes shall not be used as an end-point in an UML::Association. | 
 
-AIRM_Rule 45
-Associations between entities shall be modelled using an UML::Association where navigability is unspecified.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `45` |
+| :- |
+| Associations between entities shall be modelled using an UML::Association where navigability is unspecified. | 
 
-AIRM_Rule 82
-A model element with the stereotype <<Data_Object>> shall be made part of a <<Data_Entity>> or another <<Data_Object>> by means of a UML::Aggregation association.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `82` |
+| :- |
+| A model element with the stereotype <<Data_Object>> shall be made part of a <<Data_Entity>> or another <<Data_Object>> by means of a UML::Aggregation association. | 
 
-AIRM_Rule 132
-In the AIRM Conceptual Model every association (except specialisation/generalisation) shall have at least:
+| <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `132` |
+| :- |
+| In the AIRM Conceptual Model every association (except specialisation/generalisation) shall have at least:<br>One association name with a labelled direction, or<br>One role name. The role names shall be added to the end of the association which has semantic significance (i.e. as the property of an entity). In the case of UML::Aggregation and UML::Composition the role name shall be added only at the “part” end of the association. | 
 
-One association name with a labelled direction, or
-One role name. The role names shall be added to the end of the association which has semantic significance (i.e. as the property of an entity). In the case of UML::Aggregation and UML::Composition the role name shall be added only at the “part” end of the association.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `23` |
+| :- |
+| In the AIRM Logical Model every association (except specialisation/generalisation) shall have at least one role name. The role names shall be added to the end of the association which has semantic significance (i.e. as the property of an entity). In the case of UML::Aggregation and UML::Composition the role name shall be added only at the “part” end of the association. | 
 
-AIRM_Rule 23
-In the AIRM Logical Model every association (except specialisation/generalisation) shall have at least one role name. The role names shall be added to the end of the association which has semantic significance (i.e. as the property of an entity). In the case of UML::Aggregation and UML::Composition the role name shall be added only at the “part” end of the association.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `114` |
+| :- |
+| Associations shall not be named in the AIRM Logical Model.<br><br>*Note: Role names should be used in preference to relationship names. However, it is accepted that naming relationships can improve the readability of the AIRM Conceptual Model which is why this rule is limited in scope.* | 
 
-AIRM_Rule 114
-Associations shall not be named in the AIRM Logical Model.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `124` |
+| :- |
+| In the AIRM Conceptual Model, any association name information supplied shall be considered informative, i.e. it will not have to be respected by derived models or by the AIRM Logical Model. | 
 
-Note: Role names should be used in preference to relationship names. However, it is accepted that naming relationships can improve the readability of the AIRM Conceptual Model which is why this rule is limited in scope.
+| <mark style="background-color:yellow">AIRM_Recommendation</mark> AIRM_Recommendation `22` |
+| :- |
+| UML::Specialisation should not be given an association name or a role name.<br><br>Rationale: UML::Specialisation has a pre-defined (semantic) meaning in UML as a special type of UML::Association. |
 
-AIRM_Rule 124
-In the AIRM Conceptual Model, any association name information supplied shall be considered informative, i.e. it will not have to be respected by derived models or by the AIRM Logical Model.
+| <mark style="background-color:yellow">AIRM_Recommendation</mark> AIRM_Recommendation `24` |
+| :- |
+| UML::Aggregation and UML::Composition should not be given an association name.<br><br>Rationale: UML::Aggregation has a pre-defined (semantic) meaning in UML as a special type of UML::Association. |
 
-AIRM_Recommendation 22
-UML::Specialisation should not be given an association name or a role name.
-
-Rationale: UML::Specialisation has a pre-defined (semantic) meaning in UML as a special type of UML::Association.
-
-AIRM_Recommendation 24
-UML::Aggregation and UML::Composition should not be given an association name.
-
-Rationale: UML::Aggregation has a pre-defined (semantic) meaning in UML as a special type of UML::Association.
-
-AIRM_Recommendation 14
-The use of association classes should be limited. However, they may be used to model attributes specific to one specific relationship, in situations where the association management business process is unspecified or out of scope of the model.
+| <mark style="background-color:yellow">AIRM_Recommendation</mark> AIRM_Recommendation `14` |
+| :- |
+| The use of association classes should be limited. However, they may be used to model attributes specific to one specific relationship, in situations where the association management business process is unspecified or out of scope of the model. |
 
 ### Aggregation and composition
 
-AIRM_Recommendation 11
-The use of UML::Aggregation and UML::Composition between entities should be avoided where possible. They should be used only where there is a real-world constraint or they are otherwise allowed by a rule.
+| <mark style="background-color:yellow">AIRM_Recommendation</mark> AIRM_Recommendation 11 |
+| :- |
+| The use of UML::Aggregation and UML::Composition between entities should be avoided where possible. They should be used only where there is a real-world constraint or they are otherwise allowed by a rule. |
 
 ### Generalisation- specialisation
 
