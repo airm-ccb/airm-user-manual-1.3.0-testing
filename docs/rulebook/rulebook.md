@@ -340,20 +340,18 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | AIRM_Rule `80` |
 | :- |
-| <mark style="background-color:lightblue">Entities shall not inherit from model elements with the stereotype <<Data Type>>, <<CodeList>>, <<Measure>>, <<UnitOfMeasure>>, <<Subject>>, <<Information_Message>> or <<Data_Object>>.</mark> |
+| <mark style="background-color:lightblue">Entities shall not inherit from model elements with the stereotype < < Data Type > >, < < CodeList > >, < < Measure > >, < < UnitOfMeasure > >, < < Subject > >, < < Information_Message > > or < < Data_Object > >.</mark> |
 
-AIRM_Rule 20
-Model elements shall not be represented as ‘root’ or ‘leaf’.
+| AIRM_Rule `20` |
+| :- |
+| <mark style="background-color:lightblue">Model elements shall not be represented as ‘root’ or ‘leaf’.<br>Note: It is impossible, in the context of ATM, to know that the AIRM is complete.</mark> |
 
-Note: It is impossible, in the context of ATM, to know that the AIRM is complete.
+### Logical Model Objects
 
-Logical Model Objects
-AIRM_Rule 113
-A model element with the stereotype <<Data_Object>> shall be a specialisation of the abstract Object.
+| AIRM_Rule `113` |
+| :- |
+| <mark style="background-color:lightblue">A model element with the stereotype < < Data_Object > > shall be a specialisation of the abstract Object.<br>Note: Object is obviously exempt from this rule.<br>Note: The specialisation can be via a more generalised object.</mark> |
 
-Note: Object is obviously exempt from this rule.
-
-Note: The specialisation can be via a more generalised object.
 
 ### Properties
 
