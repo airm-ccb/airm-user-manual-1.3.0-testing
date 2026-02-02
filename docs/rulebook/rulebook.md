@@ -405,122 +405,104 @@ When the phrase `latest version` is used it always means at the time of publicat
 | :- |
 | In the AIRM Conceptual Model, any association name information supplied shall be considered informative, i.e. it will not have to be respected by derived models or by the AIRM Logical Model. | 
 
-| <mark style="background-color:yellow">AIRM_Recommendation</mark> AIRM_Recommendation `22` |
+| <mark style="background-color:yellow">AIRM_Recommendation</mark> `22` |
 | :- |
 | UML::Specialisation should not be given an association name or a role name.<br><br>Rationale: UML::Specialisation has a pre-defined (semantic) meaning in UML as a special type of UML::Association. |
 
-| <mark style="background-color:yellow">AIRM_Recommendation</mark> AIRM_Recommendation `24` |
+| <mark style="background-color:yellow">AIRM_Recommendation</mark> `24` |
 | :- |
 | UML::Aggregation and UML::Composition should not be given an association name.<br><br>Rationale: UML::Aggregation has a pre-defined (semantic) meaning in UML as a special type of UML::Association. |
 
-| <mark style="background-color:yellow">AIRM_Recommendation</mark> AIRM_Recommendation `14` |
+| <mark style="background-color:yellow">AIRM_Recommendation</mark> `14` |
 | :- |
 | The use of association classes should be limited. However, they may be used to model attributes specific to one specific relationship, in situations where the association management business process is unspecified or out of scope of the model. |
 
 ### Aggregation and composition
 
-| <mark style="background-color:yellow">AIRM_Recommendation</mark> AIRM_Recommendation 11 |
+| <mark style="background-color:yellow">AIRM_Recommendation</mark> `11` |
 | :- |
 | The use of UML::Aggregation and UML::Composition between entities should be avoided where possible. They should be used only where there is a real-world constraint or they are otherwise allowed by a rule. |
 
 ### Generalisation- specialisation
 
-AIRM_Principle 6
-An entity can be a specialisation of more than one general entity.
+| <mark style="background-color:lightgrey">AIRM_Principle</mark> `6` |
+| :- |
+| An entity can be a specialisation of more than one general entity. <br><br>Rationale: Generalisation and specialisations commonly occur in models where concerns such as data structures, algorithms, technology, implementations etc. are not considered.<br><br>*Note: The UML terms of generalisation and specialisation is preferred over ‘inheritance’ in order to be aligned with UML and NAF terminology. The term inheritance is often associated with technical /programming thinking and aspects.*  |
 
-Rationale: Generalisation and specialisations commonly occur in models where concerns such as data structures, algorithms, technology, implementations etc. are not considered.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `28` |
+| :- |
+| If a single-generalisation modelling construct can be found, with the same modelling effect as a multiple-generalisation modelling construct, then that construct shall be selected.<br><br>Rationale: Extensive use of multiple generalisation and specializations may create complex models that may be more difficult to extend over time. |
 
-Note: The UML terms of generalisation and specialisation is preferred over ‘inheritance’ in order to be aligned with UML and NAF terminology. The term inheritance is often associated with technical /programming thinking and aspects.
-
-AIRM_Rule 28
-If a single-generalisation modelling construct can be found, with the same modelling effect as a multiple-generalisation modelling construct, then that construct shall be selected.
-
-Rationale: Extensive use of multiple generalisation and specializations may create complex models that may be more difficult to extend over time.
-
-AIRM_Recommendation 12
-Deep generalisation and specialisation hierarchies should be avoided.
+| <mark style="background-color:yellow">AIRM_Recommendation</mark> `12` |
+| :- |
+| Deep generalisation and specialisation hierarchies should be avoided. |
 
 ### Data Types
 
 #### Codelists
 
-AIRM_Rule 32
-The issuing Authority of a codelist shall be identified and represented by an AIRM::TaggedValue ‘Authority’, attached to the codelist.
-
-Note: More than one Authority may be attached to a codelist in case of joint governance.
-
-Example: ICAO
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `32` |
+| :- |
+| The issuing Authority of a codelist shall be identified and represented by an AIRM::TaggedValue ‘Authority’, attached to the codelist.<br><br>*Note: More than one Authority may be attached to a codelist in case of joint governance.* <br><br>Example: ICAO |
 
 ## Definition Conventions
 
-AIRM_Principle 30
-A good definition:
+| <mark style="background-color:lightgrey">AIRM_Principle</mark> `30` |
+| :- |
+| A good definition:<br>Is a dictionary-style statement that describes the concept designated by a term.<br>Helps to establish the textual match between languages by stating the essential and delimiting characteristics of a concept (semantic feature).<br><br>*Note: The quality of the definition is crucial, because without knowing what is meant exactly, we cannot communicate effectively, and without fully understanding the concept, we cannot establish relationships between concepts in our subject field.* |
 
-Is a dictionary-style statement that describes the concept designated by a term.
-Helps to establish the textual match between languages by stating the essential and delimiting characteristics of a concept (semantic feature).
-Note: The quality of the definition is crucial, because without knowing what is meant exactly, we cannot communicate effectively, and without fully understanding the concept, we cannot establish relationships between concepts in our subject field.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `3` |
+| :- |
+| All model elements within the AIRM shall have a definition. |
 
-AIRM_Rule 3
-All model elements within the AIRM shall have a definition.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `34` |
+| :- |
+| If Sparx Enterprise Architect is used to maintain the AIRM (see Recommendation 7), a definition of an AIRM model element shall be stored in the Notes feature. |
 
-AIRM_Rule 34
-If Sparx Enterprise Architect is used to maintain the AIRM (see Recommendation 7), a definition of an AIRM model element shall be stored in the Notes feature.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `35` |
+| :- |
+| The definition shall use the following principles for good definitions:<br>**Predictability** - the definition inserts the concept into a concept system.<br>Simplicity - the definition is concise, clear, and whenever possible no longer than one sentence; it includes only essential information.<br>**Affirmativeness** - the definition states what the concept is, rather than what it is not.<br>**Non-circularity** - the definition does not use words whose definitions refer back to the concept in question, nor does it begin with the term itself.<br>**Absence of tautology** - the definition is not a paraphrase of the term, but rather a description of the semantic features of the concept.<br>**Part of speech** - the definition begins with a word of the same part of speech as the term being defined.<br><br>Example: aerodrome: a defined area on land or water (including any buildings, installations and equipment) intended to be used either wholly or in part for the arrival, departure and surface movement of aircraft/helicopters.<br><br>*Note: Stating a synonym is not a definition!* |
 
-AIRM_Rule 35
-The definition shall use the following principles for good definitions:
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `37` |
+| :- |
+| The source of a model element definition shall be represented in a AIRM::TaggedValue, ‘Definition:Source’ that indicates its origin. |
 
-Predictability - the definition inserts the concept into a concept system.
-Simplicity - the definition is concise, clear, and whenever possible no longer than one sentence; it includes only essential information.
-Affirmativeness - the definition states what the concept is, rather than what it is not.
-Non-circularity - the definition does not use words whose definitions refer back to the concept in question, nor does it begin with the term itself.
-Absence of tautology - the definition is not a paraphrase of the term, but rather a description of the semantic features of the concept.
-Part of speech - the definition begins with a word of the same part of speech as the term being defined.
-Example: aerodrome: a defined area on land or water (including any buildings, installations and equipment) intended to be used either wholly or in part for the arrival, departure and surface movement of aircraft/helicopters.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `63` |
+| :- |
+| The 'Definition:Source' for a model element shall be listed in the AIRM Standards Catalog. |
 
-Note: Stating a synonym is not a definition!
+| <mark style="background-color:yellow">AIRM_Recommendation</mark> `26` |
+| :- |
+| Extra details concerning the source of a model element definition should be captured in the AIRM::TaggedValue 'Defintion:SourceDetail'.<br><br>Example: This can be used to pinpoint the exact ICAO document used or a section within a larger document. |
 
-AIRM_Rule 37
-The source of a model element definition shall be represented in a AIRM::TaggedValue, ‘Definition:Source’ that indicates its origin.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `60` |
+| :- |
+| The 'Definition:Adapted' AIRM::TaggedValue shall be completed in order to indicate the level of semantic correspondence with the source definition. The list of values is:<br>ExactCopy: Definition of source and target are exact copy of each other.
+SyntacticallyEqual: Syntax corrections (grammar, spelling)<br>Rewritten: The definition has been rewritten for improved quality. The meaning is the same, i.e. the definition still describes exactly the same entity as the target definition.<br>Specialised: Source definition is a special case of the target definition.<br>Generalised: Source definition is a generalised case of the target definition. |
 
-AIRM_Rule 63
-The 'Definition:Source' for a model element shall be listed in the AIRM Standards Catalog.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `38` |
+| :- |
+| A definition shall not contain references to a name of the submitter, origin or external model or source. |
 
-AIRM_Recommendation 26
-Extra details concerning the source of a model element definition should be captured in the AIRM::TaggedValue 'Defintion:SourceDetail'.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `39` |
+| :- |
+| A definition shall not contain references to how it is used.<br><br>Example: “This is primarily used by x, y, and z” is not an allowed definition. |
 
-Example: This can be used to pinpoint the exact ICAO document used or a section within a larger document.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `40` |
+| :- |
+| Definitions shall contain a “straight definition”. That is, they should not start with “This class defines…” or “This property represents…”. |
 
-AIRM_Rule 60
-The 'Definition:Adapted' AIRM::TaggedValue shall be completed in order to indicate the level of semantic correspondence with the source definition. The list of values is:
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `61` |
+| :- |
+| The status of a model element definition shall be represented in an AIRM::TaggedValue 'Definition:Status'. It shall be one of the following:<br>Proposed: The definition has been created or reworked.<br>Under Review: The definition is under review by experts.<br>Approved: The definition has been approved.<br>Under Rework: The definition has been reviewed and/or approved but is subject to change. |
 
-ExactCopy: Definition of source and target are exact copy of each other.
-SyntacticallyEqual: Syntax corrections (grammar, spelling)
-Rewritten: The definition has been rewritten for improved quality. The meaning is the same, i.e. the definition still describes exactly the same entity as the target definition.
-Specialised: Source definition is a special case of the target definition.
-Generalised: Source definition is a generalised case of the target definition.
-AIRM_Rule 38
-A definition shall not contain references to a name of the submitter, origin or external model or source.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `62` |
+| :- |
+| Any synonyms for a model element's name shall be represented as a comma separated list in an AIRM::TaggedValue 'Definition:Synonyms'. |
 
-AIRM_Rule 39
-A definition shall not contain references to how it is used.
-
-Example: “This is primarily used by x, y, and z” is not an allowed definition.
-
-AIRM_Rule 40
-Definitions shall contain a “straight definition”. That is, they should not start with “This class defines…” or “This property represents…”.
-
-AIRM_Rule 61
-The status of a model element definition shall be represented in an AIRM::TaggedValue 'Definition:Status'. It shall be one of the following:
-
-Proposed: The definition has been created or reworked.
-Under Review: The definition is under review by experts.
-Approved: The definition has been approved.
-Under Rework: The definition has been reviewed and/or approved but is subject to change.
-AIRM_Rule 62
-Any synonyms for a model element's name shall be represented as a comma separated list in an AIRM::TaggedValue 'Definition:Synonyms'.
-
-AIRM_Rule 17
-Any abbreviation or acronym for a model element's name shall be represented in an AIRM::TaggedValue 'Definition:Abbreviation'.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `17` |
+| :- |
+| Any abbreviation or acronym for a model element's name shall be represented in an AIRM::TaggedValue 'Definition:Abbreviation'. |
 
 ## Diagram Conventions
 
