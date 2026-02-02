@@ -644,11 +644,11 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightgrey">AIRM_Principle</mark> `37` |
 | :- |
-| The relationship between two model elements is owned by the source. This applies to associations between model elements and to the properties of a model element that are typed by another model element. For example, if Class1 “has” Class2, the “has” association is owned by Class1; if Class 1 contains a property “name” that is typed as a CharacterString, the “name” property is owned by Class 1. |
+| The relationship between two model elements is owned by the source. This applies to associations between model elements and to the properties of a model element that are typed by another model element. For example, if Class1 "has" Class2, the "has" association is owned by Class1; if Class 1 contains a property "name" that is typed as a CharacterString, the "name" property is owned by Class 1. |
  
 | <mark style="background-color:lightgrey">AIRM_Principle</mark> `38` |
 | :- |
-| The main AIRM content cannot “own” an association or property where the target exists in a supplement. |
+| The main AIRM content cannot "own" an association or property where the target exists in a supplement. |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `152` |
 | :- |
