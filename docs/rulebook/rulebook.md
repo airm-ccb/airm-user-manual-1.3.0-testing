@@ -145,7 +145,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `1` |
 | :- |
-| The AIRM models shall be represented using the UML v2.1.<br>Note: This means the AIRM models are based on the meta-model that is defined by the OMG Superstructure document [4]. |
+| The AIRM models shall be represented using the UML v2.1.<br><br>*Note: This means the AIRM models are based on the meta-model that is defined by the OMG Superstructure document [4].* |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `12` | 
 | :- |
@@ -165,7 +165,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `64` |
 | :- |
-| When the UML construct available in the AIRM Contextual Model has no definition, the definition from the corresponding standard or specification shall apply.<br>Note: This rule is necessary as not all of the UML models imported into the AIRM Contextual Model contain the definitions from the corresponding standard or specification. | 
+| When the UML construct available in the AIRM Contextual Model has no definition, the definition from the corresponding standard or specification shall apply.<br><br>*Note: This rule is necessary as not all of the UML models imported into the AIRM Contextual Model contain the definitions from the corresponding standard or specification.* | 
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `128` |
 | :- |
@@ -175,7 +175,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `103` | 
 | :- |
-| The AIRM Conceptual Model shall contain definitions of model elements that are part of an ATM operational language, satisfying operational requirements and concerns. The model elements are defined without the consideration of solution, system and implementation aspects.<br>It is recognised that one of the purposes of the AIRM Conceptual Model is to ensure that the operational language is fully understood and can be communicated to operational experts and modellers. | 
+| The AIRM Conceptual Model shall contain definitions of model elements that are part of an ATM operational language, satisfying operational requirements and concerns. The model elements are defined without the consideration of solution, system and implementation aspects.<br><br>It is recognised that one of the purposes of the AIRM Conceptual Model is to ensure that the operational language is fully understood and can be communicated to operational experts and modellers. | 
 
 ### AIRM Logical Model
 
@@ -195,7 +195,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 | :- |
 | The AIRM Logical Model shall not contain message types.<br>Note: MessageTypes are used to bring implementation specific structure to the AIRM model elements. As such, they are outside of the scope of the AIRM Logical Model. | 
 
-| <mark style="background-color:lightgrey">`4` | 
+| <mark style="background-color:lightgrey">AIRM_Principle</mark> `4` | 
 | :- |
 | The AIRM Common Subject contains definitions of information constructs that are assessed as reusable in relation to other operational entities. | 
 
@@ -205,7 +205,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:yellow">AIRM_Recommendation</mark> `5` |
 | :- |
-| Entities that are considered as domain neutral (usable in the context of other industries such as automotive) should be relocated to the Common Subject.<br>Example: Address is a general information entity with wide cross-industry applicability. |
+| Entities that are considered as domain neutral (usable in the context of other industries such as automotive) should be relocated to the Common Subject.<br><br>Example: Address is a general information entity with wide cross-industry applicability. |
 
 
 ## AIRM Meta-Model
@@ -220,7 +220,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `81` |
 | :- |
-| The model elements in the AIRM Conceptual Model and AIRM Logical Model shall use one of the following stereotypes:<br>- **`<<Subject>>`**. Represents a field of specific knowledge. These appear as packages in the AIRM.<br>- **`<<Information_Message>>`**. ATM specific message type. This appears as a UML class in the AIRM.<br>- **`<<Information_Entity>>`**. A definition (type) of an operational ATM item of interest that is subject to constraints. This appears as a UML class in the AIRM.<br>- **`<<Data_Entity>>`**. A definition (type) of a data (ATM) item of interest that is implementation independent and is subject to constraints. This appears as a UML class in the AIRM.<br>- **`<<Data_Object>>`**. A standardized or formalized collection of a Logical ModelEntity's or association’s Properties.<br>- **`<<CodeList>>`**. CodeList is used to describe a flexible and open enumeration UML::Enumeration. This appears as a UML class in the AIRM.<br>- **`<<DataType>>`**. DataType is the abstract class that represents the general notion of being a data type (i.e., a type whose instances are identified only by their value). This appears as a UML class in the AIRM.<br>- **`<<Measure>>`**. A Measure is the result from performing the act or process of ascertaining the value of a characteristic of some entity. [ISO 19103]<br>- **`<<UnitOfMeasure>>`**. A unit of measure is a quantity adopted as a standard of measurement for other quantities of the same kind. [ISO 19103] In the AIRM, this is modelled as a CodeList with a restricted meaning.<br><br>Note: The AIRM meta-model contains more model elements and stereotypes which are used, e.g., in the context of AIRM compliance.<br>Note: The rulebook consistently refers to AIRM meta-model elements. Reference to the UML specification are explicitly identified by the “UML::” package prefix. |
+| The model elements in the AIRM Conceptual Model and AIRM Logical Model shall use one of the following stereotypes:<br>- **`<<Subject>>`**. Represents a field of specific knowledge. These appear as packages in the AIRM.<br>- **`<<Information_Message>>`**. ATM specific message type. This appears as a UML class in the AIRM.<br>- **`<<Information_Entity>>`**. A definition (type) of an operational ATM item of interest that is subject to constraints. This appears as a UML class in the AIRM.<br>- **`<<Data_Entity>>`**. A definition (type) of a data (ATM) item of interest that is implementation independent and is subject to constraints. This appears as a UML class in the AIRM.<br>- **`<<Data_Object>>`**. A standardized or formalized collection of a Logical ModelEntity's or association’s Properties.<br>- **`<<CodeList>>`**. CodeList is used to describe a flexible and open enumeration UML::Enumeration. This appears as a UML class in the AIRM.<br>- **`<<DataType>>`**. DataType is the abstract class that represents the general notion of being a data type (i.e., a type whose instances are identified only by their value). This appears as a UML class in the AIRM.<br>- **`<<Measure>>`**. A Measure is the result from performing the act or process of ascertaining the value of a characteristic of some entity. [ISO 19103]<br>- **`<<UnitOfMeasure>>`**. A unit of measure is a quantity adopted as a standard of measurement for other quantities of the same kind. [ISO 19103] In the AIRM, this is modelled as a CodeList with a restricted meaning.<br><br>*Note: The AIRM meta-model contains more model elements and stereotypes which are used, e.g., in the context of AIRM compliance.*<br><br>*Note: The rulebook consistently refers to AIRM meta-model elements. Reference to the UML specification are explicitly identified by the “UML::” package prefix.* |
 
 ## AIRM Model Elements
 
@@ -234,7 +234,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `10` |
 | :- |
-| Subjects shall provide a documented rationale explaining the boundaries of the subject.<br>Note: The rationale is intended to be used to assess, during consolidation, if an entity is a natural part of a subject. |
+| Subjects shall provide a documented rationale explaining the boundaries of the subject.<br><br>*Note: The rationale is intended to be used to assess, during consolidation, if an entity is a natural part of a subject.* |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `110` | 
 | :- |
@@ -252,7 +252,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `111` |
 | :- |
-| The ASCII 45 (hyphen), 46 (point), 47 (forward slash) characters shall be allowed if the name of a model element appears below:<br>8.33kHz<br>ADS-B<br>ADS-C<br>FANS 1/A<br>Note: The list of exceptions is managed by the AIRM Change Control Board Support Office and takes into account the following:<br>The name contains a specific character<br>The name refers to a concept widely shared amongst aeronautical community<br>Keeping the name the way it is known enables an easier understanding of the model |
+| The ASCII 45 (hyphen), 46 (point), 47 (forward slash) characters shall be allowed if the name of a model element appears below:<br>8.33kHz<br>ADS-B<br>ADS-C<br>FANS 1/A<br><br>*Note: The list of exceptions is managed by the AIRM Change Control Board Support Office and takes into account the following:* <br>*The name contains a specific character*<br>*The name refers to a concept widely shared amongst aeronautical community*<br>*Keeping the name the way it is known enables an easier understanding of the model* |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `14` |
 | :- |
@@ -276,7 +276,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `8` |
 | :- |
-| All model element names shall be unique within enclosing namespace(s).<br>Example: All entities shall be uniquely named within an AIRM model.<br>Example: All properties shall be uniquely named within the enclosing entity.<br>Example: All values must be unique within the enclosing codelist. |
+| All model element names shall be unique within enclosing namespace(s).<br><br>Example: All entities shall be uniquely named within an AIRM model.<br><br>Example: All properties shall be uniquely named within the enclosing entity.<br><br>Example: All values must be unique within the enclosing codelist. |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `19` |
 | :- |
@@ -284,7 +284,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `5` |
 | :- |
-| The name of an entity, object, codelist or datatype shall be expressed using the UpperCamelCase principle.<br>Note: This rule does not apply to imported standards in AIRM Contextual Model. These might deviate from this rule. |
+| The name of an entity, object, codelist or datatype shall be expressed using the UpperCamelCase principle.<br><br>*Note: This rule does not apply to imported standards in AIRM Contextual Model. These might deviate from this rule.* |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `6` |
 | :- |
@@ -300,19 +300,19 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `42` | 
 | :- |
-| The name of a codelist shall begin with “Code” and end with “Type”<br>Example: CodeAirspaceType |
+| The name of a codelist shall begin with “Code” and end with “Type”<br><br>Example: CodeAirspaceType |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `30` |
 | :- |
-| The name of a value contained in a codelist shall be UPPER_CASE. Spaces shall not appear in the value and words shall be separated by the underscore character ‘_”.<br>Example: NO_RESTRICTION<br>Exception: This rule does not apply if the name of the value is a recognised term such as an abbreviation. In this case the name of the value should be represented as the recognised combination of UPPER and lower case characters. |
+| The name of a value contained in a codelist shall be UPPER_CASE. Spaces shall not appear in the value and words shall be separated by the underscore character ‘_”.<br><br>Example: NO_RESTRICTION<br><br>Exception: This rule does not apply if the name of the value is a recognised term such as an abbreviation. In this case the name of the value should be represented as the recognised combination of UPPER and lower case characters. |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `24` |
 | :- |
-| If given, the name of an association shall be expressed using lower case.<br>Example: contains<br>Example: expressed as. |
+| If given, the name of an association shall be expressed using lower case.<br>Example: contains<br><br>Example: expressed as. |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `112` |
 | :- |
-| If given, the name of an association shall be represented as either a verb or a verb phrase.<br>Example: omit “is” when followed by verb-phrase; e.g., instead of “is enabled by” have only “enabled by”, i.e., skip the verb. |
+| If given, the name of an association shall be represented as either a verb or a verb phrase.<br><br>Example: omit “is” when followed by verb-phrase; e.g., instead of “is enabled by” have only “enabled by”, i.e., skip the verb. |
 
 | <mark style="background-color:yellow">AIRM_Recommendation</mark> `20` |
 | :- |
@@ -320,7 +320,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `131` |
 | :- |
-| In the AIRM Conceptual Model, associations which are merely possible/probable or imprecise shall be given a multiplicity rather than reflecting this status as part of the association name.<br>Example: An association which can be expressed using such words as “can have”, “may have” or “may be” shall have a multiplicity and the association shall not have the word in its name. |
+| In the AIRM Conceptual Model, associations which are merely possible/probable or imprecise shall be given a multiplicity rather than reflecting this status as part of the association name.<br><br>Example: An association which can be expressed using such words as “can have”, “may have” or “may be” shall have a multiplicity and the association shall not have the word in its name. |
 
 ### Authorship
 
@@ -344,13 +344,13 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `20` |
 | :- |
-| Model elements shall not be represented as ‘root’ or ‘leaf’.<br>Note: It is impossible, in the context of ATM, to know that the AIRM is complete. |
+| Model elements shall not be represented as ‘root’ or ‘leaf’.<br><br>*Note: It is impossible, in the context of ATM, to know that the AIRM is complete.* |
 
 ### Logical Model Objects
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `113` |
 | :- |
-| A model element with the stereotype `<<Data_Object>>` shall be a specialisation of the abstract Object.<br>Note: Object is obviously exempt from this rule.<br>Note: The specialisation can be via a more generalised object. |
+| A model element with the stereotype `<<Data_Object>>` shall be a specialisation of the abstract Object.<br><br>*Note: Object is obviously exempt from this rule.<br>Note: The specialisation can be via a more generalised object.* |
 
 
 ### Properties
@@ -361,19 +361,19 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `46` |
 | :- |
-| In the AIRM Logical Model, attributes shall only be typed by datatypes.<br><br>Note: This means that they should not be typed by other entities or objects from the AIRM Logical Model.<br><br>Note: This rule does not apply in the AIRM Conceptual Model, so attributes can be typed by other entities. This can help the readability of the model. |
+| In the AIRM Logical Model, attributes shall only be typed by datatypes.<br><br>*Note: This means that they should not be typed by other entities or objects from the AIRM Logical Model.<br><br>Note: This rule does not apply in the AIRM Conceptual Model, so attributes can be typed by other entities. This can help the readability of the model.* |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `105` |
 | :- |
-| In the AIRM Logical Model, attributes shall be typed by:<br>Data types found within the ISO series of standards present in the AIRM Contextual Model; or<br>Data types found within the AIRM Logical Model’s DataTypes package; or<br>Codelists found within a Subject.<br><br>Examples:<br>ISO19103 contains primitives for Real, CharacterString, DateTime<br>ISO19107 contains geometry constructs<br>ISO19108 contains temporal constructs<br>ISO 639-2 contains language codes<br><br>Note: AIRM specific data types which specialise or otherwise reuse the ISO series can be found in the AIRM Logical Model’s DataTypes package.<br><br>Note: AIRM specific codelists can be found in dedicated packages within the relevant Subject. |
+| In the AIRM Logical Model, attributes shall be typed by:<br>Data types found within the ISO series of standards present in the AIRM Contextual Model; or<br>Data types found within the AIRM Logical Model’s DataTypes package; or<br>Codelists found within a Subject.<br><br>Examples:<br>ISO19103 contains primitives for Real, CharacterString, DateTime<br>ISO19107 contains geometry constructs<br>ISO19108 contains temporal constructs<br>ISO 639-2 contains language codes<br><br>*Note: AIRM specific data types which specialise or otherwise reuse the ISO series can be found in the AIRM Logical Model’s DataTypes package.* <br><br>*Note: AIRM specific codelists can be found in dedicated packages within the relevant Subject.* |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `22` |
 | :- |
-| In the AIRM Logical Model, attributes shall, by default, be represented with multiplicity of [0..1] (zero to one). If an operational constraint has been identified then multiplicities shall be chosen to reflect such constraints.<br><br>Note: If no explicit attribute multiplicity is given, [0..1] multiplicity is implied. <br><br>Note: Further constraints on multiplicity may be added in "AIRM Derived" models. |
+| In the AIRM Logical Model, attributes shall, by default, be represented with multiplicity of [0..1] (zero to one). If an operational constraint has been identified then multiplicities shall be chosen to reflect such constraints.<br><br>*Note: If no explicit attribute multiplicity is given, [0..1] multiplicity is implied. <br><br>Note: Further constraints on multiplicity may be added in "AIRM Derived" models.* |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `26` |
 | :- |
-| In the AIRM Logical Model, role names shall, by default, be represented with multiplicity [0..*] (zero to many). If an operational constraint has been identified then multiplicities shall be chosen to reflect such constraints.<br><br>Note: If no explicit role name multiplicity is given, [0..*] multiplicity is implied.<br><br>Note: Further constraints may be added in "AIRM Derived" models such as in Physical Data Models. |
+| In the AIRM Logical Model, role names shall, by default, be represented with multiplicity [0..*] (zero to many). If an operational constraint has been identified then multiplicities shall be chosen to reflect such constraints.<br><br>*Note: If no explicit role name multiplicity is given, [0..*] multiplicity is implied.*<br><br>*Note: Further constraints may be added in "AIRM Derived" models such as in Physical Data Models.* |
 
 ### Associations
 
