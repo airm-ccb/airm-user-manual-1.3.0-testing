@@ -143,12 +143,12 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 ## AIRM Modelling Environment
 
-| AIRM_Rule `1` | 
-| :- | 
+| AIRM_Rule `1` |
+| :- |
 | <mark style="background-color:lightblue">The AIRM models shall be represented using the UML v2.1.<br>Note: This means the AIRM models are based on the meta-model that is defined by the OMG Superstructure document [4].</mark> |
 
 | AIRM_Rule `12` | 
-| :- | 
+| :- |
 | <mark style="background-color:lightblue">The AIRM models shall be exclusively expressed using UML::Class Diagram and UML::Package Diagram principles, notations and conventions.</mark> | 
 
 | AIRM_Recommendation `7` |
@@ -160,49 +160,53 @@ When the phrase `latest version` is used it always means at the time of publicat
 ### AIRM Contextual Model
 
 | AIRM_Rule `104` |
-| :- | 
+| :- |
 | <mark style="background-color:lightblue">The AIRM Contextual Model shall contain a representation of the external standards and specifications that are necessary for AIRM modelling work.</mark> |
 
 | AIRM_Rule `64` |
-| :- | 
+| :- |
 | <mark style="background-color:lightblue">When the UML construct available in the AIRM Contextual Model has no definition, the definition from the corresponding standard or specification shall apply.<br>Note: This rule is necessary as not all of the UML models imported into the AIRM Contextual Model contain the definitions from the corresponding standard or specification.</mark> | 
 
 | AIRM_Rule `128` |
-| :- | 
+| :- |
 | <mark style="background-color:lightblue">The AIRM Standards Catalog shall list the standards which are acceptable sources for modelling the AIRM.</mark> | 
 
 ### AIRM Conceptual Model
 
-AIRM_Rule 103
-The AIRM Conceptual Model shall contain definitions of model elements that are part of an ATM operational language, satisfying operational requirements and concerns. The model elements are defined without the consideration of solution, system and implementation aspects.
-
-It is recognised that one of the purposes of the AIRM Conceptual Model is to ensure that the operational language is fully understood and can be communicated to operational experts and modellers.
+| AIRM_Rule `103` | 
+| :- |
+| <mark style="background-color:lightblue">The AIRM Conceptual Model shall contain definitions of model elements that are part of an ATM operational language, satisfying operational requirements and concerns. The model elements are defined without the consideration of solution, system and implementation aspects.<br>It is recognised that one of the purposes of the AIRM Conceptual Model is to ensure that the operational language is fully understood and can be communicated to operational experts and modellers. | 
 
 ### AIRM Logical Model
 
-AIRM_Rule 106
-The AIRM Logical Model shall contain definitions of model elements that are exchanged by systems and services. The model elements are defined without the consideration of solution, system and implementation aspects.
+| AIRM_Rule `106` |
+| :- |
+| <mark style="background-color:lightblue">The AIRM Logical Model shall contain definitions of model elements that are exchanged by systems and services. The model elements are defined without the consideration of solution, system and implementation aspects.</mark> | 
 
-AIRM_Rule 129
-The definitions from the AIRM Conceptual Model shall be used as the baseline for the AIRM Logical Model definitions. If there is a conflict, the definitions in the AIRM Conceptual Model have precedence.
+| AIRM_Rule `129` | 
+| :- |
+| <mark style="background-color:lightblue">The definitions from the AIRM Conceptual Model shall be used as the baseline for the AIRM Logical Model definitions. If there is a conflict, the definitions in the AIRM Conceptual Model have precedence.</mark> | 
 
-AIRM_Rule 107
-The AIRM Logical Model’s Abstract package shall contain model elements that are general in nature and provide a higher level of abstraction needed to align and maintain consistency of concrete model elements.
+| AIRM_Rule `107` | 
+| :- |
+| <mark style="background-color:lightblue">The AIRM Logical Model’s Abstract package shall contain model elements that are general in nature and provide a higher level of abstraction needed to align and maintain consistency of concrete model elements.</mark> | 
 
-AIRM_Rule 53
-The AIRM Logical Model shall not contain message types.
-Note: MessageTypes are used to bring implementation specific structure to the AIRM model elements. As such, they are outside of the scope of the AIRM Logical Model.
+| AIRM_Rule `53` |
+| :- |
+| <mark style="background-color:lightblue">The AIRM Logical Model shall not contain message types.<br>Note: MessageTypes are used to bring implementation specific structure to the AIRM model elements. As such, they are outside of the scope of the AIRM Logical Model.</mark> | 
 
-AIRM_Principle 4
-The AIRM Common Subject contains definitions of information constructs that are assessed as reusable in relation to other operational entities.
+| AIRM_Principle 4 | 
+| :- |
+| <mark style="background-color:lightgrey">The AIRM Common Subject contains definitions of information constructs that are assessed as reusable in relation to other operational entities.</mark> | 
 
-AIRM_Recommendation 4
-Entities that are defined in two or more subject should be relocated to the Common Subject.
+| AIRM_Recommendation 4 |
+| :- |
+| <mark style="background-color:yellow">Entities that are defined in two or more subject should be relocated to the Common Subject.</mark> | 
 
-AIRM_Recommendation 5
-Entities that are considered as domain neutral (usable in the context of other industries such as automotive) should be relocated to the Common Subject.
+| AIRM_Recommendation 5 |
+| :- |
+| <mark style="background-color:yellow">Entities that are considered as domain neutral (usable in the context of other industries such as automotive) should be relocated to the Common Subject.<br>Example: Address is a general information entity with wide cross-industry applicability. |
 
-Example: Address is a general information entity with wide cross-industry applicability.
 
 ## AIRM Meta-Model
 
