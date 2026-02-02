@@ -506,33 +506,33 @@ SyntacticallyEqual: Syntax corrections (grammar, spelling)<br>Rewritten: The def
 
 ## Diagram Conventions
 
-| <mark style="background-color:lightgrey">AIRM_Principle</mark> 31 |
+| <mark style="background-color:lightgrey">AIRM_Principle</mark> `31` |
 | :- |
 | In the AIRM Conceptual Model, UML is used to create two types of diagram:<br>Hierarchy diagrams which are used to express taxonomies using UML::Specialisations<br>Analysis diagrams which are used to give a narrative about the AIRM model elements contained on the diagram expressed as a (network) of, for example, UML::Associations, UML::Roles and Diagram::Notes. |
 
-| <mark style="background-color:lightblue">AIRM_Rule</mark> 133 |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `133` |
 | :- |
 | In the AIRM Conceptual Model, a diagram shall be either a “hierarchy” diagram or an “analysis” diagram. |
 
-| <mark style="background-color:lightblue">AIRM_Rule</mark> 134 |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `134` |
 | :- |
 | In the AIRM Conceptual Model, a diagram shall have a stereotype of <<Analysis>> or <<Hierarchy>> assigned. |
 
-| <mark style="background-color:lightblue">AIRM_Rule</mark> 135 |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `135` |
 | :- |
 | In the AIRM Conceptual Model, every <<Analysis>> diagram shall be documented by explaining the following:<br>Content: What is this diagram about? (mandatory)<br>(Maturity) Status - <free text> (mandatory) |
 
-| <mark style="background-color:yellow">AIRM_Recommendation</mark> 25 |
+| <mark style="background-color:yellow">AIRM_Recommendation</mark> `25` |
 | :- |
 | In the AIRM Conceptual Model, every <<Analysis>> diagram should be documented by explaining the following:<br>Assumptions (optional)<br>>Additional comments (optional)<br>Link to Requirements (optional) |
 
-| <mark style="background-color:yellow">AIRM_Recommendation</mark> 23 |
+| <mark style="background-color:yellow">AIRM_Recommendation</mark> `23` |
 | :- |
 | In the AIRM Information Model all diagrams should be possible to read on an A4 format (either in landscape or portrait.) |
 
 ## Intellectual Property Rights
 
-| <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule 9 |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `9` |
 | :- |
 | All parts of the AIRM shall have following the BSD-type licence attached: |
 
@@ -562,30 +562,22 @@ SyntacticallyEqual: Syntax corrections (grammar, spelling)<br>Rewritten: The def
 
 ## General Principles, Rules and Recommendations
 
-Evolution
-AIRM_Principle 22
-Evolution refers to how model elements evolve over time (e.g. version, status, lifecycle, etc).
+### Evolution
 
-AIRM_Rule 65
-The status of a model element shall be given in the "Status" property. The value shall be one of the following:
+| <mark style="background-color:lightgrey">AIRM_Principle</mark> 22 |
+| :- |
+| Evolution refers to how model elements evolve over time (e.g. version, status, lifecycle, etc). |
 
-Proposed: The model element has been created but is not mature enough for use by others or for publication.
-Implemented: The model element has been finalised and has been verified. It is mature enough for use by other parties involved in building the AIRM but is not ready for publication.
-Published: The model element is implemented and has been included in an official AIRM release.
-Validated: The model element has been published and validated.
-Under Rework: The model element has been published/validated but is being reworked. (Note: it is still part of the AIRM in its latest released version.)
-Deprecated: The model element is no longer fit for use and will deleted in the version stated in the AIRM::TaggedValue "Deprecated:TargetRelease".
-Obsolete: The model element has been marked deprecated in the current release version and will be deleted in the next release.
-AIRM_Rule 115
-The allowed combination of model element status (AIRM_Rule 65) and definition status (AIRM_Rule 61) are:
+| <mark style="background-color:lightblue">AIRM_Rule</mark> 65 |
+| :- |
+| The status of a model element shall be given in the "Status" property. The value shall be one of the following: <br>Proposed: The model element has been created but is not mature enough for use by others or for publication.<br>Implemented: The model element has been finalised and has been verified. It is mature enough for use by other parties involved in building the AIRM but is not ready for publication.<br>Published: The model element is implemented and has been included in an official AIRM release.<br>Validated: The model element has been published and validated.<br>Under Rework: The model element has been published/validated but is being reworked. (Note: it is still part of the AIRM in its latest released version.)<br>Deprecated: The model element is no longer fit for use and will deleted in the version stated in the AIRM::TaggedValue "Deprecated:TargetRelease".<br>Obsolete: The model element has been marked deprecated in the current release version and will be deleted in the next release. |
 
-If the status of a model element is "Proposed", its Definition:Status shall be "Proposed", "Under Review", "Approved", or "Under Rework".
-If the status of a model element is "Implemented", its Definition:Status shall be "Under Review" or "Approved".
-If the status of a model element is "Published", its Definition:Status shall be "Under Review " or "Approved".
-If the status of a model element is "Validated", its Definition:Status shall be "Approved".
-If the status of a model element is "Under Rework", its Definition:Status shall be "Proposed", 'Under Review", "Approved" or "Under Rework".
+| <mark style="background-color:lightblue">AIRM_Rule</mark> 115 |
+| :- |
+| The allowed combination of model element status (AIRM_Rule 65) and definition status (AIRM_Rule 61) are:<br>If the status of a model element is "Proposed", its Definition:Status shall be "Proposed", "Under Review", "Approved", or "Under Rework".<br>If the status of a model element is "Implemented", its Definition:Status shall be "Under Review" or "Approved".<br>If the status of a model element is "Published", its Definition:Status shall be "Under Review " or "Approved".<br>If the status of a model element is "Validated", its Definition:Status shall be "Approved".<br>If the status of a model element is "Under Rework", its Definition:Status shall be "Proposed", 'Under Review", "Approved" or "Under Rework". |
 
-Deprecation
+
+### Deprecation
 
 AIRM_Principle 8
 Deprecation of a model element indicates that it is about to be deleted in a subsequent release.
