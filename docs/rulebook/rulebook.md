@@ -220,7 +220,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | AIRM_Rule `81` |
 | :- |
-| <mark style="background-color:lightblue">The model elements in the AIRM Conceptual Model and AIRM Logical Model shall use one of the following stereotypes:<br>- **< < Subject > >**. Represents a field of specific knowledge. These appear as packages in the AIRM.<br>**< < Information_Message > >**. ATM specific message type. This appears as a UML class in the AIRM.<br>**< < Information_Entity > >**. A definition (type) of an operational ATM item of interest that is subject to constraints. This appears as a UML class in the AIRM.<br>**< < Data_Entity > >**. A definition (type) of a data (ATM) item of interest that is implementation independent and is subject to constraints. This appears as a UML class in the AIRM.<br>**< < Data_Object > >**. A standardized or formalized collection of a Logical ModelEntity's or association’s Properties.<br>**< < CodeList > >**. CodeList is used to describe a flexible and open enumeration UML::Enumeration. This appears as a UML class in the AIRM.<br>**< < DataType > >**. DataType is the abstract class that represents the general notion of being a data type (i.e., a type whose instances are identified only by their value). This appears as a UML class in the AIRM.<br>**< < Measure > >**. A Measure is the result from performing the act or process of ascertaining the value of a characteristic of some entity. [ISO 19103]<br>**< < UnitOfMeasure > >**. A unit of measure is a quantity adopted as a standard of measurement for other quantities of the same kind. [ISO 19103] In the AIRM, this is modelled as a CodeList with a restricted meaning.<br><br>Note: The AIRM meta-model contains more model elements and stereotypes which are used, e.g., in the context of AIRM compliance.<br>Note: The rulebook consistently refers to AIRM meta-model elements. Reference to the UML specification are explicitly identified by the “UML::” package prefix.</mark> |
+| <mark style="background-color:lightblue">The model elements in the AIRM Conceptual Model and AIRM Logical Model shall use one of the following stereotypes:<br>**< < Subject > >**. Represents a field of specific knowledge. These appear as packages in the AIRM.<br>**< < Information_Message > >**. ATM specific message type. This appears as a UML class in the AIRM.<br>**< < Information_Entity > >**. A definition (type) of an operational ATM item of interest that is subject to constraints. This appears as a UML class in the AIRM.<br>**< < Data_Entity > >**. A definition (type) of a data (ATM) item of interest that is implementation independent and is subject to constraints. This appears as a UML class in the AIRM.<br>**< < Data_Object > >**. A standardized or formalized collection of a Logical ModelEntity's or association’s Properties.<br>**< < CodeList > >**. CodeList is used to describe a flexible and open enumeration UML::Enumeration. This appears as a UML class in the AIRM.<br>**< < DataType > >**. DataType is the abstract class that represents the general notion of being a data type (i.e., a type whose instances are identified only by their value). This appears as a UML class in the AIRM.<br>**< < Measure > >**. A Measure is the result from performing the act or process of ascertaining the value of a characteristic of some entity. [ISO 19103]<br>**< < UnitOfMeasure > >**. A unit of measure is a quantity adopted as a standard of measurement for other quantities of the same kind. [ISO 19103] In the AIRM, this is modelled as a CodeList with a restricted meaning.<br><br>Note: The AIRM meta-model contains more model elements and stereotypes which are used, e.g., in the context of AIRM compliance.<br>Note: The rulebook consistently refers to AIRM meta-model elements. Reference to the UML specification are explicitly identified by the “UML::” package prefix.</mark> |
 
 ## AIRM Model Elements
 
@@ -302,45 +302,45 @@ When the phrase `latest version` is used it always means at the time of publicat
 | :- |
 | <mark style="background-color:lightblue">The name of a codelist shall begin with “Code” and end with “Type”<br>Example: CodeAirspaceType</mark> |
 
-| AIRM_Rule 30 |
+| AIRM_Rule `30` |
 | :- |
 | <mark style="background-color:lightblue">The name of a value contained in a codelist shall be UPPER_CASE. Spaces shall not appear in the value and words shall be separated by the underscore character ‘_”.<br>Example: NO_RESTRICTION<br>Exception: This rule does not apply if the name of the value is a recognised term such as an abbreviation. In this case the name of the value should be represented as the recognised combination of UPPER and lower case characters.</mark> |
 
-| AIRM_Rule 24 |
+| AIRM_Rule `24` |
 | :- |
 | <mark style="background-color:lightblue">If given, the name of an association shall be expressed using lower case.<br>Example: contains<br>Example: expressed as.</mark> |
 
-| AIRM_Rule 112 |
+| AIRM_Rule `112` |
 | :- |
 | <mark style="background-color:lightblue">If given, the name of an association shall be represented as either a verb or a verb phrase.<br>Example: omit “is” when followed by verb-phrase; e.g., instead of “is enabled by” have only “enabled by”, i.e., skip the verb.</mark> |
 
-AIRM_Recommendation 20
-In the AIRM Conceptual Model, the name of an association should, where possible, be based on verbs found in the definitions of the associated entities which relate the entities.
+| AIRM_Recommendation `20` |
+| :- |
+| <mark style="background-color:yellow">In the AIRM Conceptual Model, the name of an association should, where possible, be based on verbs found in the definitions of the associated entities which relate the entities.</mark> |
 
-AIRM_Rule 131
-In the AIRM Conceptual Model, associations which are merely possible/probable or imprecise shall be given a multiplicity rather than reflecting this status as part of the association name.
-
-Example: An association which can be expressed using such words as “can have”, “may have” or “may be” shall have a multiplicity and the association shall not have the word in its name.
+| AIRM_Rule `131` |
+| :- |
+| <mark style="background-color:lightblue">In the AIRM Conceptual Model, associations which are merely possible/probable or imprecise shall be given a multiplicity rather than reflecting this status as part of the association name.<br>Example: An association which can be expressed using such words as “can have”, “may have” or “may be” shall have a multiplicity and the association shall not have the word in its name.</mark> |
 
 ### Authorship
 
-AIRM_Rule 66
-The author of a model element shall be given in the "Author" property. The author shall be the person or project which created the model element.
+| AIRM_Rule `66` |
+| :- |
+| <mark style="background-color:lightblue">The author of a model element shall be given in the "Author" property. The author shall be the person or project which created the model element.</mark> |
 
 ### Entities
 
-AIRM_Rule 21
-Entities shall be stereotyped as << Data_Entity >> in the AIRM Logical Model and as << Information_Entity >> in the AIRM Conceptual Model.
+| AIRM_Rule `21` |
+| :- |
+| <mark style="background-color:lightblue">Entities shall be stereotyped as **< < Data_Entity > >** in the AIRM Logical Model and as **< < Information_Entity > >** in the AIRM Conceptual Model.</mark> |
 
-AIRM_Rule 83
-A model element with the stereotype << Data_Entity >> shall be a specialisation of the abstract Entity.
+| AIRM_Rule `83` |
+| :- |
+| <mark style="background-color:lightblue">A model element with the stereotype **< < Data_Entity > >** shall be a specialisation of the abstract Entity.<br>Note: Entity is obviously exempt from this rule.<br>Note: The specialisation can be via a more generalised entity e.g. TemporalEnabledEntity.</mark> |
 
-Note: Entity is obviously exempt from this rule.
-
-Note: The specialisation can be via a more generalised entity e.g. TemporalEnabledEntity.
-
-AIRM_Rule 80
-Entities shall not inherit from model elements with the stereotype <<Data Type>>, <<CodeList>>, <<Measure>>, <<UnitOfMeasure>>, <<Subject>>, <<Information_Message>> or <<Data_Object>>.
+| AIRM_Rule `80` |
+| :- |
+| <mark style="background-color:lightblue">Entities shall not inherit from model elements with the stereotype <<Data Type>>, <<CodeList>>, <<Measure>>, <<UnitOfMeasure>>, <<Subject>>, <<Information_Message>> or <<Data_Object>>.</mark> |
 
 AIRM_Rule 20
 Model elements shall not be represented as ‘root’ or ‘leaf’.
