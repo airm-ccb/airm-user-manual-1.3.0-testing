@@ -221,15 +221,15 @@ When the phrase `latest version` is used it always means at the time of publicat
 | AIRM_Rule `81` |
 | :- |
 | <mark style="background-color:lightblue">The model elements in the AIRM Conceptual Model and AIRM Logical Model shall use one of the following stereotypes:</mark> |
-| <mark style="background-color:lightblue">- `<<Subject>>`. Represents a field of specific knowledge. These appear as packages in the AIRM.</mark> |
-| <mark style="background-color:lightblue">- `<<Information_Message>>`. ATM specific message type. This appears as a UML class in the AIRM.</mark> |
-| <mark style="background-color:lightblue">- `<<Information_Entity>>`. A definition (type) of an operational ATM item of interest that is subject to constraints. This appears as a UML class in the AIRM.</mark> |
-| <mark style="background-color:lightblue">- `<<Data_Entity>>`. A definition (type) of a data (ATM) item of interest that is implementation independent and is subject to constraints. This appears as a UML class in the AIRM.</mark> |
-| <mark style="background-color:lightblue">- `<<Data_Object>>`. A standardized or formalized collection of a Logical ModelEntity's or association’s Properties.</mark> |
-| <mark style="background-color:lightblue">- `<<CodeList>>`. CodeList is used to describe a flexible and open enumeration UML::Enumeration. This appears as a UML class in the AIRM.</mark> |
-| <mark style="background-color:lightblue">- `<<DataType>>`. DataType is the abstract class that represents the general notion of being a data type (i.e., a type whose instances are identified only by their value). This appears as a UML class in the AIRM.</mark> |
-| <mark style="background-color:lightblue">- `<<Measure>>`. A Measure is the result from performing the act or process of ascertaining the value of a characteristic of some entity. [ISO 19103]</mark> |
-| <mark style="background-color:lightblue">- `<<UnitOfMeasure>>`. A unit of measure is a quantity adopted as a standard of measurement for other quantities of the same kind. [ISO 19103] In the AIRM, this is modelled as a CodeList with a restricted meaning.</mark> |
+| <mark style="background-color:lightblue">- **<<Subject>>**. Represents a field of specific knowledge. These appear as packages in the AIRM.</mark> |
+| <mark style="background-color:lightblue">- **<<Information_Message>>**. ATM specific message type. This appears as a UML class in the AIRM.</mark> |
+| <mark style="background-color:lightblue">- **<<Information_Entity>>**. A definition (type) of an operational ATM item of interest that is subject to constraints. This appears as a UML class in the AIRM.</mark> |
+| <mark style="background-color:lightblue">- **<<Data_Entity>>**. A definition (type) of a data (ATM) item of interest that is implementation independent and is subject to constraints. This appears as a UML class in the AIRM.</mark> |
+| <mark style="background-color:lightblue">- **<<Data_Object>>**. A standardized or formalized collection of a Logical ModelEntity's or association’s Properties.</mark> |
+| <mark style="background-color:lightblue">- **<<CodeList>>**. CodeList is used to describe a flexible and open enumeration UML::Enumeration. This appears as a UML class in the AIRM.</mark> |
+| <mark style="background-color:lightblue">- **<<DataType>>**. DataType is the abstract class that represents the general notion of being a data type (i.e., a type whose instances are identified only by their value). This appears as a UML class in the AIRM.</mark>|
+| <mark style="background-color:lightblue">- **<<Measure>>**. A Measure is the result from performing the act or process of ascertaining the value of a characteristic of some entity. [ISO 19103]</mark> |
+| <mark style="background-color:lightblue">- **<<UnitOfMeasure>>**. A unit of measure is a quantity adopted as a standard of measurement for other quantities of the same kind. [ISO 19103] In the AIRM, this is modelled as a CodeList with a restricted meaning.</mark> |
 | <mark style="background-color:lightblue">Note: The AIRM meta-model contains more model elements and stereotypes which are used, e.g., in the context of AIRM compliance.<br>Note: The rulebook consistently refers to AIRM meta-model elements. Reference to the UML specification are explicitly identified by the “UML::” package prefix.</mark> |
 
 ## AIRM Model Elements
@@ -242,103 +242,87 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 ### AIRM Subjects
 
-AIRM_Rule 10
-Subjects shall provide a documented rationale explaining the boundaries of the subject.
+| AIRM_Rule `10` |
+| :- |
+| <mark style="background-color:lightblue">Subjects shall provide a documented rationale explaining the boundaries of the subject.<br>Note: The rationale is intended to be used to assess, during consolidation, if an entity is a natural part of a subject.</mark> |
 
-Note: The rationale is intended to be used to assess, during consolidation, if an entity is a natural part of a subject.
+| AIRM_Rule `110` | 
+| :- |
+| <mark style="background-color:lightblue">The content of an AIRM Subject shall be documented / illustrated by at least one UML class diagram that portrays those entities and their associations which are most essential to an understanding of the scope of the Subject.</mark> |
 
-AIRM_Rule 110
-The content of an AIRM Subject shall be documented / illustrated by at least one UML class diagram that portrays those entities and their associations which are most essential to an understanding of the scope of the Subject.
-
-AIRM_Rule 130
-All entities and objects shall appear on at least one UML class diagram.
+| AIRM_Rule `130` |
+| :- |
+| <mark style="background-color:lightblue">All entities and objects shall appear on at least one UML class diagram.</mark> |
 
 ### Naming Rules
 
-AIRM_Rule 13
-Names of model elements shall only use characters that are in ASCII ranges 48-57 (numbers), 65-90 (capital letters) and 97-122 (small letters).
+| AIRM_Rule `13` |
+| :- |
+| <mark style="background-color:lightblue">Names of model elements shall only use characters that are in ASCII ranges 48-57 (numbers), 65-90 (capital letters) and 97-122 (small letters).<br>In addition, the following are characters are allowed in codelist values to separate words: 95 (underscore).</mark> |
 
-In addition, the following are characters are allowed in codelist values to separate words: 95 (underscore).
+| AIRM_Rule `111` |
+| :- |
+| <mark style="background-color:lightblue">The ASCII 45 (hyphen), 46 (point), 47 (forward slash) characters shall be allowed if the name of a model element appears below:<br>8.33kHz<br>ADS-B<br>ADS-C<br>FANS 1/A<br>Note: The list of exceptions is managed by the AIRM Change Control Board Support Office and takes into account the following:<br>The name contains a specific character<br>The name refers to a concept widely shared amongst aeronautical community<br>Keeping the name the way it is known enables an easier understanding of the model</mark> |
 
-AIRM_Rule 111
-The ASCII 45 (hyphen), 46 (point), 47 (forward slash) characters shall be allowed if the name of a model element appears below:
+| AIRM_Rule `14` |
+| :- |
+| <mark style="background-color:lightblue">Name parts and words shall not begin with numbers (0-9) unless an adopted standard mandates such spelling.</mark> |
 
-8.33kHz
-ADS-B
-ADS-C
-FANS 1/A
-Note: The list of exceptions is managed by the AIRM Change Control Board Support Office and takes into account the following:
+| AIRM_Rule `15` | 
+| :- |
+| <mark style="background-color:lightblue">Verbs (if any) shall be in the present tense.</mark> |
 
-The name contains a specific character
-The name refers to a concept widely shared amongst aeronautical community
-Keeping the name the way it is known enables an easier understanding of the model
+| AIRM_Rule `16` |
+| :- |
+| <mark style="background-color:lightblue">Abbreviations and acronyms shall not be used in names of model elements except where they appear in the Abbreviations section of the AIRM Contextual Model.</mark> |
 
-AIRM_Rule 14
-Name parts and words shall not begin with numbers (0-9) unless an adopted standard mandates such spelling.
+| AIRM_Rule `7` |
+| :- |
+| <mark style="background-color:lightblue">Names of model elements shall be in the English language following the terms as identified by ICAO or other standard present in the AIRM Standards Catalog. If no term can be identified, the latest version of the Oxford English Dictionary shall be used.</mark> |
 
-AIRM_Rule 15
-Verbs (if any) shall be in the present tense.
+| AIRM_Rule `18` |
+| :- |
+| <mark style="background-color:lightblue">Where conflicting spellings exist for the names of model elements, the spelling listed as the primary British spelling in the Oxford English Dictionary shall be used.</mark> |
 
-AIRM_Rule 16
-Abbreviations and acronyms shall not be used in names of model elements except where they appear in the Abbreviations section of the AIRM Contextual Model.
+| AIRM_Rule `8` |
+| :- |
+| <mark style="background-color:lightblue">All model element names shall be unique within enclosing namespace(s).<br>Example: All entities shall be uniquely named within an AIRM model.<br>Example: All properties shall be uniquely named within the enclosing entity.<br>Example: All values must be unique within the enclosing codelist.</mark> |
 
-AIRM_Rule 7
-Names of model elements shall be in the English language following the terms as identified by ICAO or other standard present in the AIRM Standards Catalog. If no term can be identified, the latest version of the Oxford English Dictionary shall be used.
+| AIRM_Rule `19` |
+| :- |
+| <mark style="background-color:lightblue">The name of a subject or other UML::Package shall be expressed using the UpperCamelCase principle.</mark> |
 
-AIRM_Rule 18
-Where conflicting spellings exist for the names of model elements, the spelling listed as the primary British spelling in the Oxford English Dictionary shall be used.
+| AIRM_Rule `5` |
+| :- |
+| <mark style="background-color:lightblue">The name of an entity, object, codelist or datatype shall be expressed using the UpperCamelCase principle.<br>Note: This rule does not apply to imported standards in AIRM Contextual Model. These might deviate from this rule.</mark> |
 
-AIRM_Rule 8
-All model element names shall be unique within enclosing namespace(s).
+| AIRM_Rule `6` |
+| :- |
+| <mark style="background-color:lightblue">The name of a property shall be expressed using the lowerCamelCase principle.</mark> |
 
-Example: All entities shall be uniquely named within an AIRM model.
+| AIRM_Rule `68` |
+| :- |
+| <mark style="background-color:lightblue">The name of a role shall be a noun describing the role of the associated entity.</mark> |
 
-Example: All properties shall be uniquely named within the enclosing entity.
+| AIRM_Rule `43` |
+| :- |
+| <mark style="background-color:lightblue">The name of a data type shall end with “Type”. Example: ValDistanceType</mark> |
 
-Example: All values must be unique within the enclosing codelist.
+| AIRM_Rule `42` | 
+| :- |
+| <mark style="background-color:lightblue">The name of a codelist shall begin with “Code” and end with “Type”<br>Example: CodeAirspaceType</mark> |
 
-AIRM_Rule 19
-The name of a subject or other UML::Package shall be expressed using the UpperCamelCase principle.
+| AIRM_Rule 30 |
+| :- |
+| <mark style="background-color:lightblue">The name of a value contained in a codelist shall be UPPER_CASE. Spaces shall not appear in the value and words shall be separated by the underscore character ‘_”.<br>Example: NO_RESTRICTION<br>Exception: This rule does not apply if the name of the value is a recognised term such as an abbreviation. In this case the name of the value should be represented as the recognised combination of UPPER and lower case characters.</mark> |
 
-AIRM_Rule 5
-The name of an entity, object, codelist or datatype shall be expressed using the UpperCamelCase principle.
+| AIRM_Rule 24 |
+| :- |
+| <mark style="background-color:lightblue">If given, the name of an association shall be expressed using lower case.<br>Example: contains<br>Example: expressed as.</mark> |
 
-Note: This rule does not apply to imported standards in AIRM Contextual Model. These might deviate from this rule.
-
-AIRM_Rule 6
-The name of a property shall be expressed using the lowerCamelCase principle.
-
-AIRM_Rule 68
-The name of a role shall be a noun describing the role of the associated entity.
-
-AIRM_Rule 43
-The name of a data type shall end with “Type”.
-
-Example: ValDistanceType
-
-AIRM_Rule 42
-The name of a codelist shall begin with “Code” and end with “Type”
-
-Example: CodeAirspaceType
-
-AIRM_Rule 30
-The name of a value contained in a codelist shall be UPPER_CASE. Spaces shall not appear in the value and words shall be separated by the underscore character ‘_”.
-
-Example: NO_RESTRICTION
-
-Exception: This rule does not apply if the name of the value is a recognised term such as an abbreviation. In this case the name of the value should be represented as the recognised combination of UPPER and lower case characters.
-
-AIRM_Rule 24
-If given, the name of an association shall be expressed using lower case.
-
-Example: contains
-
-Example: expressed as.
-
-AIRM_Rule 112
-If given, the name of an association shall be represented as either a verb or a verb phrase.
-
-Example: omit “is” when followed by verb-phrase; e.g., instead of “is enabled by” have only “enabled by”, i.e., skip the verb.
+| AIRM_Rule 112 |
+| :- |
+| <mark style="background-color:lightblue">If given, the name of an association shall be represented as either a verb or a verb phrase.<br>Example: omit “is” when followed by verb-phrase; e.g., instead of “is enabled by” have only “enabled by”, i.e., skip the verb.</mark> |
 
 AIRM_Recommendation 20
 In the AIRM Conceptual Model, the name of an association should, where possible, be based on verbs found in the definitions of the associated entities which relate the entities.
