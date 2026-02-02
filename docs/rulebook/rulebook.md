@@ -648,7 +648,7 @@ When the phrase `latest version` is used it always means at the time of publicat
  
 | <mark style="background-color:lightgrey">AIRM_Principle</mark> `38` |
 | :- |
-| The main AIRM content cannot "own" an association or property where the target exists in a supplement. |
+| The main AIRM content cannot "own" an association or property where the target exists in a supplement. | 
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `152` |
 | :- |
