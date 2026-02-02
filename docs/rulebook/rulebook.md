@@ -228,7 +228,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `2` | 
 | :- |
-| The AIRM models shall not contain model elements with a purpose to support a specific implementation, algorithm, technology or solution.<br>Note: Adding such constructs to a model in general imposes constraints that may make a model unnecessarily dependent on implementation decisions. The AIRM models should be focused on describing information needs independent of implementation and technological decisions. |
+| The AIRM models shall not contain model elements with a purpose to support a specific implementation, algorithm, technology or solution.<br><br>*Note: Adding such constructs to a model in general imposes constraints that may make a model unnecessarily dependent on implementation decisions. The AIRM models should be focused on describing information needs independent of implementation and technological decisions.* |
 
 ### AIRM Subjects
 
@@ -506,59 +506,59 @@ SyntacticallyEqual: Syntax corrections (grammar, spelling)<br>Rewritten: The def
 
 ## Diagram Conventions
 
-AIRM_Principle 31
-In the AIRM Conceptual Model, UML is used to create two types of diagram:
+| <mark style="background-color:lightgrey">AIRM_Principle</mark> 31 |
+| :- |
+| In the AIRM Conceptual Model, UML is used to create two types of diagram:<br>Hierarchy diagrams which are used to express taxonomies using UML::Specialisations<br>Analysis diagrams which are used to give a narrative about the AIRM model elements contained on the diagram expressed as a (network) of, for example, UML::Associations, UML::Roles and Diagram::Notes. |
 
-Hierarchy diagrams which are used to express taxonomies using UML::Specialisations
-Analysis diagrams which are used to give a narrative about the AIRM model elements contained on the diagram expressed as a (network) of, for example, UML::Associations, UML::Roles and Diagram::Notes.
-AIRM_Rule 133
-In the AIRM Conceptual Model, a diagram shall be either a “hierarchy” diagram or an “analysis” diagram.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> 133 |
+| :- |
+| In the AIRM Conceptual Model, a diagram shall be either a “hierarchy” diagram or an “analysis” diagram. |
 
-AIRM_Rule 134
-In the AIRM Conceptual Model, a diagram shall have a stereotype of <<Analysis>> or <<Hierarchy>> assigned.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> 134 |
+| :- |
+| In the AIRM Conceptual Model, a diagram shall have a stereotype of <<Analysis>> or <<Hierarchy>> assigned. |
 
-AIRM_Rule 135
-In the AIRM Conceptual Model, every <<Analysis>> diagram shall be documented by explaining the following:
+| <mark style="background-color:lightblue">AIRM_Rule</mark> 135 |
+| :- |
+| In the AIRM Conceptual Model, every <<Analysis>> diagram shall be documented by explaining the following:<br>Content: What is this diagram about? (mandatory)<br>(Maturity) Status - <free text> (mandatory) |
 
-Content: What is this diagram about? (mandatory)
-(Maturity) Status - <free text> (mandatory)
-AIRM_Recommendation 25
-In the AIRM Conceptual Model, every <<Analysis>> diagram should be documented by explaining the following:
+| <mark style="background-color:yellow">AIRM_Recommendation</mark> 25 |
+| :- |
+| In the AIRM Conceptual Model, every <<Analysis>> diagram should be documented by explaining the following:<br>Assumptions (optional)<br>>Additional comments (optional)<br>Link to Requirements (optional) |
 
-Assumptions (optional)
-Additional comments (optional)
-Link to Requirements (optional)
-AIRM_Recommendation 23
-In the AIRM Information Model all diagrams should be possible to read on an A4 format (either in landscape or portrait.)
+| <mark style="background-color:yellow">AIRM_Recommendation</mark> 23 |
+| :- |
+| In the AIRM Information Model all diagrams should be possible to read on an A4 format (either in landscape or portrait.) |
 
 ## Intellectual Property Rights
 
-AIRM_Rule 9
-All parts of the AIRM shall have following the BSD-type licence attached:
+| <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule 9 |
+| :- |
+| All parts of the AIRM shall have following the BSD-type licence attached: |
 
-Copyright (c) 2019, Members of the AIRM CCB
-
-==========================================
-
-All rights reserved.
-
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
-
-* Redistributions of source code must retain the above copyright notice, this list of conditions and the disclaimer.
-
-* Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the disclaimer in the documentation and/or other materials provided with the distribution.
-
-* Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
-
-DISCLAIMER
-
-THIS SPECIFICATION IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE
-
-==========================================
-
-Editorial note: this license is an instance of the BSD license template as provided by the Open Source Initiative: http://opensource.org/licenses/BSD-3-Clause
-
-Details on the AIRM CCB and a list of its members is available on request from swim@eurocontrol.int.
+> Copyright (c) 2019, Members of the AIRM CCB
+>
+> ==========================================
+> 
+> All rights reserved.
+> 
+> Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+> 
+> * Redistributions of source code must retain the above copyright notice, this list of conditions and the disclaimer.
+> 
+> * Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the disclaimer in the documentation and/or other materials provided with the distribution.
+> 
+> * Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+> 
+> DISCLAIMER
+> 
+> THIS SPECIFICATION IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE
+> 
+> ==========================================
+> 
+> Editorial note: this license is an instance of the BSD license template as provided by the Open Source Initiative: http://opensource.org/licenses/BSD-3-Clause
+> 
+> Details on the AIRM CCB and a list of its members is available on request from swim@eurocontrol.int.
 
 ## General Principles, Rules and Recommendations
 
