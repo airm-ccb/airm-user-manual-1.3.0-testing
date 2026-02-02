@@ -105,10 +105,10 @@ The following editorial practice has been followed in the writing of the AIRM Ru
 - For `Recommendations` the operative verb “should” is used.
 - For `Principles` a more general wording is used.
 
-The term “AIRM models” is often used as shorthand to include the:
-- AIRM Conceptual Model;
-- AIRM Logical Model; and
-- AIRM Contextual Model.
+The term `AIRM models` is often used as shorthand to include the:
+- `AIRM Conceptual Model`;
+- `AIRM Logical Model`; and
+- `AIRM Contextual Model`.
 
 ### Numbering
 The rules, recommendations and principles are presented in logical groupings. This means that as new items are added they are inserted 
@@ -145,15 +145,15 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `1` |
 | :- |
-| The AIRM models shall be represented using the UML v2.1.<br><br>*Note: This means the AIRM models are based on the meta-model that is defined by the OMG Superstructure document [4].* |
+| The `AIRM models` shall be represented using the UML v2.1.<br><br>*Note: This means the `AIRM models` are based on the meta-model that is defined by the OMG Superstructure document [4].* |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `12` | 
 | :- |
-| The AIRM models shall be exclusively expressed using UML::Class Diagram and UML::Package Diagram principles, notations and conventions. | 
+| The `AIRM models` shall be exclusively expressed using `UML::Class Diagram` and `UML::Package` Diagram principles, notations and conventions. | 
 
 | <mark style="background-color:yellow">AIRM_Recommendation</mark> `7` |
 | :- |
-| The AIRM models should be developed and maintained using Sparx Enterprise Architect. |
+| The `AIRM models` should be developed and maintained using Sparx Enterprise Architect. |
 
 ## Content of the AIRM Components
 
@@ -161,39 +161,39 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `104` |
 | :- |
-| The AIRM Contextual Model shall contain a representation of the external standards and specifications that are necessary for AIRM modelling work. |
+| The `AIRM Contextual Model` shall contain a representation of the external standards and specifications that are necessary for AIRM modelling work. |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `64` |
 | :- |
-| When the UML construct available in the AIRM Contextual Model has no definition, the definition from the corresponding standard or specification shall apply.<br><br>*Note: This rule is necessary as not all of the UML models imported into the AIRM Contextual Model contain the definitions from the corresponding standard or specification.* | 
+| When the UML construct available in the `AIRM Contextual Model` has no definition, the definition from the corresponding standard or specification shall apply.<br><br>*Note: This rule is necessary as not all of the UML models imported into the `AIRM Contextual Model` contain the definitions from the corresponding standard or specification.* | 
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `128` |
 | :- |
-| The AIRM Standards Catalog shall list the standards which are acceptable sources for modelling the AIRM. | 
+| The `AIRM Standards Catalog` shall list the standards which are acceptable sources for modelling the `AIRM`. | 
 
 ### AIRM Conceptual Model
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `103` | 
 | :- |
-| The AIRM Conceptual Model shall contain definitions of model elements that are part of an ATM operational language, satisfying operational requirements and concerns. The model elements are defined without the consideration of solution, system and implementation aspects.<br><br>It is recognised that one of the purposes of the AIRM Conceptual Model is to ensure that the operational language is fully understood and can be communicated to operational experts and modellers. | 
+| The `AIRM Conceptual Model` shall contain definitions of model elements that are part of an ATM operational language, satisfying operational requirements and concerns. The model elements are defined without the consideration of solution, system and implementation aspects.<br><br>It is recognised that one of the purposes of the `AIRM Conceptual Model` is to ensure that the operational language is fully understood and can be communicated to operational experts and modellers. | 
 
 ### AIRM Logical Model
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `106` |
 | :- |
-| The AIRM Logical Model shall contain definitions of model elements that are exchanged by systems and services. The model elements are defined without the consideration of solution, system and implementation aspects. | 
+| The `AIRM Logical Model` shall contain definitions of model elements that are exchanged by systems and services. The model elements are defined without the consideration of solution, system and implementation aspects. | 
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `129` | 
 | :- |
-| The definitions from the AIRM Conceptual Model shall be used as the baseline for the AIRM Logical Model definitions. If there is a conflict, the definitions in the AIRM Conceptual Model have precedence. | 
+| The definitions from the `AIRM Conceptual Model` shall be used as the baseline for the `AIRM Logical Model` definitions. If there is a conflict, the definitions in the `AIRM Conceptual Model` have precedence. | 
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `107` | 
 | :- |
-| The AIRM Logical Model’s Abstract package shall contain model elements that are general in nature and provide a higher level of abstraction needed to align and maintain consistency of concrete model elements. | 
+| The `AIRM Logical Model`’s Abstract package shall contain model elements that are general in nature and provide a higher level of abstraction needed to align and maintain consistency of concrete model elements. | 
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `53` |
 | :- |
-| The AIRM Logical Model shall not contain message types.<br>Note: MessageTypes are used to bring implementation specific structure to the AIRM model elements. As such, they are outside of the scope of the AIRM Logical Model. | 
+| The `AIRM Logical Model` shall not contain message types.<br>Note: MessageTypes are used to bring implementation specific structure to the AIRM model elements. As such, they are outside of the scope of the `AIRM Logical Model`. | 
 
 | <mark style="background-color:lightgrey">AIRM_Principle</mark> `4` | 
 | :- |
@@ -216,11 +216,11 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `41` |
 | :- |
-| The AIRM models shall make use of the following UML model elements: class diagram, package diagram, package, class, attribute, role, dependency, association (including specialisation, aggregation and composition), association class and note. Other UML model elements, such as templates, shall not be used. |
+| The `AIRM models` shall make use of the following UML model elements: class diagram, package diagram, package, class, attribute, role, dependency, association (including specialisation, aggregation and composition), association class and note. Other UML model elements, such as templates, shall not be used. |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `81` |
 | :- |
-| The model elements in the AIRM Conceptual Model and AIRM Logical Model shall use one of the following stereotypes:<br>- **`<<Subject>>`**. Represents a field of specific knowledge. These appear as packages in the AIRM.<br>- **`<<Information_Message>>`**. ATM specific message type. This appears as a UML class in the AIRM.<br>- **`<<Information_Entity>>`**. A definition (type) of an operational ATM item of interest that is subject to constraints. This appears as a UML class in the AIRM.<br>- **`<<Data_Entity>>`**. A definition (type) of a data (ATM) item of interest that is implementation independent and is subject to constraints. This appears as a UML class in the AIRM.<br>- **`<<Data_Object>>`**. A standardized or formalized collection of a Logical ModelEntity's or association’s Properties.<br>- **`<<CodeList>>`**. CodeList is used to describe a flexible and open enumeration UML::Enumeration. This appears as a UML class in the AIRM.<br>- **`<<DataType>>`**. DataType is the abstract class that represents the general notion of being a data type (i.e., a type whose instances are identified only by their value). This appears as a UML class in the AIRM.<br>- **`<<Measure>>`**. A Measure is the result from performing the act or process of ascertaining the value of a characteristic of some entity. [ISO 19103]<br>- **`<<UnitOfMeasure>>`**. A unit of measure is a quantity adopted as a standard of measurement for other quantities of the same kind. [ISO 19103] In the AIRM, this is modelled as a CodeList with a restricted meaning.<br><br>*Note: The AIRM meta-model contains more model elements and stereotypes which are used, e.g., in the context of AIRM compliance.*<br><br>*Note: The rulebook consistently refers to AIRM meta-model elements. Reference to the UML specification are explicitly identified by the “UML::” package prefix.* |
+| The model elements in the `AIRM Conceptual Model` and `AIRM Logical Model` shall use one of the following stereotypes:<br>- **`<<Subject>>`**. Represents a field of specific knowledge. These appear as packages in the AIRM.<br>- **`<<Information_Message>>`**. ATM specific message type. This appears as a UML class in the AIRM.<br>- **`<<Information_Entity>>`**. A definition (type) of an operational ATM item of interest that is subject to constraints. This appears as a UML class in the AIRM.<br>- **`<<Data_Entity>>`**. A definition (type) of a data (ATM) item of interest that is implementation independent and is subject to constraints. This appears as a UML class in the AIRM.<br>- **`<<Data_Object>>`**. A standardized or formalized collection of a Logical ModelEntity's or association’s Properties.<br>- **`<<CodeList>>`**. CodeList is used to describe a flexible and open enumeration UML::Enumeration. This appears as a UML class in the AIRM.<br>- **`<<DataType>>`**. DataType is the abstract class that represents the general notion of being a data type (i.e., a type whose instances are identified only by their value). This appears as a UML class in the AIRM.<br>- **`<<Measure>>`**. A Measure is the result from performing the act or process of ascertaining the value of a characteristic of some entity. [ISO 19103]<br>- **`<<UnitOfMeasure>>`**. A unit of measure is a quantity adopted as a standard of measurement for other quantities of the same kind. [ISO 19103] In the AIRM, this is modelled as a CodeList with a restricted meaning.<br><br>*Note: The AIRM meta-model contains more model elements and stereotypes which are used, e.g., in the context of AIRM compliance.*<br><br>*Note: The rulebook consistently refers to AIRM meta-model elements. Reference to the UML specification are explicitly identified by the “UML::” package prefix.* |
 
 ## AIRM Model Elements
 
@@ -228,7 +228,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `2` | 
 | :- |
-| The AIRM models shall not contain model elements with a purpose to support a specific implementation, algorithm, technology or solution.<br><br>*Note: Adding such constructs to a model in general imposes constraints that may make a model unnecessarily dependent on implementation decisions. The AIRM models should be focused on describing information needs independent of implementation and technological decisions.* |
+| The `AIRM models` shall not contain model elements with a purpose to support a specific implementation, algorithm, technology or solution.<br><br>*Note: Adding such constructs to a model in general imposes constraints that may make a model unnecessarily dependent on implementation decisions. The AIRM models should be focused on describing information needs independent of implementation and technological decisions.* |
 
 ### AIRM Subjects
 
@@ -280,7 +280,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `19` |
 | :- |
-| The name of a subject or other UML::Package shall be expressed using the UpperCamelCase principle. |
+| The name of a subject or other `UML::Package` shall be expressed using the UpperCamelCase principle. |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `5` |
 | :- |
@@ -296,15 +296,15 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `43` |
 | :- |
-| The name of a data type shall end with “Type”. Example: ValDistanceType |
+| The name of a data type shall end with `Type`. Example: ValDistanceType |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `42` | 
 | :- |
-| The name of a codelist shall begin with “Code” and end with “Type”<br><br>Example: CodeAirspaceType |
+| The name of a codelist shall begin with `Code` and end with `Type`<br><br>Example: CodeAirspaceType |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `30` |
 | :- |
-| The name of a value contained in a codelist shall be UPPER_CASE. Spaces shall not appear in the value and words shall be separated by the underscore character ‘_”.<br><br>Example: NO_RESTRICTION<br><br>Exception: This rule does not apply if the name of the value is a recognised term such as an abbreviation. In this case the name of the value should be represented as the recognised combination of UPPER and lower case characters. |
+| The name of a value contained in a codelist shall be UPPER_CASE. Spaces shall not appear in the value and words shall be separated by the underscore character `_`.<br><br>Example: NO_RESTRICTION<br><br>Exception: This rule does not apply if the name of the value is a recognised term such as an abbreviation. In this case the name of the value should be represented as the recognised combination of UPPER and lower case characters. |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `24` |
 | :- |
@@ -352,7 +352,6 @@ When the phrase `latest version` is used it always means at the time of publicat
 | :- |
 | A model element with the stereotype `<<Data_Object>>` shall be a specialisation of the abstract Object.<br><br>*Note: Object is obviously exempt from this rule.* <br><br>*Note: The specialisation can be via a more generalised object.* |
 
-
 ### Properties
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `44` |
@@ -379,23 +378,23 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `47` |
 | :- |
-| Datatypes shall not be used as an end-point in an UML::Association. | 
+| Datatypes shall not be used as an end-point in an `UML::Association`. | 
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `45` |
 | :- |
-| Associations between entities shall be modelled using an UML::Association where navigability is unspecified. | 
+| Associations between entities shall be modelled using an `UML::Association` where navigability is unspecified. | 
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `82` |
 | :- |
-| A model element with the stereotype <<Data_Object>> shall be made part of a <<Data_Entity>> or another <<Data_Object>> by means of a UML::Aggregation association. | 
+| A model element with the stereotype `<<Data_Object>>` shall be made part of a `<<Data_Entity>>` or another `<<Data_Object>>` by means of a `UML::Aggregation` association. | 
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `132` |
 | :- |
-| In the AIRM Conceptual Model every association (except specialisation/generalisation) shall have at least:<br>One association name with a labelled direction, or<br>One role name. The role names shall be added to the end of the association which has semantic significance (i.e. as the property of an entity). In the case of UML::Aggregation and UML::Composition the role name shall be added only at the “part” end of the association. | 
+| In the AIRM Conceptual Model every association (except specialisation/generalisation) shall have at least:<br>- One association name with a labelled direction, or<br>- One role name. The role names shall be added to the end of the association which has semantic significance (i.e. as the property of an entity). In the case of `UML::Aggregation` and `UML::Composition` the role name shall be added only at the “part” end of the association. | 
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `23` |
 | :- |
-| In the AIRM Logical Model every association (except specialisation/generalisation) shall have at least one role name. The role names shall be added to the end of the association which has semantic significance (i.e. as the property of an entity). In the case of UML::Aggregation and UML::Composition the role name shall be added only at the “part” end of the association. | 
+| In the AIRM Logical Model every association (except specialisation/generalisation) shall have at least one role name. The role names shall be added to the end of the association which has semantic significance (i.e. as the property of an entity). In the case of `UML::Aggregation` and `UML::Composition` the role name shall be added only at the “part” end of the association. | 
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `114` |
 | :- |
@@ -407,11 +406,11 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:yellow">AIRM_Recommendation</mark> `22` |
 | :- |
-| UML::Specialisation should not be given an association name or a role name.<br><br>Rationale: UML::Specialisation has a pre-defined (semantic) meaning in UML as a special type of UML::Association. |
+| `UML::Specialisation` should not be given an association name or a role name.<br><br>Rationale: `UML::Specialisation` has a pre-defined (semantic) meaning in UML as a special type of `UML::Association`. |
 
 | <mark style="background-color:yellow">AIRM_Recommendation</mark> `24` |
 | :- |
-| UML::Aggregation and UML::Composition should not be given an association name.<br><br>Rationale: UML::Aggregation has a pre-defined (semantic) meaning in UML as a special type of UML::Association. |
+| `UML::Aggregation` and `UML::Composition` should not be given an association name.<br><br>Rationale: `UML::Aggregation` has a pre-defined (semantic) meaning in UML as a special type of `UML::Association`. |
 
 | <mark style="background-color:yellow">AIRM_Recommendation</mark> `14` |
 | :- |
@@ -421,7 +420,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:yellow">AIRM_Recommendation</mark> `11` |
 | :- |
-| The use of UML::Aggregation and UML::Composition between entities should be avoided where possible. They should be used only where there is a real-world constraint or they are otherwise allowed by a rule. |
+| The use of `UML::Aggregation` and `UML::Composition` between entities should be avoided where possible. They should be used only where there is a real-world constraint or they are otherwise allowed by a rule. |
 
 ### Generalisation- specialisation
 
@@ -443,7 +442,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `32` |
 | :- |
-| The issuing Authority of a codelist shall be identified and represented by an AIRM::TaggedValue ‘Authority’, attached to the codelist.<br><br>*Note: More than one Authority may be attached to a codelist in case of joint governance.* <br><br>Example: ICAO |
+| The issuing Authority of a codelist shall be identified and represented by an `AIRM::TaggedValue` `Authority`, attached to the codelist.<br><br>*Note: More than one Authority may be attached to a codelist in case of joint governance.* <br><br>Example: ICAO |
 
 ## Definition Conventions
 
@@ -465,20 +464,20 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `37` |
 | :- |
-| The source of a model element definition shall be represented in a AIRM::TaggedValue, ‘Definition:Source’ that indicates its origin. |
+| The source of a model element definition shall be represented in a `AIRM::TaggedValue`, `Definition:Source` that indicates its origin. |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `63` |
 | :- |
-| The 'Definition:Source' for a model element shall be listed in the AIRM Standards Catalog. |
+| The `Definition:Source` for a model element shall be listed in the AIRM Standards Catalog. |
 
 | <mark style="background-color:yellow">AIRM_Recommendation</mark> `26` |
 | :- |
-| Extra details concerning the source of a model element definition should be captured in the AIRM::TaggedValue 'Defintion:SourceDetail'.<br><br>Example: This can be used to pinpoint the exact ICAO document used or a section within a larger document. |
+| Extra details concerning the source of a model element definition should be captured in the `AIRM::TaggedValue` `Defintion:SourceDetail`.<br><br>Example: This can be used to pinpoint the exact ICAO document used or a section within a larger document. |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `60` |
 | :- |
-| The 'Definition:Adapted' AIRM::TaggedValue shall be completed in order to indicate the level of semantic correspondence with the source definition. The list of values is:<br>ExactCopy: Definition of source and target are exact copy of each other.
-SyntacticallyEqual: Syntax corrections (grammar, spelling)<br>Rewritten: The definition has been rewritten for improved quality. The meaning is the same, i.e. the definition still describes exactly the same entity as the target definition.<br>Specialised: Source definition is a special case of the target definition.<br>Generalised: Source definition is a generalised case of the target definition. |
+| The `Definition:Adapted` `AIRM::TaggedValue` shall be completed in order to indicate the level of semantic correspondence with the source definition. The list of values is:<br>- `ExactCopy`: Definition of source and target are exact copy of each other.<br>- 
+`SyntacticallyEqual`: Syntax corrections (grammar, spelling)<br>- `Rewritten`: The definition has been rewritten for improved quality. The meaning is the same, i.e. the definition still describes exactly the same entity as the target definition.<br>- `Specialised`: Source definition is a special case of the target definition.<br>- `Generalised`: Source definition is a generalised case of the target definition. |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `38` |
 | :- |
@@ -494,37 +493,37 @@ SyntacticallyEqual: Syntax corrections (grammar, spelling)<br>Rewritten: The def
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `61` |
 | :- |
-| The status of a model element definition shall be represented in an AIRM::TaggedValue 'Definition:Status'. It shall be one of the following:<br>Proposed: The definition has been created or reworked.<br>Under Review: The definition is under review by experts.<br>Approved: The definition has been approved.<br>Under Rework: The definition has been reviewed and/or approved but is subject to change. |
+| The status of a model element definition shall be represented in an `AIRM::TaggedValue` `Definition:Status`. It shall be one of the following:<br>- `Proposed`: The definition has been created or reworked.<br>- `Under Review`: The definition is under review by experts.<br>- `Approved`: The definition has been approved.<br>- `Under Rework`: The definition has been reviewed and/or approved but is subject to change. |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `62` |
 | :- |
-| Any synonyms for a model element's name shall be represented as a comma separated list in an AIRM::TaggedValue 'Definition:Synonyms'. |
+| Any synonyms for a model element's name shall be represented as a comma separated list in an `AIRM::TaggedValue` `Definition:Synonyms`. |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `17` |
 | :- |
-| Any abbreviation or acronym for a model element's name shall be represented in an AIRM::TaggedValue 'Definition:Abbreviation'. |
+| Any abbreviation or acronym for a model element's name shall be represented in an `AIRM::TaggedValue` `Definition:Abbreviation`. |
 
 ## Diagram Conventions
 
 | <mark style="background-color:lightgrey">AIRM_Principle</mark> `31` |
 | :- |
-| In the AIRM Conceptual Model, UML is used to create two types of diagram:<br>Hierarchy diagrams which are used to express taxonomies using UML::Specialisations<br>Analysis diagrams which are used to give a narrative about the AIRM model elements contained on the diagram expressed as a (network) of, for example, UML::Associations, UML::Roles and Diagram::Notes. |
+| In the AIRM Conceptual Model, UML is used to create two types of diagram:<br>- `Hierarchy` diagrams which are used to express taxonomies using `UML::Specialisations`<br>- `Analysis` diagrams which are used to give a narrative about the AIRM model elements contained on the diagram expressed as a (network) of, for example, `UML::Associations`, `UML::Roles` and `Diagram::Notes`. |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `133` |
 | :- |
-| In the AIRM Conceptual Model, a diagram shall be either a “hierarchy” diagram or an “analysis” diagram. |
+| In the AIRM Conceptual Model, a diagram shall be either a `hierarchy` diagram or an `analysis` diagram. |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `134` |
 | :- |
-| In the AIRM Conceptual Model, a diagram shall have a stereotype of <<Analysis>> or <<Hierarchy>> assigned. |
+| In the AIRM Conceptual Model, a diagram shall have a stereotype of `<<Analysis>>` or `<<Hierarchy>>` assigned. |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `135` |
 | :- |
-| In the AIRM Conceptual Model, every <<Analysis>> diagram shall be documented by explaining the following:<br>Content: What is this diagram about? (mandatory)<br>(Maturity) Status - <free text> (mandatory) |
+| In the AIRM Conceptual Model, every `<<Analysis>>` diagram shall be documented by explaining the following:<br>- Content: What is this diagram about? (mandatory)<br>- (Maturity) Status - <free text> (mandatory) |
 
 | <mark style="background-color:yellow">AIRM_Recommendation</mark> `25` |
 | :- |
-| In the AIRM Conceptual Model, every <<Analysis>> diagram should be documented by explaining the following:<br>Assumptions (optional)<br>>Additional comments (optional)<br>Link to Requirements (optional) |
+| In the AIRM Conceptual Model, every `<<Analysis>>` diagram should be documented by explaining the following:<br> - Assumptions (optional)<br>- Additional comments (optional)<br>- Link to Requirements (optional) |
 
 | <mark style="background-color:yellow">AIRM_Recommendation</mark> `23` |
 | :- |
@@ -570,11 +569,11 @@ SyntacticallyEqual: Syntax corrections (grammar, spelling)<br>Rewritten: The def
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `65` |
 | :- |
-| The status of a model element shall be given in the "Status" property. The value shall be one of the following: <br>Proposed: The model element has been created but is not mature enough for use by others or for publication.<br>Implemented: The model element has been finalised and has been verified. It is mature enough for use by other parties involved in building the AIRM but is not ready for publication.<br>Published: The model element is implemented and has been included in an official AIRM release.<br>Validated: The model element has been published and validated.<br>Under Rework: The model element has been published/validated but is being reworked. (Note: it is still part of the AIRM in its latest released version.)<br>Deprecated: The model element is no longer fit for use and will deleted in the version stated in the AIRM::TaggedValue "Deprecated:TargetRelease".<br>Obsolete: The model element has been marked deprecated in the current release version and will be deleted in the next release. |
+| The status of a model element shall be given in the `Status` property. The value shall be one of the following: <br>- `Proposed`: The model element has been created but is not mature enough for use by others or for publication.<br>- `Implemented`: The model element has been finalised and has been verified. It is mature enough for use by other parties involved in building the AIRM but is not ready for publication.<br>- `Published`: The model element is implemented and has been included in an official AIRM release.<br>- `Validated`: The model element has been published and validated.<br>- `Under Rework`: The model element has been published/validated but is being reworked. (Note: it is still part of the AIRM in its latest released version.)<br>- `Deprecated`: The model element is no longer fit for use and will deleted in the version stated in the `AIRM::TaggedValue` `Deprecated:TargetRelease`.<br>- `Obsolete`: The model element has been marked deprecated in the current release version and will be deleted in the next release. |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `115` |
 | :- |
-| The allowed combination of model element status (AIRM_Rule 65) and definition status (AIRM_Rule 61) are:<br>If the status of a model element is "Proposed", its Definition:Status shall be "Proposed", "Under Review", "Approved", or "Under Rework".<br>If the status of a model element is "Implemented", its Definition:Status shall be "Under Review" or "Approved".<br>If the status of a model element is "Published", its Definition:Status shall be "Under Review " or "Approved".<br>If the status of a model element is "Validated", its Definition:Status shall be "Approved".<br>If the status of a model element is "Under Rework", its Definition:Status shall be "Proposed", 'Under Review", "Approved" or "Under Rework". |
+| The allowed combination of model element status (AIRM_Rule 65) and definition status (AIRM_Rule 61) are:<br>- If the status of a model element is `Proposed`, its `Definition:Status` shall be `Proposed`, `Under Review`, `Approved`, or `Under Rework`.<br>- If the status of a model element is `Implemented`, its `Definition:Status` shall be `Under Review` or `Approved`.<br>- If the status of a model element is `Published`, its `Definition:Status` shall be `Under Review` or `Approved`.<br>- If the status of a model element is `Validated`, its `Definition:Status` shall be `Approved`.<br>- If the status of a model element is `Under Rework`, its `Definition:Status` shall be `Proposed`, `Under Review`, `Approved` or `Under Rework`. |
 
 
 ### Deprecation
@@ -589,7 +588,7 @@ SyntacticallyEqual: Syntax corrections (grammar, spelling)<br>Rewritten: The def
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `50` |
 | :- |
-| A model element that is marked as deprecated shall contain the following AIRM::TaggedValues:<br>`Deprecated:DecisionDate`: (mandatory) date of deprecation decision<br>`Deprecated:Rationale`: (mandatory) short rational for the deprecation<br>`Deprecated:TargetRelease`: (optional) planned release when the deprecated element will be deleted<br>`Deprecated:Replacement`: (optional) reference to other elements that should or shall be used instead |
+| A model element that is marked as deprecated shall contain the following `AIRM::TaggedValues`:<br>- `Deprecated:DecisionDate`: (mandatory) date of deprecation decision<br>- `Deprecated:Rationale`: (mandatory) short rational for the deprecation<br>- `Deprecated:TargetRelease`: (optional) planned release when the deprecated element will be deleted<br>- `Deprecated:Replacement`: (optional) reference to other elements that should or shall be used instead |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `51` |
 | :- |
@@ -637,7 +636,7 @@ SyntacticallyEqual: Syntax corrections (grammar, spelling)<br>Rewritten: The def
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `150` |
 | :- |
-| Supplements shall contain, where necessary: <br>additional subjects;<br>additional entities;<br>additional objects;<br>additional data types;<br>additional relationships;<br>additional properties;<br>additional local definitions. |
+| Supplements shall contain, where necessary: <br>- additional subjects;<br>- additional entities;<br>- additional objects;<br>- additional data types;<br>- additional relationships;<br>- additional properties;<br>- additional local definitions. |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `151` |
 | :- |
@@ -669,7 +668,7 @@ SyntacticallyEqual: Syntax corrections (grammar, spelling)<br>Rewritten: The def
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `156` |
 | :- |
-| The specialization association shall be stereotyped <<supplement>>. <br><br>*Note: This makes the exact nature of the specialization clear.* |
+| The specialization association shall be stereotyped `<<supplement>>`. <br><br>*Note: This makes the exact nature of the specialization clear.* |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `157` |
 | :- |
@@ -683,7 +682,7 @@ SyntacticallyEqual: Syntax corrections (grammar, spelling)<br>Rewritten: The def
 
 | <mark style="background-color:lightgrey">AIRM_Principle</mark> `10` |
 | :- |
-| An AIRM Derived Model is a model that uses the AIRM to define its semantics but serves a specific restricted purpose.<br><br>Examples:<br>A NSV-11b product shall be a derived model.<br>Existing models shall prove they are "derivable from" the AIRM as a key element in claiming compliance with the AIRM. |
+| An AIRM Derived Model is a model that uses the AIRM to define its semantics but serves a specific restricted purpose.<br><br>Examples:<br>- A NSV-11b product shall be a derived model.<br>- Existing models shall prove they are "derivable from" the AIRM as a key element in claiming compliance with the AIRM. |
 
 | <mark style="background-color:lightgrey">AIRM_Principle</mark> `11` |
 | :- |
@@ -691,7 +690,7 @@ SyntacticallyEqual: Syntax corrections (grammar, spelling)<br>Rewritten: The def
 
 | <mark style="background-color:lightgrey">AIRM_Principle</mark> `12` |
 | :- |
-| Derivation of the AIRM works by restriction. Therefore:<br>Any additional model elements of an AIRM Derived Model, assumed to be within the scope of the AIRM, should be traced to a Change Request identifier in the semantic correspondence statement of the Information Definition.<br>Any additional model elements, assumed to be outside the scope of the AIRM, should be traced to the “Out-Of-Scope” construct in the semantic correspondence statement of the Information Definition. |
+| Derivation of the AIRM works by restriction. Therefore:<br>- Any additional model elements of an AIRM Derived Model, assumed to be within the scope of the AIRM, should be traced to a Change Request identifier in the semantic correspondence statement of the Information Definition.<br>- Any additional model elements, assumed to be outside the scope of the AIRM, should be traced to the “Out-Of-Scope” construct in the semantic correspondence statement of the Information Definition. |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `54` |
 | :- |
@@ -731,7 +730,7 @@ SyntacticallyEqual: Syntax corrections (grammar, spelling)<br>Rewritten: The def
 
 | <mark style="background-color:lightgrey">AIRM_Principle</mark> `20` |
 | :- |
-| A derived model may convert an attribute to a role name or vice versa. This means:<br>A property modelled as an UML attribute in the AIRM may be converted into a property modelled as a role, with a complex “constructed” type.<br>A property modelled as a role name in the AIRM may be converted into an attribute (e.g. if multiplicity is restricted to 1..1). |
+| A derived model may convert an attribute to a role name or vice versa. This means:<br>- A property modelled as an UML attribute in the AIRM may be converted into a property modelled as a role, with a complex “constructed” type.<br>- A property modelled as a role name in the AIRM may be converted into an attribute (e.g. if multiplicity is restricted to 1..1). |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `59` |
 | :- |
@@ -739,7 +738,7 @@ SyntacticallyEqual: Syntax corrections (grammar, spelling)<br>Rewritten: The def
 
 | <mark style="background-color:lightgrey">AIRM_Principle</mark> `19` |
 | :- |
-| In a derived model, AIRM codelists:<br>May remain as codelists; or<br>May be converted to enumerations (which can be seen as a restricted codelist); or<br>May be converted to a series of classes. |
+| In a derived model, AIRM codelists:<br>- May remain as codelists; or<br>- May be converted to enumerations (which can be seen as a restricted codelist); or<br>- May be converted to a series of classes. |
 
 ### AIRM Uniform Resource Name (URN)
 
@@ -749,31 +748,31 @@ SyntacticallyEqual: Syntax corrections (grammar, spelling)<br>Rewritten: The def
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `76` |
 | :- |
-| The URN of an AIRM model element shall use the structure: <URN> ::= "urn:" <NID> ":" <NSS> <br><br>Example: A full URN to a property of an entity: urn:aero:airm:1.0.0:ConceptualModel:Subjects:AirTrafficOperations:AirportOperationsManagement:TaxiOut@EXOT<br><br>*Note: An AIRM namespace identifier (NID) and namespace specific string (NSS) are defined in Rules 70-72 and 74, respectively.* |
+| The URN of an AIRM model element shall use the structure: `<URN>::`= "urn:" `<NID>``:``<NSS>`<br><br>Example: A full URN to a property of an entity: `urn:aero:airm:1.0.0:ConceptualModel:Subjects:AirTrafficOperations:AirportOperationsManagement:TaxiOut@EXOT`<br><br>*Note: An AIRM namespace identifier (`NID`) and namespace specific string (`NSS`) are defined in Rules 70-72 and 74, respectively.* |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `70` |
 | :- |
-| AIRM model elements shall use the namespace identifier (NID): NID = aero |
+| AIRM model elements shall use the namespace identifier (`NID`): `NID` = `aero` |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `71` |
 | :- |
-| The namespace specific string (NSS) shall use the structure: NSS = <MODEL_NSS>:<ELEMENT_NSS> |
+| The namespace specific string (NSS) shall use the structure: `NSS` = `<MODEL_NSS>``:``<ELEMENT_NSS>` |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `72` |
 | :- |
-| The Model Namespace Specific Strings (MODEL_NSS) shall use the structure: MODEL_NSS = <ISSUER>?':'<PRODUCT>':'<VERSION><br>The following terms are used in <MODEL_NSS><br><ISSUER> defines the agency responsible for the AIRM version in question (where applicable). This item shall be a URI itself.<br><PRODUCT> identifies the AIRM (or an AIRM Derived Model by the same issuer).<br><VERSION> is the version number of the product in question. The syntax and semantics are issuer specific (e.g. may or may not include issuer specific branch information).<br><br>*Note: The components of the MODEL_NSS are considered as case insensitive, e.g. AIRM and “airm” refer to the same product.* |
+| The Model Namespace Specific Strings (`MODEL_NSS`) shall use the structure: `MODEL_NSS` = `<ISSUER>`?`:``<PRODUCT>`:`<VERSION>`<br>The following terms are used in `<MODEL_NSS>`<br>- `<ISSUER>` defines the agency responsible for the AIRM version in question (where applicable). This item shall be a URI itself.<br>- `<PRODUCT>` identifies the AIRM (or an AIRM Derived Model by the same issuer).<br>- `<VERSION>` is the version number of the product in question. The syntax and semantics are issuer specific (e.g. may or may not include issuer specific branch information).<br><br>*Note: The components of the `MODEL_NSS` are considered as case insensitive, e.g. AIRM and “airm” refer to the same product.* |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `74` |
 | :- |
-| The Element Namespace Specific Strings (ELEMENT_NSS) shall use the structure: ELEMENT_NSS = (<NAME_OF_PACKAGE>':')+(<NAME_OF_CLASS>(@<NAME_OF_PROPERTY)?)?<br>The following terms are used in <ELEMENT_NSS><br><NAME_OF_PACKAGE> is the recursive definition of the model element’s position within the AIRM UML Package structure<br><NAME_OF_CLASS> is the name of the UML Class in question (where applicable)<br><NAME_OF_PROPERTY> is the name of the UML property within the class (where applicable)<br><br>*Note: The components of the ELEMENT_NSS are considered case sensitive.* |
+| The Element Namespace Specific Strings (`ELEMENT_NSS`) shall use the structure: `ELEMENT_NSS` = (`<NAME_OF_PACKAGE>``:`)+(`<NAME_OF_CLASS>`(`@``<NAME_OF_PROPERTY`)?)?<br>The following terms are used in `<ELEMENT_NSS>`<br>- `<NAME_OF_PACKAGE>` is the recursive definition of the model element’s position within the AIRM UML Package structure<br>- `<NAME_OF_CLASS>` is the name of the UML Class in question (where applicable)<br>- `<NAME_OF_PROPERTY>` is the name of the UML property within the class (where applicable)<br><br>*Note: The components of the `ELEMENT_NSS` are considered case sensitive.* |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `79` |
 | :- |
-| The ISSUER component of the MODEL_NSS shall be left empty. |
+| The `ISSUER` component of the `MODEL_NSS` shall be left empty. |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `77` |
 | :- |
-| The PRODUCT component of the MODEL_NSS shall be: PRODUCT = AIRM. |
+| The `PRODUCT` component of the `MODEL_NSS` shall be: `PRODUCT` = `AIRM`. |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `73` |
 | :- |
@@ -781,10 +780,10 @@ SyntacticallyEqual: Syntax corrections (grammar, spelling)<br>Rewritten: The def
 
 | <mark style="background-color:yellow">AIRM_Recommendation</mark> `16` |
 | :- |
-| Models derived from the AIRM should reference MODEL_NSS to disambiguate their semantic binding to the AIRM. |
+| Models derived from the AIRM should reference `MODEL_NSS` to disambiguate their semantic binding to the AIRM. |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `75` |
 | :- |
-| Published AIRM model element semantics shall be backward compatible. <br>That is, a given ELEMENT_NSS referring to an AIRM model element in development status “published”, “validated”, “under rework” or “deprecated” shall always refer to the same logical concept. Its semantics shall not depend on the context of a MODEL_NSS. |
+| Published AIRM model element semantics shall be backward compatible. <br>That is, a given `ELEMENT_NSS` referring to an AIRM model element in development status “published”, “validated”, “under rework” or “deprecated” shall always refer to the same logical concept. Its semantics shall not depend on the context of a MODEL_NSS. |
 
 
