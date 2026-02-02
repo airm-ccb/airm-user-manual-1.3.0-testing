@@ -195,51 +195,50 @@ When the phrase `latest version` is used it always means at the time of publicat
 | :- |
 | <mark style="background-color:lightblue">The AIRM Logical Model shall not contain message types.<br>Note: MessageTypes are used to bring implementation specific structure to the AIRM model elements. As such, they are outside of the scope of the AIRM Logical Model.</mark> | 
 
-| AIRM_Principle 4 | 
+| AIRM_Principle `4` | 
 | :- |
 | <mark style="background-color:lightgrey">The AIRM Common Subject contains definitions of information constructs that are assessed as reusable in relation to other operational entities.</mark> | 
 
-| AIRM_Recommendation 4 |
+| AIRM_Recommendation `4` |
 | :- |
 | <mark style="background-color:yellow">Entities that are defined in two or more subject should be relocated to the Common Subject.</mark> | 
 
-| AIRM_Recommendation 5 |
+| AIRM_Recommendation `5` |
 | :- |
 | <mark style="background-color:yellow">Entities that are considered as domain neutral (usable in the context of other industries such as automotive) should be relocated to the Common Subject.<br>Example: Address is a general information entity with wide cross-industry applicability. |
 
 
 ## AIRM Meta-Model
 
-AIRM_Rule 109
-The AIRM UML Models shall conform to the AIRM meta-model contained in Appendix A.
+| AIRM_Rule `109` |
+| :- |
+| <mark style="background-color:lightblue">The AIRM UML Models shall conform to the AIRM meta-model contained in Appendix A.</mark> |
 
-AIRM_Rule 41
-The AIRM models shall make use of the following UML model elements: class diagram, package diagram, package, class, attribute, role, dependency, association (including specialisation, aggregation and composition), association class and note. Other UML model elements, such as templates, shall not be used.
+| AIRM_Rule `41` |
+| :- |
+| <mark style="background-color:lightblue">The AIRM models shall make use of the following UML model elements: class diagram, package diagram, package, class, attribute, role, dependency, association (including specialisation, aggregation and composition), association class and note. Other UML model elements, such as templates, shall not be used.</mark> |
 
-AIRM_Rule 81
-The model elements in the AIRM Conceptual Model and AIRM Logical Model shall use one of the following stereotypes:
-
-< < Subject > > . Represents a field of specific knowledge. These appear as packages in the AIRM.
-< < Information_Message > > . ATM specific message type. This appears as a UML class in the AIRM.
-< < Information_Entity > > . A definition (type) of an operational ATM item of interest that is subject to constraints. This appears as a UML class in the AIRM.
-< < Data_Entity > > . A definition (type) of a data (ATM) item of interest that is implementation independent and is subject to constraints. This appears as a UML class in the AIRM.
-< < Data_Object > > . A standardized or formalized collection of a Logical ModelEntity's or association’s Properties.
-< < CodeList > > . CodeList is used to describe a flexible and open enumeration UML::Enumeration. This appears as a UML class in the AIRM.
-< < DataType > > . DataType is the abstract class that represents the general notion of being a data type (i.e., a type whose instances are identified only by their value). This appears as a UML class in the AIRM.
-< < Measure > > . A Measure is the result from performing the act or process of ascertaining the value of a characteristic of some entity. [ISO 19103]
-< < UnitOfMeasure > > . A unit of measure is a quantity adopted as a standard of measurement for other quantities of the same kind. [ISO 19103] In the AIRM, this is modelled as a CodeList with a restricted meaning.
-Note: The AIRM meta-model contains more model elements and stereotypes which are used, e.g., in the context of AIRM compliance.
-
-Note: The rulebook consistently refers to AIRM meta-model elements. Reference to the UML specification are explicitly identified by the “UML::” package prefix.
+| AIRM_Rule `81` |
+| :- |
+| <mark style="background-color:lightblue">The model elements in the AIRM Conceptual Model and AIRM Logical Model shall use one of the following stereotypes:</mark> |
+| <mark style="background-color:lightblue">- `<<Subject>>`. Represents a field of specific knowledge. These appear as packages in the AIRM.</mark> |
+| <mark style="background-color:lightblue">- `<<Information_Message>>`. ATM specific message type. This appears as a UML class in the AIRM.</mark> |
+| <mark style="background-color:lightblue">- `<<Information_Entity>>`. A definition (type) of an operational ATM item of interest that is subject to constraints. This appears as a UML class in the AIRM.</mark> |
+| <mark style="background-color:lightblue">- `<<Data_Entity>>`. A definition (type) of a data (ATM) item of interest that is implementation independent and is subject to constraints. This appears as a UML class in the AIRM.</mark> |
+| <mark style="background-color:lightblue">- `<<Data_Object>>`. A standardized or formalized collection of a Logical ModelEntity's or association’s Properties.</mark> |
+| <mark style="background-color:lightblue">- `<<CodeList>>`. CodeList is used to describe a flexible and open enumeration UML::Enumeration. This appears as a UML class in the AIRM.</mark> |
+| <mark style="background-color:lightblue">- `<<DataType>>`. DataType is the abstract class that represents the general notion of being a data type (i.e., a type whose instances are identified only by their value). This appears as a UML class in the AIRM.</mark> |
+| <mark style="background-color:lightblue">- `<<Measure>>`. A Measure is the result from performing the act or process of ascertaining the value of a characteristic of some entity. [ISO 19103]</mark> |
+| <mark style="background-color:lightblue">- `<<UnitOfMeasure>>`. A unit of measure is a quantity adopted as a standard of measurement for other quantities of the same kind. [ISO 19103] In the AIRM, this is modelled as a CodeList with a restricted meaning.</mark> |
+| <mark style="background-color:lightblue">Note: The AIRM meta-model contains more model elements and stereotypes which are used, e.g., in the context of AIRM compliance.<br>Note: The rulebook consistently refers to AIRM meta-model elements. Reference to the UML specification are explicitly identified by the “UML::” package prefix.</mark> |
 
 ## AIRM Model Elements
 
 ### General Rules
 
-AIRM_Rule 2
-The AIRM models shall not contain model elements with a purpose to support a specific implementation, algorithm, technology or solution.
-
-Note: Adding such constructs to a model in general imposes constraints that may make a model unnecessarily dependent on implementation decisions. The AIRM models should be focused on describing information needs independent of implementation and technological decisions.
+| AIRM_Rule `2` | 
+| :- |
+| <mark style="background-color:lightblue">The AIRM models shall not contain model elements with a purpose to support a specific implementation, algorithm, technology or solution.<br>Note: Adding such constructs to a model in general imposes constraints that may make a model unnecessarily dependent on implementation decisions. The AIRM models should be focused on describing information needs independent of implementation and technological decisions.</mark> |
 
 ### AIRM Subjects
 
