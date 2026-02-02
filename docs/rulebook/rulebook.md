@@ -144,9 +144,9 @@ When the phrase “latest version” is used it always means at the time of publ
 
 ## AIRM Modelling Environment
 
-| AIRM_Rule 1| 
+| AIRM_Rule `1` | 
 | :- | 
-| <mark style="background-color:lightblue">The AIRM models shall be represented using the UML v2.1.<br><br>Note: This means the AIRM models are based on the meta-model that is defined by the OMG Superstructure document [4].</mark> |
+| <mark style="background-color:lightblue">The AIRM models shall be represented using the UML v2.1.<br>Note: This means the AIRM models are based on the meta-model that is defined by the OMG Superstructure document [4].</mark> |
 
 | AIRM_Rule 12 | 
 | :- | 
@@ -160,8 +160,9 @@ When the phrase “latest version” is used it always means at the time of publ
 
 ### AIRM Contextual Model
 
-AIRM_Rule 104
-The AIRM Contextual Model shall contain a representation of the external standards and specifications that are necessary for AIRM modelling work.
+| AIRM_Rule 104 |
+| :- | 
+| <mark style="background-color:lightblue">The AIRM Contextual Model shall contain a representation of the external standards and specifications that are necessary for AIRM modelling work. |
 
 AIRM_Rule 64
 When the UML construct available in the AIRM Contextual Model has no definition, the definition from the corresponding standard or specification shall apply.
