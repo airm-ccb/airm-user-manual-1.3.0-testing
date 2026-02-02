@@ -2,20 +2,20 @@
 
 Edition 1.1.0 FEBRUARY 2026
 
-The AIRM Rulebook provides principles, rules and recommendation in order to facilitate the development and maintenance of the AIRM. 
-The principles, rules and recommendations are intended to be used for modelling, consolidation, validation and verification, and quality check purposes.
+The `AIRM Rulebook` provides `principles`, `rules` and `recommendations` in order to facilitate the development and maintenance of the `AIRM`. 
+The `principles`, `rules` and `recommendations` are intended to be used for modelling, consolidation, validation and verification, and quality check purposes.
 
 ## Introduction
 
 ### Purpose of the Document
-The AIRM Rulebook provides principles, rules and recommendations for developing and maintaining the AIRM. This document is a normative rule book that 
+The `AIRM Rulebook` provides `principles`, `rules` and `recommendations` for developing and maintaining the `AIRM`. This document is a **normative** rule book that 
 focuses on providing definitions of vocabularies, principles, rules and recommendations.
 
-The AIRM Rulebook is the basis for modelling the AIRM, assessing the quality of the AIRM (the AIRM UML models themselves). It is also used for internal
+The `AIRM Rulebook` is the basis for modelling the `AIRM`, assessing the quality of the `AIRM` (the AIRM UML models themselves). It is also used for internal
 AIRM harmonisation, consolidation, review and change management activities.
 
 ### Intended readership
-The AIRM Rulebook shall be used by contributors and submitters of model elements and change requests in order to increase the quality of their material.
+The `AIRM Rulebook` shall be used by contributors and submitters of model elements and change requests in order to increase the quality of their material.
 
 It shall be used by participants in harmonisation and consolidation activities in their review, assessment and consolidation processes for checking quality, 
 structure, semantics and other aspects. If a requested change or submission does not conform to a principle or rule then the breach may be reported back with 
@@ -92,19 +92,18 @@ The following publications, documents and artefacts are considered as informativ
 All parts of the document should be read.
 
 
-
 ## Using the AIRM Rulebook
 
 ### Interpretation
 The following terms are used in this document:
-- Rules. These are mandatory and shall be applied.
-- Recommendations. These are not mandatory. However, compliance is strongly advised.
-- Principles. These give general statements about the AIRM.
+- `Rules`. These are mandatory and shall be applied.
+- `Recommendations`. These are not mandatory. However, compliance is strongly advised.
+- `Principles`. These give general statements about the AIRM.
 
 The following editorial practice has been followed in the writing of the AIRM Rulebook:
-- For Rules the operative verb “shall” is used.
-- For Recommendations the operative verb “should” is used.
-- For Principles a more general wording is used.
+- For `Rules` the operative verb “shall” is used.
+- For `Recommendations` the operative verb “should” is used.
+- For `Principles` a more general wording is used.
 
 The term “AIRM models” is often used as shorthand to include the:
 - AIRM Conceptual Model;
@@ -120,25 +119,25 @@ The following layout is adopted to ease the use of the document.
 
 #### Rule template
 
-| AIRM_Rule number | 
+| AIRM_Rule *`number`* | 
 | :- |
 | <mark style="background-color:lightblue">Rule statement</mark> |
 
 #### Recommendation template
 
-| AIRM_Recommendation number |
+| AIRM_Recommendation *`number`* |
 | :- |
 | <mark style="background-color:yellow">Recommendation statement</mark> |
 
 #### Principle template
 
-| AIRM_Principle number |
+| AIRM_Principle *`number`* |
 | :- |
 | <mark style="background-color:lightgrey">Principle statement</mark> |
 
 
 ### Last Version
-When the phrase “latest version” is used it always means at the time of publication of the AIRM Rulebook for this version of the AIRM.
+When the phrase `latest version` is used it always means at the time of publication of the `AIRM Rulebook` for this version of the `AIRM`.
 
 
 
@@ -148,11 +147,11 @@ When the phrase “latest version” is used it always means at the time of publ
 | :- | 
 | <mark style="background-color:lightblue">The AIRM models shall be represented using the UML v2.1.<br>Note: This means the AIRM models are based on the meta-model that is defined by the OMG Superstructure document [4].</mark> |
 
-| AIRM_Rule 12 | 
+| AIRM_Rule `12` | 
 | :- | 
-| <mark style="background-color:lightblue">The AIRM models shall be exclusively expressed using UML::Class Diagram and UML::Package Diagram principles, notations and conventions.</mark> 
+| <mark style="background-color:lightblue">The AIRM models shall be exclusively expressed using UML::Class Diagram and UML::Package Diagram principles, notations and conventions.</mark> | 
 
-| AIRM_Recommendation 7 |
+| AIRM_Recommendation `7` |
 | :- |
 | <mark style="background-color:yellow">The AIRM models should be developed and maintained using Sparx Enterprise Architect.</mark> |
 
@@ -160,17 +159,17 @@ When the phrase “latest version” is used it always means at the time of publ
 
 ### AIRM Contextual Model
 
-| AIRM_Rule 104 |
+| AIRM_Rule `104` |
 | :- | 
-| <mark style="background-color:lightblue">The AIRM Contextual Model shall contain a representation of the external standards and specifications that are necessary for AIRM modelling work. |
+| <mark style="background-color:lightblue">The AIRM Contextual Model shall contain a representation of the external standards and specifications that are necessary for AIRM modelling work.</mark> |
 
-AIRM_Rule 64
-When the UML construct available in the AIRM Contextual Model has no definition, the definition from the corresponding standard or specification shall apply.
+| AIRM_Rule `64` |
+| :- | 
+| <mark style="background-color:lightblue">When the UML construct available in the AIRM Contextual Model has no definition, the definition from the corresponding standard or specification shall apply.<br>Note: This rule is necessary as not all of the UML models imported into the AIRM Contextual Model contain the definitions from the corresponding standard or specification.</mark> | 
 
-Note: This rule is necessary as not all of the UML models imported into the AIRM Contextual Model contain the definitions from the corresponding standard or specification.
-
-AIRM_Rule 128
-The AIRM Standards Catalog shall list the standards which are acceptable sources for modelling the AIRM.
+| AIRM_Rule `128` |
+| :- | 
+| <mark style="background-color:lightblue">The AIRM Standards Catalog shall list the standards which are acceptable sources for modelling the AIRM.</mark> | 
 
 ### AIRM Conceptual Model
 
