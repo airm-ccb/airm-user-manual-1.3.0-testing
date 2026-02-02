@@ -123,21 +123,17 @@ The following layout is adopted to ease the use of the document.
 | :- |
 | Rule statement |
 
-| AIRM_Rule *`number`* | 
-| :- |
-| <mark style="background-color:lightblue">Rule statement</mark> |
-
 #### Recommendation template
 
-| AIRM_Recommendation *`number`* |
+| <mark style="background-color:yellow">AIRM_Recommendation</mark> *`number`* |
 | :- |
-| <mark style="background-color:yellow">Recommendation statement</mark> |
+| Recommendation statement |
 
 #### Principle template
 
-| AIRM_Principle *`number`* |
+| <mark style="background-color:lightgrey">AIRM_Principle</mark> *`number`* |
 | :- |
-| <mark style="background-color:lightgrey">Principle statement</mark> |
+| Principle statement |
 
 
 ### Last Version
@@ -147,69 +143,69 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 ## AIRM Modelling Environment
 
-| AIRM_Rule `1` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `1` |
 | :- |
-| <mark style="background-color:lightblue">The AIRM models shall be represented using the UML v2.1.<br>Note: This means the AIRM models are based on the meta-model that is defined by the OMG Superstructure document [4].</mark> |
+| The AIRM models shall be represented using the UML v2.1.<br>Note: This means the AIRM models are based on the meta-model that is defined by the OMG Superstructure document [4]. |
 
-| AIRM_Rule `12` | 
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `12` | 
 | :- |
-| <mark style="background-color:lightblue">The AIRM models shall be exclusively expressed using UML::Class Diagram and UML::Package Diagram principles, notations and conventions.</mark> | 
+| The AIRM models shall be exclusively expressed using UML::Class Diagram and UML::Package Diagram principles, notations and conventions. | 
 
-| AIRM_Recommendation `7` |
+| <mark style="background-color:yellow">AIRM_Recommendation</mark> `7` |
 | :- |
-| <mark style="background-color:yellow">The AIRM models should be developed and maintained using Sparx Enterprise Architect.</mark> |
+| The AIRM models should be developed and maintained using Sparx Enterprise Architect. |
 
 ## Content of the AIRM Components
 
 ### AIRM Contextual Model
 
-| AIRM_Rule `104` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `104` |
 | :- |
-| <mark style="background-color:lightblue">The AIRM Contextual Model shall contain a representation of the external standards and specifications that are necessary for AIRM modelling work.</mark> |
+| The AIRM Contextual Model shall contain a representation of the external standards and specifications that are necessary for AIRM modelling work. |
 
-| AIRM_Rule `64` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `64` |
 | :- |
-| <mark style="background-color:lightblue">When the UML construct available in the AIRM Contextual Model has no definition, the definition from the corresponding standard or specification shall apply.<br>Note: This rule is necessary as not all of the UML models imported into the AIRM Contextual Model contain the definitions from the corresponding standard or specification.</mark> | 
+| When the UML construct available in the AIRM Contextual Model has no definition, the definition from the corresponding standard or specification shall apply.<br>Note: This rule is necessary as not all of the UML models imported into the AIRM Contextual Model contain the definitions from the corresponding standard or specification. | 
 
-| AIRM_Rule `128` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `128` |
 | :- |
-| <mark style="background-color:lightblue">The AIRM Standards Catalog shall list the standards which are acceptable sources for modelling the AIRM.</mark> | 
+| The AIRM Standards Catalog shall list the standards which are acceptable sources for modelling the AIRM. | 
 
 ### AIRM Conceptual Model
 
-| AIRM_Rule `103` | 
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `103` | 
 | :- |
-| <mark style="background-color:lightblue">The AIRM Conceptual Model shall contain definitions of model elements that are part of an ATM operational language, satisfying operational requirements and concerns. The model elements are defined without the consideration of solution, system and implementation aspects.<br>It is recognised that one of the purposes of the AIRM Conceptual Model is to ensure that the operational language is fully understood and can be communicated to operational experts and modellers. | 
+| The AIRM Conceptual Model shall contain definitions of model elements that are part of an ATM operational language, satisfying operational requirements and concerns. The model elements are defined without the consideration of solution, system and implementation aspects.<br>It is recognised that one of the purposes of the AIRM Conceptual Model is to ensure that the operational language is fully understood and can be communicated to operational experts and modellers. | 
 
 ### AIRM Logical Model
 
-| AIRM_Rule `106` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `106` |
 | :- |
-| <mark style="background-color:lightblue">The AIRM Logical Model shall contain definitions of model elements that are exchanged by systems and services. The model elements are defined without the consideration of solution, system and implementation aspects.</mark> | 
+| The AIRM Logical Model shall contain definitions of model elements that are exchanged by systems and services. The model elements are defined without the consideration of solution, system and implementation aspects. | 
 
-| AIRM_Rule `129` | 
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `129` | 
 | :- |
-| <mark style="background-color:lightblue">The definitions from the AIRM Conceptual Model shall be used as the baseline for the AIRM Logical Model definitions. If there is a conflict, the definitions in the AIRM Conceptual Model have precedence.</mark> | 
+| The definitions from the AIRM Conceptual Model shall be used as the baseline for the AIRM Logical Model definitions. If there is a conflict, the definitions in the AIRM Conceptual Model have precedence. | 
 
-| AIRM_Rule `107` | 
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `107` | 
 | :- |
-| <mark style="background-color:lightblue">The AIRM Logical Model’s Abstract package shall contain model elements that are general in nature and provide a higher level of abstraction needed to align and maintain consistency of concrete model elements.</mark> | 
+| The AIRM Logical Model’s Abstract package shall contain model elements that are general in nature and provide a higher level of abstraction needed to align and maintain consistency of concrete model elements. | 
 
-| AIRM_Rule `53` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `53` |
 | :- |
-| <mark style="background-color:lightblue">The AIRM Logical Model shall not contain message types.<br>Note: MessageTypes are used to bring implementation specific structure to the AIRM model elements. As such, they are outside of the scope of the AIRM Logical Model.</mark> | 
+| The AIRM Logical Model shall not contain message types.<br>Note: MessageTypes are used to bring implementation specific structure to the AIRM model elements. As such, they are outside of the scope of the AIRM Logical Model. | 
 
-| AIRM_Principle `4` | 
+| <mark style="background-color:lightgrey">`4` | 
 | :- |
-| <mark style="background-color:lightgrey">The AIRM Common Subject contains definitions of information constructs that are assessed as reusable in relation to other operational entities.</mark> | 
+| The AIRM Common Subject contains definitions of information constructs that are assessed as reusable in relation to other operational entities. | 
 
-| AIRM_Recommendation `4` |
+| <mark style="background-color:yellow">AIRM_Recommendation</mark> `4` |
 | :- |
-| <mark style="background-color:yellow">Entities that are defined in two or more subject should be relocated to the Common Subject.</mark> | 
+| Entities that are defined in two or more subject should be relocated to the Common Subject. | 
 
-| AIRM_Recommendation `5` |
+| <mark style="background-color:yellow">AIRM_Recommendation</mark> `5` |
 | :- |
-| <mark style="background-color:yellow">Entities that are considered as domain neutral (usable in the context of other industries such as automotive) should be relocated to the Common Subject.<br>Example: Address is a general information entity with wide cross-industry applicability. |
+| Entities that are considered as domain neutral (usable in the context of other industries such as automotive) should be relocated to the Common Subject.<br>Example: Address is a general information entity with wide cross-industry applicability. |
 
 
 ## AIRM Meta-Model
@@ -230,174 +226,154 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 ### General Rules
 
-| AIRM_Rule `2` | 
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `2` | 
 | :- |
-| <mark style="background-color:lightblue">The AIRM models shall not contain model elements with a purpose to support a specific implementation, algorithm, technology or solution.<br>Note: Adding such constructs to a model in general imposes constraints that may make a model unnecessarily dependent on implementation decisions. The AIRM models should be focused on describing information needs independent of implementation and technological decisions.</mark> |
+| The AIRM models shall not contain model elements with a purpose to support a specific implementation, algorithm, technology or solution.<br>Note: Adding such constructs to a model in general imposes constraints that may make a model unnecessarily dependent on implementation decisions. The AIRM models should be focused on describing information needs independent of implementation and technological decisions. |
 
 ### AIRM Subjects
 
-| AIRM_Rule `10` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `10` |
 | :- |
-| <mark style="background-color:lightblue">Subjects shall provide a documented rationale explaining the boundaries of the subject.<br>Note: The rationale is intended to be used to assess, during consolidation, if an entity is a natural part of a subject.</mark> |
+| Subjects shall provide a documented rationale explaining the boundaries of the subject.<br>Note: The rationale is intended to be used to assess, during consolidation, if an entity is a natural part of a subject. |
 
-| AIRM_Rule `110` | 
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `110` | 
 | :- |
-| <mark style="background-color:lightblue">The content of an AIRM Subject shall be documented / illustrated by at least one UML class diagram that portrays those entities and their associations which are most essential to an understanding of the scope of the Subject.</mark> |
+| The content of an AIRM Subject shall be documented / illustrated by at least one UML class diagram that portrays those entities and their associations which are most essential to an understanding of the scope of the Subject. |
 
-| AIRM_Rule `130` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `130` |
 | :- |
-| <mark style="background-color:lightblue">All entities and objects shall appear on at least one UML class diagram.</mark> |
+| All entities and objects shall appear on at least one UML class diagram. |
 
 ### Naming Rules
 
-| AIRM_Rule `13` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `13` |
 | :- |
-| <mark style="background-color:lightblue">Names of model elements shall only use characters that are in ASCII ranges 48-57 (numbers), 65-90 (capital letters) and 97-122 (small letters).<br>In addition, the following are characters are allowed in codelist values to separate words: 95 (underscore).</mark> |
+| Names of model elements shall only use characters that are in ASCII ranges 48-57 (numbers), 65-90 (capital letters) and 97-122 (small letters).<br>In addition, the following are characters are allowed in codelist values to separate words: 95 (underscore). |
 
-| AIRM_Rule `111` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `111` |
 | :- |
-| <mark style="background-color:lightblue">The ASCII 45 (hyphen), 46 (point), 47 (forward slash) characters shall be allowed if the name of a model element appears below:<br>8.33kHz<br>ADS-B<br>ADS-C<br>FANS 1/A<br>Note: The list of exceptions is managed by the AIRM Change Control Board Support Office and takes into account the following:<br>The name contains a specific character<br>The name refers to a concept widely shared amongst aeronautical community<br>Keeping the name the way it is known enables an easier understanding of the model</mark> |
+| The ASCII 45 (hyphen), 46 (point), 47 (forward slash) characters shall be allowed if the name of a model element appears below:<br>8.33kHz<br>ADS-B<br>ADS-C<br>FANS 1/A<br>Note: The list of exceptions is managed by the AIRM Change Control Board Support Office and takes into account the following:<br>The name contains a specific character<br>The name refers to a concept widely shared amongst aeronautical community<br>Keeping the name the way it is known enables an easier understanding of the model |
 
-| AIRM_Rule `14` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `14` |
 | :- |
-| <mark style="background-color:lightblue">Name parts and words shall not begin with numbers (0-9) unless an adopted standard mandates such spelling.</mark> |
+| Name parts and words shall not begin with numbers (0-9) unless an adopted standard mandates such spelling. |
 
-| AIRM_Rule `15` | 
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `15` | 
 | :- |
-| <mark style="background-color:lightblue">Verbs (if any) shall be in the present tense.</mark> |
+| Verbs (if any) shall be in the present tense. |
 
-| AIRM_Rule `16` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `16` |
 | :- |
-| <mark style="background-color:lightblue">Abbreviations and acronyms shall not be used in names of model elements except where they appear in the Abbreviations section of the AIRM Contextual Model.</mark> |
+| Abbreviations and acronyms shall not be used in names of model elements except where they appear in the Abbreviations section of the AIRM Contextual Model. |
 
-| AIRM_Rule `7` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `7` |
 | :- |
-| <mark style="background-color:lightblue">Names of model elements shall be in the English language following the terms as identified by ICAO or other standard present in the AIRM Standards Catalog. If no term can be identified, the latest version of the Oxford English Dictionary shall be used.</mark> |
+| Names of model elements shall be in the English language following the terms as identified by ICAO or other standard present in the AIRM Standards Catalog. If no term can be identified, the latest version of the Oxford English Dictionary shall be used. |
 
-| AIRM_Rule `18` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `18` |
 | :- |
-| <mark style="background-color:lightblue">Where conflicting spellings exist for the names of model elements, the spelling listed as the primary British spelling in the Oxford English Dictionary shall be used.</mark> |
+| Where conflicting spellings exist for the names of model elements, the spelling listed as the primary British spelling in the Oxford English Dictionary shall be used. |
 
-| AIRM_Rule `8` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `8` |
 | :- |
-| <mark style="background-color:lightblue">All model element names shall be unique within enclosing namespace(s).<br>Example: All entities shall be uniquely named within an AIRM model.<br>Example: All properties shall be uniquely named within the enclosing entity.<br>Example: All values must be unique within the enclosing codelist.</mark> |
+| All model element names shall be unique within enclosing namespace(s).<br>Example: All entities shall be uniquely named within an AIRM model.<br>Example: All properties shall be uniquely named within the enclosing entity.<br>Example: All values must be unique within the enclosing codelist. |
 
-| AIRM_Rule `19` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `19` |
 | :- |
-| <mark style="background-color:lightblue">The name of a subject or other UML::Package shall be expressed using the UpperCamelCase principle.</mark> |
+| The name of a subject or other UML::Package shall be expressed using the UpperCamelCase principle. |
 
-| AIRM_Rule `5` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `5` |
 | :- |
-| <mark style="background-color:lightblue">The name of an entity, object, codelist or datatype shall be expressed using the UpperCamelCase principle.<br>Note: This rule does not apply to imported standards in AIRM Contextual Model. These might deviate from this rule.</mark> |
+| The name of an entity, object, codelist or datatype shall be expressed using the UpperCamelCase principle.<br>Note: This rule does not apply to imported standards in AIRM Contextual Model. These might deviate from this rule. |
 
-| AIRM_Rule `6` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `6` |
 | :- |
-| <mark style="background-color:lightblue">The name of a property shall be expressed using the lowerCamelCase principle.</mark> |
+| The name of a property shall be expressed using the lowerCamelCase principle. |
 
-| AIRM_Rule `68` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `68` |
 | :- |
-| <mark style="background-color:lightblue">The name of a role shall be a noun describing the role of the associated entity.</mark> |
+| The name of a role shall be a noun describing the role of the associated entity. |
 
-| AIRM_Rule `43` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `43` |
 | :- |
-| <mark style="background-color:lightblue">The name of a data type shall end with “Type”. Example: ValDistanceType</mark> |
+| The name of a data type shall end with “Type”. Example: ValDistanceType |
 
-| AIRM_Rule `42` | 
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `42` | 
 | :- |
-| <mark style="background-color:lightblue">The name of a codelist shall begin with “Code” and end with “Type”<br>Example: CodeAirspaceType</mark> |
+| The name of a codelist shall begin with “Code” and end with “Type”<br>Example: CodeAirspaceType |
 
-| AIRM_Rule `30` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `30` |
 | :- |
-| <mark style="background-color:lightblue">The name of a value contained in a codelist shall be UPPER_CASE. Spaces shall not appear in the value and words shall be separated by the underscore character ‘_”.<br>Example: NO_RESTRICTION<br>Exception: This rule does not apply if the name of the value is a recognised term such as an abbreviation. In this case the name of the value should be represented as the recognised combination of UPPER and lower case characters.</mark> |
+| The name of a value contained in a codelist shall be UPPER_CASE. Spaces shall not appear in the value and words shall be separated by the underscore character ‘_”.<br>Example: NO_RESTRICTION<br>Exception: This rule does not apply if the name of the value is a recognised term such as an abbreviation. In this case the name of the value should be represented as the recognised combination of UPPER and lower case characters. |
 
-| AIRM_Rule `24` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `24` |
 | :- |
-| <mark style="background-color:lightblue">If given, the name of an association shall be expressed using lower case.<br>Example: contains<br>Example: expressed as.</mark> |
+| If given, the name of an association shall be expressed using lower case.<br>Example: contains<br>Example: expressed as. |
 
-| AIRM_Rule `112` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `112` |
 | :- |
-| <mark style="background-color:lightblue">If given, the name of an association shall be represented as either a verb or a verb phrase.<br>Example: omit “is” when followed by verb-phrase; e.g., instead of “is enabled by” have only “enabled by”, i.e., skip the verb.</mark> |
+| If given, the name of an association shall be represented as either a verb or a verb phrase.<br>Example: omit “is” when followed by verb-phrase; e.g., instead of “is enabled by” have only “enabled by”, i.e., skip the verb. |
 
-| AIRM_Recommendation `20` |
+| <mark style="background-color:yellow">AIRM_Recommendation</mark> `20` |
 | :- |
-| <mark style="background-color:yellow">In the AIRM Conceptual Model, the name of an association should, where possible, be based on verbs found in the definitions of the associated entities which relate the entities.</mark> |
+| In the AIRM Conceptual Model, the name of an association should, where possible, be based on verbs found in the definitions of the associated entities which relate the entities. |
 
-| AIRM_Rule `131` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `131` |
 | :- |
-| <mark style="background-color:lightblue">In the AIRM Conceptual Model, associations which are merely possible/probable or imprecise shall be given a multiplicity rather than reflecting this status as part of the association name.<br>Example: An association which can be expressed using such words as “can have”, “may have” or “may be” shall have a multiplicity and the association shall not have the word in its name.</mark> |
+| In the AIRM Conceptual Model, associations which are merely possible/probable or imprecise shall be given a multiplicity rather than reflecting this status as part of the association name.<br>Example: An association which can be expressed using such words as “can have”, “may have” or “may be” shall have a multiplicity and the association shall not have the word in its name. |
 
 ### Authorship
 
-| AIRM_Rule `66` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `66` |
 | :- |
-| <mark style="background-color:lightblue">The author of a model element shall be given in the "Author" property. The author shall be the person or project which created the model element.</mark> |
+| The author of a model element shall be given in the "Author" property. The author shall be the person or project which created the model element. |
 
 ### Entities
 
-| AIRM_Rule `21` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `21` |
 | :- |
-| <mark style="background-color:lightblue">Entities shall be stereotyped as **< < Data_Entity > >** in the AIRM Logical Model and as **< < Information_Entity > >** in the AIRM Conceptual Model.</mark> |
+| Entities shall be stereotyped as `<<Data_Entity>>` in the AIRM Logical Model and as `<<Information_Entity>>` in the AIRM Conceptual Model. |
 
-| AIRM_Rule `83` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `83` |
 | :- |
-| <mark style="background-color:lightblue">A model element with the stereotype **< < Data_Entity > >** shall be a specialisation of the abstract Entity.<br>Note: Entity is obviously exempt from this rule.<br>Note: The specialisation can be via a more generalised entity e.g. TemporalEnabledEntity.</mark> |
+| A model element with the stereotype `<<Data_Entity>>` shall be a specialisation of the abstract Entity.<br>Note: Entity is obviously exempt from this rule.<br>Note: The specialisation can be via a more generalised entity e.g. TemporalEnabledEntity. |
 
-| AIRM_Rule `80` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `80` |
 | :- |
-| <mark style="background-color:lightblue">Entities shall not inherit from model elements with the stereotype < < Data Type > >, < < CodeList > >, < < Measure > >, < < UnitOfMeasure > >, < < Subject > >, < < Information_Message > > or < < Data_Object > >.</mark> |
+| Entities shall not inherit from model elements with the stereotype `<<Data Type>>`, `<<CodeList>>`, `<<Measure>>`, `<<UnitOfMeasure>>`, `<<Subject>>`, `<<Information_Message>>` or `<<Data_Object>>`. |
 
-| AIRM_Rule `20` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `20` |
 | :- |
-| <mark style="background-color:lightblue">Model elements shall not be represented as ‘root’ or ‘leaf’.<br>Note: It is impossible, in the context of ATM, to know that the AIRM is complete.</mark> |
+| Model elements shall not be represented as ‘root’ or ‘leaf’.<br>Note: It is impossible, in the context of ATM, to know that the AIRM is complete. |
 
 ### Logical Model Objects
 
-| AIRM_Rule `113` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `113` |
 | :- |
-| <mark style="background-color:lightblue">A model element with the stereotype < < Data_Object > > shall be a specialisation of the abstract Object.<br>Note: Object is obviously exempt from this rule.<br>Note: The specialisation can be via a more generalised object.</mark> |
+| A model element with the stereotype `<<Data_Object>>` shall be a specialisation of the abstract Object.<br>Note: Object is obviously exempt from this rule.<br>Note: The specialisation can be via a more generalised object. |
 
 
 ### Properties
 
-AIRM_Rule 44
-All properties of an entity, object or datatype shall be given "public" access privileges/scope.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `44` |
+| :- |
+| All properties of an entity, object or datatype shall be given "public" access privileges/scope. |
 
-AIRM_Rule 46
-In the AIRM Logical Model, attributes shall only be typed by datatypes.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `46` |
+| :- |
+| In the AIRM Logical Model, attributes shall only be typed by datatypes.<br><br>Note: This means that they should not be typed by other entities or objects from the AIRM Logical Model.<br><br>Note: This rule does not apply in the AIRM Conceptual Model, so attributes can be typed by other entities. This can help the readability of the model. |
 
-Note: This means that they should not be typed by other entities or objects from the AIRM Logical Model.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `105` |
+| :- |
+| In the AIRM Logical Model, attributes shall be typed by:<br>Data types found within the ISO series of standards present in the AIRM Contextual Model; or<br>Data types found within the AIRM Logical Model’s DataTypes package; or<br>Codelists found within a Subject.<br><br>Examples:<br>ISO19103 contains primitives for Real, CharacterString, DateTime<br>ISO19107 contains geometry constructs<br>ISO19108 contains temporal constructs<br>ISO 639-2 contains language codes<br><br>Note: AIRM specific data types which specialise or otherwise reuse the ISO series can be found in the AIRM Logical Model’s DataTypes package.<br><br>Note: AIRM specific codelists can be found in dedicated packages within the relevant Subject. |
 
-Note: This rule does not apply in the AIRM Conceptual Model, so attributes can be typed by other entities. This can help the readability of the model.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `22` |
+| :- |
+| In the AIRM Logical Model, attributes shall, by default, be represented with multiplicity of [0..1] (zero to one). If an operational constraint has been identified then multiplicities shall be chosen to reflect such constraints.<br><br>Note: If no explicit attribute multiplicity is given, [0..1] multiplicity is implied. <br><br>Note: Further constraints on multiplicity may be added in "AIRM Derived" models. |
 
-AIRM_Rule 105
-In the AIRM Logical Model, attributes shall be typed by:
-
-Data types found within the ISO series of standards present in the AIRM Contextual Model; or
-Data types found within the AIRM Logical Model’s DataTypes package; or
-Codelists found within a Subject.
-Examples:
-
-ISO19103 contains primitives for Real, CharacterString, DateTime
-ISO19107 contains geometry constructs
-ISO19108 contains temporal constructs
-ISO 639-2 contains language codes
-Note: AIRM specific data types which specialise or otherwise reuse the ISO series can be found in the AIRM Logical Model’s DataTypes package.
-
-Note: AIRM specific codelists can be found in dedicated packages within the relevant Subject.
-
-AIRM_Rule 22
-In the AIRM Logical Model, attributes shall, by default, be represented with multiplicity of [0..1] (zero to one). If an operational constraint has been identified then multiplicities shall be chosen to reflect such constraints.
-
-Note: If no explicit attribute multiplicity is given, [0..1] multiplicity is implied.
-
-Note: Further constraints on multiplicity may be added in "AIRM Derived" models.
-
-AIRM_Rule 26
-In the AIRM Logical Model, role names shall, by default, be represented with multiplicity [0..*] (zero to many). If an operational constraint has been identified then multiplicities shall be chosen to reflect such constraints.
-
-Note: If no explicit role name multiplicity is given, [0..*] multiplicity is implied.
-
-Note: Further constraints may be added in "AIRM Derived" models such as in Physical Data Models.
+| <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `26` |
+| :- |
+| In the AIRM Logical Model, role names shall, by default, be represented with multiplicity [0..*] (zero to many). If an operational constraint has been identified then multiplicities shall be chosen to reflect such constraints.<br><br>Note: If no explicit role name multiplicity is given, [0..*] multiplicity is implied.<br><br>Note: Further constraints may be added in "AIRM Derived" models such as in Physical Data Models. |
 
 ### Associations
 
