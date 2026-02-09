@@ -476,8 +476,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `60` |
 | :- |
-| The `Definition:Adapted` `AIRM::TaggedValue` shall be completed in order to indicate the level of semantic correspondence with the source definition. The list of values is:<br>- `ExactCopy`: Definition of source and target are exact copy of each other.<br>- 
-`SyntacticallyEqual`: Syntax corrections (grammar, spelling)<br>- `Rewritten`: The definition has been rewritten for improved quality. The meaning is the same, i.e. the definition still describes exactly the same entity as the target definition.<br>- `Specialised`: Source definition is a special case of the target definition.<br>- `Generalised`: Source definition is a generalised case of the target definition. |
+| The `Definition:Adapted` `AIRM::TaggedValue` shall be completed in order to indicate the level of semantic correspondence with the source definition. The list of values is:<br>- `ExactCopy`: Definition of source and target are exact copy of each other.<br>- `SyntacticallyEqual`: Syntax corrections (grammar, spelling)<br>- `Rewritten`: The definition has been rewritten for improved quality. The meaning is the same, i.e. the definition still describes exactly the same entity as the target definition.<br>- `Specialised`: Source definition is a special case of the target definition.<br>- `Generalised`: Source definition is a generalised case of the target definition. |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `38` |
 | :- |
