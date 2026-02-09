@@ -5,18 +5,18 @@
 ---
 
 - **AIRM Knowledge** 
-  - Aircraft(knowledge/aircraft.md)
-  - Airspace Infrastructure(knowledge/airspace_infrastructure.md)
-  - Air Traffic Operations(knowledge/air_traffic_operations.md)
-  - Base Infrastructure(knowledge/base_infrastructure.md)
-  - Common(knowledge/common.md)
-  - Flight(knowledge/flight.md)
-  - Meteorology(knowledge/meteorology.md)
-  - Stakeholders(knowledge/stakeholders.md)
-  - Surveillance(knowledge/surveillance.md)
+  - [Aircraft](knowledge/aircraft.md)
+  - [Airspace Infrastructure](knowledge/airspace_infrastructure.md)
+  - [Air Traffic Operations](knowledge/air_traffic_operations.md)
+  - [Base Infrastructure](knowledge/base_infrastructure.md)
+  - [Common](knowledge/common.md)
+  - [Flight](knowledge/flight.md)
+  - [Meteorology](knowledge/meteorology.md)
+  - [Stakeholders](knowledge/stakeholders.md)
+  - [Surveillance](knowledge/surveillance.md)
 ---
 
 - **Awesome AIRM**
-  - Viewer & API
-  - Usage
+  - [Viewer & API](usage/viewer_api.md)
+  - [Showcase](usage/showcase.md)
 ---
