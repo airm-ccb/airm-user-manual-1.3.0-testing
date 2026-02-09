@@ -797,4 +797,87 @@ When the phrase `latest version` is used it always means at the time of publicat
 | :- |
 | Each standard in `AIRM Standards Catalog:UML` should follow the full standard description syntax as depicted below<br><br> ![Image](.//media/rulebook_full_standard_description.png "Full Standard Description") <br><br> - where the minimum standard description is explained as part of the AIRM_Rule 127<br>- where document name follows the syntax below<br><br> ![Image](.//media/rulebook_document_name.png "Document Name") <br><br>- where standard version follows the syntax below<br><br> ![Image](.//media/rulebook_standard_version.png "Standard Version") <br><br> - where Volume follows the syntax below. <br><br> ![Image](.//media/rulebook_volume.png "Volume") <br><br> Examples:<br>ICAO Doc 8168, Vol. I, 5th Ed<br>ICAO Doc 8400, 8th Ed<br>NATO NAF v.3<br><br>*Note: The wording syntax is fully explained in Appendix C.* |
 
+## References
+
+[1]: [NATO Architecture Framework (NAF), v3](https://training-course-material.com/training/Category:NAF)
+[2]: [OMG Unified Modelling Language (UML), v2.1](https://www.omg.org/uml/)
+[3]: [OMG Semantics of Business Vocabulary and Business Rules (SBVR), v1.0](https://www.omg.org/spec/SBVR/1.0)
+[4]: [OMG UML Superstructure](https://www.omg.org/spec/UML/2.4.1/Superstructure/PDF)
+[5]: [UPDM](https://www.omg.org/spec/UPDM/1.0.1)
+
+## Appendix A. AIRM Meta-Model
+
+![Image](.//media/airm_meta_model_1.png "AIRM Meta-Model Overview")
+Figure 1: AIRM Meta-Model Overview
+
+![Image](.//media/airm_meta_model_2.png "AIRM Meta-Model Core")
+Figure 2: AIRM Meta-Model Core
+
+![Image](.//media/airm_meta_model_3.png "AIRM Meta-Model ISO")
+Figure 3: AIRM Meta-Model ISO
+
+![Image](.//media/airm_meta_model_4.jpg "Measures in the AIRM meta-model")
+Figure 4: Measures in the AIRM meta-model
+
+| Meta-Model Element Name | Description |
+| :- | :------- |
+| AIRMConstraint | An element of guidance that introduces an obligation or a necessity, i.e., a rule that applies to AIRM model element(s). Rules shall be satisfied by all instances of the AIRM Entities they apply to. Exception: AIRM::Constraint does not cover multiplicity nor ordering constraints. Those are captured as a part of standard UML. |
+| Attribute | A defined property of an AIRM Entity. |
+| Constraint:AppliesTo | Rule that applies to the AIRM Entity or property |
+| Constraint:FormatType | Provides format for articulation of the constraint |
+| defines | A formalised representation of data which is managed by or exchanged between systems. |
+| Definition:Abbreviation | Abbreviations |
+| Definition:InLexicon | Whether the term definition is in the ATM Lexicon. |
+| Definition:Source | Source for a definition. |
+| Definition:Status | Status of the definition. |
+| Definition:Synonyms | Synonyms for the definition. |
+| Deprecated:Decision date | Date of deprecation decision. |
+| Deprecated:Rationale | Short rationale for the deprecation. |
+| Deprecated:Replacement | Reference to other elements to use instead. |
+| Deprecated:TargetRelease | Planned release to delete deprecated element. |
+| Mapping:Remarks | Remarks on a mapping from a source to a target. |
+| SemanticTrace::Information_Entity | Trace between Data_Enitity to Information_Entity/Information_Message. |
+| SemanticTrace::Information_EntityRole | Trace between Data_Entity and Conceptual Model role name. |
+| MEGA:UniqueIdentifier | Unique identifier for integration with Mega. |
+| represents | A formalized representation of information, subject to an operational process. |
+| Data_Entity | A definition (type) of an data (ATM) item of interest that is implementation independent and it is subject to constraints. |
+| Data_Object | A standardized or formalized collection of an (Logical Model) Entity's or Association’s Property/(ies).A Data_Object does not exist without the (Logical Model) Entity or Association it is associated with but can be part of the operational language or system-specific property. This appears as a UML class or association class in the AIRM. |
+| ISO:CodeList | CodeList is used to describe a flexible and open enumeration UML::Enumeration. |
+| ISO:CodelistLiteral | A value listed in the codelist |
+| Entity | A definition (type) of an ATM item of interest that is subject to AIRM representational rules. |
+| Contextual_Entity | Entity that internally represents part of a standard. |
+| Information_Entity | A definition (type) of an operational ATM item of interest that is subject to constraints. |
+| Information_Message | ATM specific message type. |
+| NAF::Alias | lang=EN-US mso-ansi-language:EN-USAn alternative name for an element. |
+| NAF::Attribute | A defined property of an Entity. |
+| NAF::Definition | A definition of an element in the architecture. Note - every element added by an architect must have a definition. |
+| NAF::Entity | A definition (type) of an item of interest. |
+| NAF::Standard | A ratified and peer-reviewed specification that is used to guide or constrain the architecture. |
+| Property | A property is a typed element that represents an attribute of a class hat is subject to AIRM representational rules. |
+| Role | (AIRM) Role represents an attribute of the source Entity's associationEnd. |
+| Standard | A document that provides requirements, specifications, guidelines or characteristics that can be used consistently to ensure that materials, products, processes and services are fit for their purpose. [ISO] |
+| StereotypeAttribute | From UML version 2.0 the previously independent tagged value is considered to be a stereotype attribute. The name tagged value is still kept. Each stereotype has zero or more tag definitions, and all stereotyped UML elements have the corresponding number of tagged values. |
+| Subject | Represents a field of specific knowledge. These appear as packages in the AIRM. |
+| TaggedValue | Tagged Value is a string-based extension that could be attached to UML model elements in a flexible way. |
+| UML: DataType | DataType is the abstract class that represents the general notion of being a data type (i.e., a type whose instances are identified only by their value). |
+| ISO:Measure | A Measure is the result from performing the act or process of ascertaining the value of a characteristic of some entity. [ISO 19103] |
+| ISO:UnitOfMeasure | A unit of measure is a quantity adopted as a standard of measurement for other quantities of the same kind. [ISO 19103] |
+| UML::Element | An element is a constituent of a model. As such, it has the capability of owning other elements. |
+| UML::ModelElement | An element is a constituent of the AIRM UML model. |
+| UML::Property | A property is a typed element that represents an attribute of a class. |
+| UML::Slot | A slot specifies that an entity modeled by an instance specification has a value or values for a specific structural feature. |
+
+## Appendix B. Wording Syntax
+
+This Appendix presents a notation for wording syntax, based on a visualisation of Extended Backus–Naur Form (EBNF) and is adopted as subset of the ISO/IEC 14977:1996(E) standard.
+
+| Graphical Element | Interpretation |
+| :- | :------- |
+| ![Image](.//media/wording_syntax_1.jpg "") | Indicates a mandatory element. |
+| ![Image](.//media/wording_syntax_2.jpg "") | Indicates order between two (mandatory) elements. Meaning that “name_1” has to be followed “name_2” in order to satisfy the “full_name” syntax. |
+| ![Image](.//media/wording_syntax_3.jpg "") | Indicates an optional element. |
+| ![Image](.//media/wording_syntax_4.jpg "") | Indicates a mandatory element, which may occur several times. |
+| ![Image](.//media/wording_syntax_5.jpg "") | Indicates an optional element, but which may occur several times. |
+| ![Image](.//media/wording_syntax_6.jpg "") | Indicates a choice between two elements. Either one or the other one must be used. |
+| ![Image](.//media/wording_syntax_7.jpg "") | More than one element can appear on an optional, choice or mandatory branch. |
 
