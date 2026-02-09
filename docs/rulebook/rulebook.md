@@ -5,7 +5,7 @@ Edition 1.1.0 FEBRUARY 2026
 The `AIRM Rulebook` provides `principles`, `rules` and `recommendations` in order to facilitate the development and maintenance of the `AIRM`. 
 The `principles`, `rules` and `recommendations` are intended to be used for modelling, consolidation, validation and verification, and quality check purposes.
 
-## 1.Introduction
+## Introduction
 
 ### Purpose of the Document
 The `AIRM Rulebook` provides `principles`, `rules` and `recommendations` for developing and maintaining the `AIRM`. This document is a **normative** rule book that 
@@ -92,7 +92,7 @@ The following publications, documents and artefacts are considered as informativ
 All parts of the document should be read.
 
 
-## 2.Using the AIRM Rulebook
+## Using the AIRM Rulebook
 
 ### Interpretation
 The following terms are used in this document:
@@ -141,7 +141,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 
 
-## 3.AIRM Modelling Environment
+## AIRM Modelling Environment
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `1` |
 | :- |
@@ -155,7 +155,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 | :- |
 | The `AIRM models` should be developed and maintained using Sparx Enterprise Architect. |
 
-## 4.Content of the AIRM Components
+## Content of the AIRM Components
 
 ### AIRM Contextual Model
 
@@ -208,7 +208,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 | Entities that are considered as domain neutral (usable in the context of other industries such as automotive) should be relocated to the Common Subject.<br><br>Example: Address is a general information entity with wide cross-industry applicability. |
 
 
-## 5.AIRM Meta-Model
+## AIRM Meta-Model
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `109` |
 | :- |
@@ -222,7 +222,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 | :- |
 | The model elements in the `AIRM Conceptual Model` and `AIRM Logical Model` shall use one of the following stereotypes:<br>- **`<<Subject>>`**. Represents a field of specific knowledge. These appear as packages in the AIRM.<br>- **`<<Information_Message>>`**. ATM specific message type. This appears as a UML class in the AIRM.<br>- **`<<Information_Entity>>`**. A definition (type) of an operational ATM item of interest that is subject to constraints. This appears as a UML class in the AIRM.<br>- **`<<Data_Entity>>`**. A definition (type) of a data (ATM) item of interest that is implementation independent and is subject to constraints. This appears as a UML class in the AIRM.<br>- **`<<Data_Object>>`**. A standardized or formalized collection of a Logical ModelEntity's or association’s Properties.<br>- **`<<CodeList>>`**. CodeList is used to describe a flexible and open enumeration UML::Enumeration. This appears as a UML class in the AIRM.<br>- **`<<DataType>>`**. DataType is the abstract class that represents the general notion of being a data type (i.e., a type whose instances are identified only by their value). This appears as a UML class in the AIRM.<br>- **`<<Measure>>`**. A Measure is the result from performing the act or process of ascertaining the value of a characteristic of some entity. [ISO 19103]<br>- **`<<UnitOfMeasure>>`**. A unit of measure is a quantity adopted as a standard of measurement for other quantities of the same kind. [ISO 19103] In the AIRM, this is modelled as a CodeList with a restricted meaning.<br><br>*Note: The AIRM meta-model contains more model elements and stereotypes which are used, e.g., in the context of AIRM compliance.*<br><br>*Note: The rulebook consistently refers to AIRM meta-model elements. Reference to the UML specification are explicitly identified by the “UML::” package prefix.* |
 
-## 6.AIRM Model Elements
+## AIRM Model Elements
 
 ### General Rules
 
@@ -444,7 +444,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 | :- |
 | The issuing Authority of a codelist shall be identified and represented by an `AIRM::TaggedValue` `Authority`, attached to the codelist.<br><br>*Note: More than one Authority may be attached to a codelist in case of joint governance.* <br><br>Example: ICAO |
 
-## 7.Definition Conventions
+## Definition Conventions
 
 | <mark style="background-color:lightgrey">AIRM_Principle</mark> `30` |
 | :- |
@@ -502,7 +502,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 | :- |
 | Any abbreviation or acronym for a model element's name shall be represented in an `AIRM::TaggedValue` `Definition:Abbreviation`. |
 
-## 8.Diagram Conventions
+## Diagram Conventions
 
 | <mark style="background-color:lightgrey">AIRM_Principle</mark> `31` |
 | :- |
@@ -528,7 +528,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 | :- |
 | In the `AIRM Conceptual Model` all diagrams should be possible to read on an A4 format (either in landscape or portrait.) |
 
-## 9.Intellectual Property Rights
+## Intellectual Property Rights
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `9` |
 | :- |
@@ -558,7 +558,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 > 
 > Details on the AIRM CCB and a list of its members is available on request from swim@eurocontrol.int.
 
-## 10.General Principles, Rules and Recommendations
+## General Principles, Rules and Recommendations
 
 ### Evolution
 
@@ -785,7 +785,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 | :- |
 | Published AIRM model element semantics shall be backward compatible. <br>That is, a given `ELEMENT_NSS` referring to an AIRM model element in development status `published`, `validated`, `under rework` or `deprecated` shall always refer to the same logical concept. Its semantics shall not depend on the context of a `MODEL_NSS`. |
 
-## 11.Detailed Rules on Specific AIRM Components
+## Detailed Rules on Specific AIRM Components
 
 ### AIRM Technical Standards Profile
 
