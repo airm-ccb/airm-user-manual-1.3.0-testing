@@ -799,24 +799,28 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 ## References
 
-[1]: [NATO Architecture Framework (NAF), v3](https://training-course-material.com/training/Category:NAF)
-[2]: [OMG Unified Modelling Language (UML), v2.1](https://www.omg.org/uml/)
-[3]: [OMG Semantics of Business Vocabulary and Business Rules (SBVR), v1.0](https://www.omg.org/spec/SBVR/1.0)
-[4]: [OMG UML Superstructure](https://www.omg.org/spec/UML/2.4.1/Superstructure/PDF)
-[5]: [UPDM](https://www.omg.org/spec/UPDM/1.0.1)
+- [1]: [NATO Architecture Framework (NAF), v3](https://training-course-material.com/training/Category:NAF)
+- [2]: [OMG Unified Modelling Language (UML), v2.1](https://www.omg.org/uml/)
+- [3]: [OMG Semantics of Business Vocabulary and Business Rules (SBVR), v1.0](https://www.omg.org/spec/SBVR/1.0)
+- [4]: [OMG UML Superstructure](https://www.omg.org/spec/UML/2.4.1/Superstructure/PDF)
+- [5]: [UPDM](https://www.omg.org/spec/UPDM/1.0.1)
 
 ## Appendix A. AIRM Meta-Model
 
 ![Image](.//media/airm_meta_model_1.png "AIRM Meta-Model Overview")
+
 Figure 1: AIRM Meta-Model Overview
 
 ![Image](.//media/airm_meta_model_2.png "AIRM Meta-Model Core")
+
 Figure 2: AIRM Meta-Model Core
 
 ![Image](.//media/airm_meta_model_3.png "AIRM Meta-Model ISO")
+
 Figure 3: AIRM Meta-Model ISO
 
 ![Image](.//media/airm_meta_model_4.jpg "Measures in the AIRM meta-model")
+
 Figure 4: Measures in the AIRM meta-model
 
 | Meta-Model Element Name | Description |
