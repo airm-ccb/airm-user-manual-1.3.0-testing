@@ -17,7 +17,7 @@
   - [Surveillance](knowledge/surveillance.md)
 
 
-- **Awesome AIRM**
+- **AIRM Usage**
   - [Search & API](usage/search_api.md)
   - [Showcase](usage/showcase.md)
 
