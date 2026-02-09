@@ -1,19 +1,19 @@
 - **AIRM Guidance**
   - [Rulebook](rulebook/rulebook.md)
-  - Deriving the AIRM
-  - Mapping to the AIRM
+  - [Deriving the AIRM](guidance/deriving_airm.md
+  - [Mapping to the AIRM](guidance/mapping_to_airm.md)
 ---
 
-- **AIRM Concepts** 
-  - Aircraft
-  - Airspace Infrastructure
-  - Air Traffic Operations
-  - Base Infrastructure
-  - Common
-  - Flight
-  - Meteorology
-  - Stakeholders
-  - Surveillance
+- **AIRM Knowledge** 
+  - Aircraft(knowledge/aircraft.md)
+  - Airspace Infrastructure(knowledge/airspace_infrastructure.md)
+  - Air Traffic Operations(knowledge/air_traffic_operations.md)
+  - Base Infrastructure(knowledge/base_infrastructure.md)
+  - Common(knowledge/common.md)
+  - Flight(knowledge/flight.md)
+  - Meteorology(knowledge/meteorology.md)
+  - Stakeholders(knowledge/stakeholders.md)
+  - Surveillance(knowledge/surveillance.md)
 ---
 
 - **Awesome AIRM**
