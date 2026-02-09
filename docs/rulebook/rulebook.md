@@ -252,7 +252,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `111` |
 | :- |
-| The ASCII 45 (hyphen), 46 (point), 47 (forward slash) characters shall be allowed if the name of a model element appears below:<br>8.33kHz<br>ADS-B<br>ADS-C<br>FANS 1/A<br><br>*Note: The list of exceptions is managed by the AIRM Change Control Board Support Office and takes into account the following:*<br>*- The name contains a specific character * <br> *- The name refers to a concept widely shared amongst aeronautical community *<br> *- Keeping the name the way it is known enables an easier understanding of the model* |
+| The ASCII 45 (hyphen), 46 (point), 47 (forward slash) characters shall be allowed if the name of a model element appears below:<br>8.33kHz<br>ADS-B<br>ADS-C<br>FANS 1/A<br><br>*Note: The list of exceptions is managed by the AIRM Change Control Board Support Office and takes into account the following:* <br> *- The name contains a specific character* <br> *- The name refers to a concept widely shared amongst aeronautical community* <br>  *- Keeping the name the way it is known enables an easier understanding of the model* |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `14` |
 | :- |
