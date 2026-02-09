@@ -143,11 +143,11 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 ## AIRM Modelling Environment
 
-| <mark style="background-color:lightblue">AIRM_Rule 1</mark> `1` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> **`1`** |
 | :- |
 | The `AIRM models` shall be represented using the UML v2.1.<br><br>*Note: This means the `AIRM models` are based on the meta-model that is defined by the OMG Superstructure document [4].* |
 
-| <mark style="background-color:lightblue">AIRM_Rule `12`</mark> `12` | 
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `12` | 
 | :- |
 | The `AIRM models` shall be exclusively expressed using `UML::Class Diagram` and `UML::Package` Diagram principles, notations and conventions. | 
 
