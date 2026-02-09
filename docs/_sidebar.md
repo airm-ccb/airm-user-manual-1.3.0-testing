@@ -1,6 +1,6 @@
 - **AIRM Guidance**
   - [Rulebook](rulebook/rulebook.md)
-  - [Deriving the AIRM](guidance/deriving_airm.md
+  - [Deriving the AIRM](guidance/deriving_airm.md)
   - [Mapping to the AIRM](guidance/mapping_to_airm.md)
 ---
 
