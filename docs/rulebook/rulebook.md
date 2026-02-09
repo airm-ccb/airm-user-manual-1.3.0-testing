@@ -791,7 +791,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `127` |
 | :- | 
-| Each standard in `AIRM Standards Catalog:UML` shall follow the minimum standard description syntax as depicted below <br>- where the publishing organisation is either the organisation behind the standard or a concatenation of the organisation, a hyphen, and its publishing part, <br>- and where the publishing organisation is either the organisation behind the standard or a concatenation of the organisation, a hyphen, and its publishing part<br><br> Examples:<br>- OMG UML<br>- NATO STANAG 3809<br><br>*Note: The wording syntax is fully explained in Appendix B.* |
+| Each standard in `AIRM Standards Catalog:UML` shall follow the minimum standard description syntax as depicted below <br> ![Image](.//media/rulebook_minimum_standard_description.png "Minimum_Standard_Description") <br>- where the publishing organisation is either the organisation behind the standard or a concatenation of the organisation, a hyphen, and its publishing part, <br>- and where the publishing organisation is either the organisation behind the standard or a concatenation of the organisation, a hyphen, and its publishing part<br><br> Examples:<br>- OMG UML<br>- NATO STANAG 3809<br><br>*Note: The wording syntax is fully explained in Appendix B.* |
 
 ```mermaid
 ---
