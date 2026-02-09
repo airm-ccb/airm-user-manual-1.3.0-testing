@@ -17,6 +17,6 @@
 
 
 - **Awesome AIRM**
-  - [Viewer & API](usage/viewer_api.md)
+  - [Search & API](usage/search_api.md)
   - [Showcase](usage/showcase.md)
 
