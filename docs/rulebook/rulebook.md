@@ -193,7 +193,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `53` |
 | :- |
-| The `AIRM Logical Model` shall not contain message types.<br>Note: MessageTypes are used to bring implementation specific structure to the AIRM model elements. As such, they are outside of the scope of the `AIRM Logical Model`. | 
+| The `AIRM Logical Model` shall not contain message types.<br><br>*Note: MessageTypes are used to bring implementation specific structure to the AIRM model elements. As such, they are outside of the scope of the `AIRM Logical Model`.* | 
 
 | <mark style="background-color:lightgrey">AIRM_Principle</mark> `4` | 
 | :- |
@@ -252,7 +252,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `111` |
 | :- |
-| The ASCII 45 (hyphen), 46 (point), 47 (forward slash) characters shall be allowed if the name of a model element appears below:<br>8.33kHz<br>ADS-B<br>ADS-C<br>FANS 1/A<br><br>*Note: The list of exceptions is managed by the AIRM Change Control Board Support Office and takes into account the following:* <br>*The name contains a specific character*<br>*The name refers to a concept widely shared amongst aeronautical community*<br>*Keeping the name the way it is known enables an easier understanding of the model* |
+| The ASCII 45 (hyphen), 46 (point), 47 (forward slash) characters shall be allowed if the name of a model element appears below:<br>8.33kHz<br>ADS-B<br>ADS-C<br>FANS 1/A<br><br>*Note: The list of exceptions is managed by the AIRM Change Control Board Support Office and takes into account the following:*<br>*- The name contains a specific character * <br> *- The name refers to a concept widely shared amongst aeronautical community *<br> *- Keeping the name the way it is known enables an easier understanding of the model* |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `14` |
 | :- |
@@ -264,7 +264,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `16` |
 | :- |
-| Abbreviations and acronyms shall not be used in names of model elements except where they appear in the Abbreviations section of the AIRM Contextual Model. |
+| Abbreviations and acronyms shall not be used in names of model elements except where they appear in the Abbreviations section of the `AIRM Contextual Model`. |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `7` |
 | :- |
@@ -296,7 +296,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `43` |
 | :- |
-| The name of a data type shall end with `Type`. Example: ValDistanceType |
+| The name of a data type shall end with `Type`. <br><br>Example: ValDistanceType |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `42` | 
 | :- |
@@ -308,7 +308,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `24` |
 | :- |
-| If given, the name of an association shall be expressed using lower case.<br>Example: contains<br><br>Example: expressed as. |
+| If given, the name of an association shall be expressed using lower case.<br><br>Example: contains<br><br>Example: expressed as. |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `112` |
 | :- |
@@ -332,7 +332,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `21` |
 | :- |
-| Entities shall be stereotyped as `<<Data_Entity>>` in the AIRM Logical Model and as `<<Information_Entity>>` in the AIRM Conceptual Model. |
+| Entities shall be stereotyped as `<<Data_Entity>>` in the `AIRM Logical Model` and as `<<Information_Entity>>` in the AIRM Conceptual Model. |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `83` |
 | :- |
@@ -364,7 +364,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `105` |
 | :- |
-| In the AIRM Logical Model, attributes shall be typed by:<br>Data types found within the ISO series of standards present in the AIRM Contextual Model; or<br>Data types found within the AIRM Logical Model’s DataTypes package; or<br>Codelists found within a Subject.<br><br>Examples:<br>ISO19103 contains primitives for Real, CharacterString, DateTime<br>ISO19107 contains geometry constructs<br>ISO19108 contains temporal constructs<br>ISO 639-2 contains language codes<br><br>*Note: AIRM specific data types which specialise or otherwise reuse the ISO series can be found in the AIRM Logical Model’s DataTypes package.* <br><br>*Note: AIRM specific codelists can be found in dedicated packages within the relevant Subject.* |
+| In the AIRM Logical Model, attributes shall be typed by:<br>- Data types found within the ISO series of standards present in the AIRM Contextual Model; or<br>- Data types found within the AIRM Logical Model’s DataTypes package; or<br>- Codelists found within a Subject.<br><br>Examples:<br>ISO19103 contains primitives for Real, CharacterString, DateTime<br>ISO19107 contains geometry constructs<br>ISO19108 contains temporal constructs<br>ISO 639-2 contains language codes<br><br>*Note: AIRM specific data types which specialise or otherwise reuse the ISO series can be found in the AIRM Logical Model’s DataTypes package.* <br><br>*Note: AIRM specific codelists can be found in dedicated packages within the relevant Subject.* |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `22` |
 | :- |
@@ -372,7 +372,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `26` |
 | :- |
-| In the AIRM Logical Model, role names shall, by default, be represented with multiplicity [0..*] (zero to many). If an operational constraint has been identified then multiplicities shall be chosen to reflect such constraints.<br><br>*Note: If no explicit role name multiplicity is given, [0..*] multiplicity is implied.*<br><br>*Note: Further constraints may be added in "AIRM Derived" models such as in Physical Data Models.* |
+| In the AIRM Logical Model, role names shall, by default, be represented with multiplicity `[0..*]` (zero to many). If an operational constraint has been identified then multiplicities shall be chosen to reflect such constraints.<br><br>*Note: If no explicit role name multiplicity is given, `[0..*]` multiplicity is implied.*<br><br>*Note: Further constraints may be added in "AIRM Derived" models such as in Physical Data Models.* |
 
 ### Associations
 
@@ -390,19 +390,19 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `132` |
 | :- |
-| In the AIRM Conceptual Model every association (except specialisation/generalisation) shall have at least:<br>- One association name with a labelled direction, or<br>- One role name. The role names shall be added to the end of the association which has semantic significance (i.e. as the property of an entity). In the case of `UML::Aggregation` and `UML::Composition` the role name shall be added only at the “part” end of the association. | 
+| In the `AIRM Conceptual Model` every association (except specialisation/generalisation) shall have at least:<br>- One association name with a labelled direction, or<br>- One role name. The role names shall be added to the end of the association which has semantic significance (i.e. as the property of an entity). In the case of `UML::Aggregation` and `UML::Composition` the role name shall be added only at the “part” end of the association. | 
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `23` |
 | :- |
-| In the AIRM Logical Model every association (except specialisation/generalisation) shall have at least one role name. The role names shall be added to the end of the association which has semantic significance (i.e. as the property of an entity). In the case of `UML::Aggregation` and `UML::Composition` the role name shall be added only at the “part” end of the association. | 
+| In the `AIRM Logical Model` every association (except specialisation/generalisation) shall have at least one role name. The role names shall be added to the end of the association which has semantic significance (i.e. as the property of an entity). In the case of `UML::Aggregation` and `UML::Composition` the role name shall be added only at the “part” end of the association. | 
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `114` |
 | :- |
-| Associations shall not be named in the AIRM Logical Model.<br><br>*Note: Role names should be used in preference to relationship names. However, it is accepted that naming relationships can improve the readability of the AIRM Conceptual Model which is why this rule is limited in scope.* | 
+| Associations shall not be named in the `AIRM Logical Model`.<br><br>*Note: Role names should be used in preference to relationship names. However, it is accepted that naming relationships can improve the readability of the AIRM Conceptual Model which is why this rule is limited in scope.* | 
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `124` |
 | :- |
-| In the AIRM Conceptual Model, any association name information supplied shall be considered informative, i.e. it will not have to be respected by derived models or by the AIRM Logical Model. | 
+| In the AIRM Conceptual Model, any association name information supplied shall be considered informative, i.e. it will not have to be respected by derived models or by the `AIRM Logical Model`. | 
 
 | <mark style="background-color:yellow">AIRM_Recommendation</mark> `22` |
 | :- |
@@ -448,7 +448,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightgrey">AIRM_Principle</mark> `30` |
 | :- |
-| A good definition:<br>Is a dictionary-style statement that describes the concept designated by a term.<br>Helps to establish the textual match between languages by stating the essential and delimiting characteristics of a concept (semantic feature).<br><br>*Note: The quality of the definition is crucial, because without knowing what is meant exactly, we cannot communicate effectively, and without fully understanding the concept, we cannot establish relationships between concepts in our subject field.* |
+| A good definition:<br>- Is a dictionary-style statement that describes the concept designated by a term.<br>- Helps to establish the textual match between languages by stating the essential and delimiting characteristics of a concept (semantic feature).<br><br>*Note: The quality of the definition is crucial, because without knowing what is meant exactly, we cannot communicate effectively, and without fully understanding the concept, we cannot establish relationships between concepts in our subject field.* |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `3` |
 | :- |
@@ -460,7 +460,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `35` |
 | :- |
-| The definition shall use the following principles for good definitions:<br>**Predictability** - the definition inserts the concept into a concept system.<br>Simplicity - the definition is concise, clear, and whenever possible no longer than one sentence; it includes only essential information.<br>**Affirmativeness** - the definition states what the concept is, rather than what it is not.<br>**Non-circularity** - the definition does not use words whose definitions refer back to the concept in question, nor does it begin with the term itself.<br>**Absence of tautology** - the definition is not a paraphrase of the term, but rather a description of the semantic features of the concept.<br>**Part of speech** - the definition begins with a word of the same part of speech as the term being defined.<br><br>Example: aerodrome: a defined area on land or water (including any buildings, installations and equipment) intended to be used either wholly or in part for the arrival, departure and surface movement of aircraft/helicopters.<br><br>*Note: Stating a synonym is not a definition!* |
+| The definition shall use the following principles for good definitions:<br>- **Predictability** - the definition inserts the concept into a concept system.<br>- **Simplicity** - the definition is concise, clear, and whenever possible no longer than one sentence; it includes only essential information.<br>- **Affirmativeness** - the definition states what the concept is, rather than what it is not.<br>- **Non-circularity** - the definition does not use words whose definitions refer back to the concept in question, nor does it begin with the term itself.<br>- **Absence of tautology** - the definition is not a paraphrase of the term, but rather a description of the semantic features of the concept.<br>- **Part of speech** - the definition begins with a word of the same part of speech as the term being defined.<br><br>Example: aerodrome: a defined area on land or water (including any buildings, installations and equipment) intended to be used either wholly or in part for the arrival, departure and surface movement of aircraft/helicopters.<br><br>*Note: Stating a synonym is not a definition!* |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `37` |
 | :- |
@@ -472,11 +472,11 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:yellow">AIRM_Recommendation</mark> `26` |
 | :- |
-| Extra details concerning the source of a model element definition should be captured in the `AIRM::TaggedValue` `Defintion:SourceDetail`.<br><br>Example: This can be used to pinpoint the exact ICAO document used or a section within a larger document. |
+| Extra details concerning the source of a model element definition should be captured in the `AIRM::TaggedValue` `Definition:SourceDetail`.<br><br>Example: This can be used to pinpoint the exact ICAO document used or a section within a larger document. |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `60` |
 | :- |
-| The `Definition:Adapted` `AIRM::TaggedValue` shall be completed in order to indicate the level of semantic correspondence with the source definition. The list of values is:<br>- `ExactCopy`: Definition of source and target are exact copy of each other.<br>- `SyntacticallyEqual`: Syntax corrections (grammar, spelling)<br>- `Rewritten`: The definition has been rewritten for improved quality. The meaning is the same, i.e. the definition still describes exactly the same entity as the target definition.<br>- `Specialised`: Source definition is a special case of the target definition.<br>- `Generalised`: Source definition is a generalised case of the target definition. |
+| The `Definition:Adapted` `AIRM::TaggedValue` shall be completed in order to indicate the level of semantic correspondence with the source definition. The list of values is:<br>- `ExactCopy`: Definition of source and target are exact copy of each other. <br>- `SyntacticallyEqual`: Syntax corrections (grammar, spelling) <br>- `Rewritten`: The definition has been rewritten for improved quality. The meaning is the same, i.e. the definition still describes exactly the same entity as the target definition. <br>- `Specialised`: Source definition is a special case of the target definition.<br>- `Generalised`: Source definition is a generalised case of the target definition. |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `38` |
 | :- |
@@ -506,27 +506,27 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightgrey">AIRM_Principle</mark> `31` |
 | :- |
-| In the AIRM Conceptual Model, UML is used to create two types of diagram:<br>- `Hierarchy` diagrams which are used to express taxonomies using `UML::Specialisations`<br>- `Analysis` diagrams which are used to give a narrative about the AIRM model elements contained on the diagram expressed as a (network) of, for example, `UML::Associations`, `UML::Roles` and `Diagram::Notes`. |
+| In the `AIRM Conceptual Model`, UML is used to create two types of diagram:<br>- `Hierarchy` diagrams which are used to express taxonomies using `UML::Specialisations`<br>- `Analysis` diagrams which are used to give a narrative about the AIRM model elements contained on the diagram expressed as a (network) of, for example, `UML::Associations`, `UML::Roles` and `Diagram::Notes`. |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `133` |
 | :- |
-| In the AIRM Conceptual Model, a diagram shall be either a `hierarchy` diagram or an `analysis` diagram. |
+| In the `AIRM Conceptual Model`, a diagram shall be either a `hierarchy` diagram or an `analysis` diagram. |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `134` |
 | :- |
-| In the AIRM Conceptual Model, a diagram shall have a stereotype of `<<Analysis>>` or `<<Hierarchy>>` assigned. |
+| In the `AIRM Conceptual Model`, a diagram shall have a stereotype of `<<Analysis>>` or `<<Hierarchy>>` assigned. |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `135` |
 | :- |
-| In the AIRM Conceptual Model, every `<<Analysis>>` diagram shall be documented by explaining the following:<br>- Content: What is this diagram about? (mandatory)<br>- (Maturity) Status - <free text> (mandatory) |
+| In the `AIRM Conceptual Model`, every `<<Analysis>>` diagram shall be documented by explaining the following:<br>- Content: What is this diagram about? (mandatory)<br>- (Maturity) Status - <free text> (mandatory) |
 
 | <mark style="background-color:yellow">AIRM_Recommendation</mark> `25` |
 | :- |
-| In the AIRM Conceptual Model, every `<<Analysis>>` diagram should be documented by explaining the following:<br> - Assumptions (optional)<br>- Additional comments (optional)<br>- Link to Requirements (optional) |
+| In the `AIRM Conceptual Model`, every `<<Analysis>>` diagram should be documented by explaining the following:<br> - Assumptions (optional)<br>- Additional comments (optional)<br>- Link to Requirements (optional) |
 
 | <mark style="background-color:yellow">AIRM_Recommendation</mark> `23` |
 | :- |
-| In the AIRM Information Model all diagrams should be possible to read on an A4 format (either in landscape or portrait.) |
+| In the `AIRM Conceptual Model` all diagrams should be possible to read on an A4 format (either in landscape or portrait.) |
 
 ## Intellectual Property Rights
 
@@ -601,13 +601,13 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `137` |
 | :- |
-| In the AIRM Logical Model, every entity shall have at least one semantic trace to at least one model element in the AIRM Conceptual Model. |
+| In the `AIRM Logical Model`, every entity shall have at least one semantic trace to at least one model element in the AIRM Conceptual Model. |
 
 ### Supplements
 
 | <mark style="background-color:lightgrey">AIRM_Principle</mark> `36` |
 | :- |
-| An AIRM supplement is a package within the AIRM that elaborates the AIRM content for a specific community |
+| An `AIRM supplement` is a package within the AIRM that elaborates the AIRM content for a specific community |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `144` |
 | :- |
@@ -681,7 +681,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightgrey">AIRM_Principle</mark> `10` |
 | :- |
-| An AIRM Derived Model is a model that uses the AIRM to define its semantics but serves a specific restricted purpose.<br><br>Examples:<br>- A NSV-11b product shall be a derived model.<br>- Existing models shall prove they are "derivable from" the AIRM as a key element in claiming compliance with the AIRM. |
+| An `AIRM Derived Model` is a model that uses the AIRM to define its semantics but serves a specific restricted purpose.<br><br>Examples:<br>- A NSV-11b product shall be a derived model.<br>- Existing models shall prove they are "derivable from" the AIRM as a key element in claiming compliance with the AIRM. |
 
 | <mark style="background-color:lightgrey">AIRM_Principle</mark> `11` |
 | :- |
