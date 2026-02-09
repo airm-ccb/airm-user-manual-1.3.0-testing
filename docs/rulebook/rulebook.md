@@ -791,63 +791,10 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `127` |
 | :- | 
-| Each standard in `AIRM Standards Catalog:UML` shall follow the minimum standard description syntax as depicted below <br> ![Image](.//media/rulebook_minimum_standard_description.png "Minimum_Standard_Description") <br>- where the publishing organisation is either the organisation behind the standard or a concatenation of the organisation, a hyphen, and its publishing part, <br>- and where the publishing organisation is either the organisation behind the standard or a concatenation of the organisation, a hyphen, and its publishing part<br><br> Examples:<br>- OMG UML<br>- NATO STANAG 3809<br><br>*Note: The wording syntax is fully explained in Appendix B.* |
-
-```mermaid
----
-title: Minimum_Standard_Description
----
-stateDiagram-v2
-direction LR
-    [*] --> Publishing_organisation
-    Publishing_organisation --> Name_of_Standard
-    Name_of_Standard --> [*]
-```
-
-```mermaid
----
-title: Publishing_organisation
----
-stateDiagram-v2
-direction LR
-    Actual_Organisation_Name_1: Actual_Organisation_Name
-    Actual_Organisation_Name_2: Actual_Organisation_Name
-    Separator: -
-    [*] --> Actual_Organisation_Name_1
-    Actual_Organisation_Name_1 --> [*]
-    [*] --> Actual_Organisation_Name_2
-    Actual_Organisation_Name_2 --> Separator
-    Separator --> [*]
-```
-
-```mermaid
----
-title: Name_of_standard
----
-stateDiagram-v2
-direction LR
-    [*] --> Standard_Designator
-    Standard_Designator --> [*]
-    [*] --> Full_Name_of_standard
-    Full_Name_of_standard --> [*]
-```
+| Each standard in `AIRM Standards Catalog:UML` shall follow the minimum standard description syntax as depicted below <br><br> ![Image](.//media/rulebook_minimum_standard_description.png "Minimum_Standard_Description") <br><br>- where the publishing organisation is either the organisation behind the standard or a concatenation of the organisation, a hyphen, and its publishing part, <br><br> ![Image](.//media/rulebook_publishing_organisation.png "Publishing Organisation")  <br><br>- and where the publishing organisation is either the organisation behind the standard or a concatenation of the organisation, a hyphen, and its publishing part <br><br> ![Image](.//media/rulebook_name_of_standard.png "Name of Standard") <br><br> Examples:<br>- OMG UML<br>- NATO STANAG 3809<br><br>*Note: The wording syntax is fully explained in Appendix B.* |
 
 | <mark style="background-color:yellow">AIRM_Recommendation</mark> `19` |
 | :- |
-| Each standard in `AIRM Standards Catalog:UML` should follow the full standard description syntax as depicted below<br>- where the minimum standard description is explained as part of the AIRM_Rule 127<br>- where document name follows the syntax below<br>- where standard version follows the syntax below<br>- where Volume follows the syntax below. <br><br> Examples:<br>ICAO Doc 8168, Vol. I, 5th Ed<br>ICAO Doc 8400, 8th Ed<br>NATO NAF v.3<br><br>*Note: The wording syntax is fully explained in Appendix C.* |
+| Each standard in `AIRM Standards Catalog:UML` should follow the full standard description syntax as depicted below<br><br> ![Image](.//media/rulebook_full_standard_description.png "Full Standard Description") <br><br> - where the minimum standard description is explained as part of the AIRM_Rule 127<br>- where document name follows the syntax below<br><br> ![Image](.//media/rulebook_document_name.png "Document Name") <br><br>- where standard version follows the syntax below<br><br> ![Image](.//media/rulebook_standard_version.png "Standard Version") <br><br> - where Volume follows the syntax below. <br><br> ![Image](.//media/rulebook_volume.png "Volume") <br><br> Examples:<br>ICAO Doc 8168, Vol. I, 5th Ed<br>ICAO Doc 8400, 8th Ed<br>NATO NAF v.3<br><br>*Note: The wording syntax is fully explained in Appendix C.* |
 
-```mermaid
----
-title: Full_standard_Description
----
-stateDiagram-v2
-direction LR
-    Actual_Organisation_Name_1: Actual_Organisation_Name
-    Actual_Organisation_Name_2: Actual_Organisation_Name
-    Separator: -
-    [*] --> Actual_Organisation_Name_1
-    Actual_Organisation_Name_1 --> [*]
-    [*] --> Actual_Organisation_Name_2
-    Actual_Organisation_Name_2 --> Separator
-    Separator --> [*]
-```
+
