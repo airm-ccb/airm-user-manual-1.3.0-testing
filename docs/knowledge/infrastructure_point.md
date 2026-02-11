@@ -10,12 +10,12 @@ Key concepts: [`DesignatedPoint`](https://airm.aero/developers/advanced-search/1
 
 ## Taxonomies
 
-### InfrastructurePoint: Hierarchy
+###  Infrastructure Point Usages
 
 Key concepts: [`GroundBasedFix`](https://airm.aero/developers/advanced-search/1.2.0/GroundBasedFix?model=ConceptualModel)  [`SegmentPoint`](https://airm.aero/developers/advanced-search/1.2.0/SegmentPoint?model=ConceptualModel)  [`ReportingPoint`](https://airm.aero/developers/advanced-search/1.2.0/ReportingPoint?model=ConceptualModel)  [`PointInSpaceReferencePoint`](https://airm.aero/developers/advanced-search/1.2.0/PointInSpaceReferencePoint?model=ConceptualModel)  [`MissedApproachPoint`](https://airm.aero/developers/advanced-search/1.2.0/MissedApproachPoint?model=ConceptualModel)  [`MissedApproachHoldingFix`](https://airm.aero/developers/advanced-search/1.2.0/MissedApproachHoldingFix?model=ConceptualModel)  [`LandingThresholdPoint`](https://airm.aero/developers/advanced-search/1.2.0/LandingThresholdPoint?model=ConceptualModel)  [`IntermediateFix`](https://airm.aero/developers/advanced-search/1.2.0/IntermediateFix?model=ConceptualModel)  [`InitialApproachFix`](https://airm.aero/developers/advanced-search/1.2.0/InitialApproachFix?model=ConceptualModel)  [`InfrastructurePointUsage`](https://airm.aero/developers/advanced-search/1.2.0/InfrastructurePointUsage?model=ConceptualModel)  [`HoldingFix`](https://airm.aero/developers/advanced-search/1.2.0/HoldingFix?model=ConceptualModel)  [`GBASAzimuthReferencePoint`](https://airm.aero/developers/advanced-search/1.2.0/GBASAzimuthReferencePoint?model=ConceptualModel)  [`FlyoverWaypoint`](https://airm.aero/developers/advanced-search/1.2.0/FlyoverWaypoint?model=ConceptualModel)  [`FlyByWaypoint`](https://airm.aero/developers/advanced-search/1.2.0/FlyByWaypoint?model=ConceptualModel)  [`FlightPathAlignmentPoint`](https://airm.aero/developers/advanced-search/1.2.0/FlightPathAlignmentPoint?model=ConceptualModel)  [`FinalApproachFix`](https://airm.aero/developers/advanced-search/1.2.0/FinalApproachFix?model=ConceptualModel)  [`FictitiousThresholdPoint`](https://airm.aero/developers/advanced-search/1.2.0/FictitiousThresholdPoint?model=ConceptualModel)  [`DescentFix`](https://airm.aero/developers/advanced-search/1.2.0/DescentFix?model=ConceptualModel)  [`DatumCrossingPoint`](https://airm.aero/developers/advanced-search/1.2.0/DatumCrossingPoint?model=ConceptualModel)  [`ChangeOverPoint`](https://airm.aero/developers/advanced-search/1.2.0/ChangeOverPoint?model=ConceptualModel)  [`Waypoint`](https://airm.aero/developers/advanced-search/1.2.0/Waypoint?model=ConceptualModel)  
 
 
-![Image](.//media/cm/InfrastructurePoint-Hierarchy.png)
+![Image](.//media/cm/InfrastructurePoint-Hierarchy-Infrastructure-Point-Usages.png)
 
 ## Analysis
 
@@ -27,13 +27,13 @@ Key concepts: [`RadioNavigationAid`](https://airm.aero/developers/advanced-searc
 
 ![Image](.//media/cm/InfrastructurePoint-DesignatedPoint.png)
 
-###  Ground Based Fix & Waypoint
+###  Ground Based Fix, Waypoint
 
 The diagram illustrates the difference between ground-based fix and waypoint.
 
 Key concepts: [`InfrastructurePointUsage`](https://airm.aero/developers/advanced-search/1.2.0/InfrastructurePointUsage?model=ConceptualModel)  [`FixToleranceArea`](https://airm.aero/developers/advanced-search/1.2.0/FixToleranceArea?model=ConceptualModel)  [`GlobalNavigationSatelliteSystem`](https://airm.aero/developers/advanced-search/1.2.0/GlobalNavigationSatelliteSystem?model=ConceptualModel)  [`GroundBasedFix`](https://airm.aero/developers/advanced-search/1.2.0/GroundBasedFix?model=ConceptualModel)  [`InfrastructurePoint`](https://airm.aero/developers/advanced-search/1.2.0/InfrastructurePoint?model=ConceptualModel)  [`Waypoint`](https://airm.aero/developers/advanced-search/1.2.0/Waypoint?model=ConceptualModel)  [`RadioNavigationAid`](https://airm.aero/developers/advanced-search/1.2.0/RadioNavigationAid?model=ConceptualModel)  
 
-![Image](.//media/cm/InfrastructurePoint-Ground-Based-Fix-&-Waypoint.png)
+![Image](.//media/cm/InfrastructurePoint-Ground-Based-Fix-Waypoint.png)
 
 ###  Landing Threshold Point
 
