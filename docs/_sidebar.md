@@ -41,7 +41,7 @@
   - [FLIGHT / Movement](knowledge/movement.md)
   - [METEOROLOGY](knowledge/meteorology.md)
   - [STK / Agent](knowledge/agent.md)
-  - [STK / Agent](knowledge/business_services.md)
+  - [STK / Business Services](knowledge/business_services.md)
   - [STK / Document and Agreement](knowledge/document_and_agreement.md)
   - [STK / Organisation](knowledge/organisation.md)
   - [STK / Organisation, Role and Service ](knowledge/organisation_role_and_service.md)
