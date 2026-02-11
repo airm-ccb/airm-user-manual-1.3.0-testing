@@ -6,7 +6,6 @@
 
 
 - **AIRM Knowledge** 
-  - [AIRM Subjects](knowledge/airm_subjects.md)
   - [AIRCRAFT](knowledge/aircraft.md)
   - [INFRA / Airspace](knowledge/airspace.md)
   - [INFRA / Point](knowledge/infrastructure_point.md)
