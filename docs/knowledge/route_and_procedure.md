@@ -87,7 +87,7 @@ The diagram describes the decomposition of an instrument approach procedure into
 
 Key concepts: [`Minima`](https://airm.aero/developers/advanced-search/1.2.0/Minima?model=ConceptualModel)  [`Threshold`](https://airm.aero/developers/advanced-search/1.2.0/Threshold?model=ConceptualModel)  [`MissedApproachHoldingFix`](https://airm.aero/developers/advanced-search/1.2.0/MissedApproachHoldingFix?model=ConceptualModel)  [`MissedApproachPoint`](https://airm.aero/developers/advanced-search/1.2.0/MissedApproachPoint?model=ConceptualModel)  [`LandingThresholdPoint`](https://airm.aero/developers/advanced-search/1.2.0/LandingThresholdPoint?model=ConceptualModel)  [`FinalApproachFix`](https://airm.aero/developers/advanced-search/1.2.0/FinalApproachFix?model=ConceptualModel)  [`IntermediateFix`](https://airm.aero/developers/advanced-search/1.2.0/IntermediateFix?model=ConceptualModel)  [`InitialApproachFix`](https://airm.aero/developers/advanced-search/1.2.0/InitialApproachFix?model=ConceptualModel)  [`MissedApproachProcedure`](https://airm.aero/developers/advanced-search/1.2.0/MissedApproachProcedure?model=ConceptualModel)  [`FinalApproachSegment`](https://airm.aero/developers/advanced-search/1.2.0/FinalApproachSegment?model=ConceptualModel)  [`IntermediateApproachSegment`](https://airm.aero/developers/advanced-search/1.2.0/IntermediateApproachSegment?model=ConceptualModel)  [`InitialApproachSegment`](https://airm.aero/developers/advanced-search/1.2.0/InitialApproachSegment?model=ConceptualModel)  [`InstrumentApproachProcedure`](https://airm.aero/developers/advanced-search/1.2.0/InstrumentApproachProcedure?model=ConceptualModel)  
 
-![Image](.//media/cm/RouteAndProcedure-Terminal-Procedure---IAP.png)
+![Image](.//media/cm/RouteAndProcedure-Terminal-Procedure-IAP.png)
 
 ###  Terminal Procedure - IAP - Final Approach Segment
 
@@ -95,7 +95,7 @@ The diagram describes the Final Approach Segment of an instrument approach proce
 
 Key concepts: [`RunwayCentreLine`](https://airm.aero/developers/advanced-search/1.2.0/RunwayCentreLine?model=ConceptualModel)  [`Threshold`](https://airm.aero/developers/advanced-search/1.2.0/Threshold?model=ConceptualModel)  [`LandingThresholdPoint`](https://airm.aero/developers/advanced-search/1.2.0/LandingThresholdPoint?model=ConceptualModel)  [`FictitiousThresholdPoint`](https://airm.aero/developers/advanced-search/1.2.0/FictitiousThresholdPoint?model=ConceptualModel)  [`FlightPathAlignmentPoint`](https://airm.aero/developers/advanced-search/1.2.0/FlightPathAlignmentPoint?model=ConceptualModel)  [`NavigationAidInfrastructure`](https://airm.aero/developers/advanced-search/1.2.0/NavigationAidInfrastructure?model=ConceptualModel)  [`FinalApproachTrack`](https://airm.aero/developers/advanced-search/1.2.0/FinalApproachTrack?model=ConceptualModel)  [`VerticalPathAngle`](https://airm.aero/developers/advanced-search/1.2.0/VerticalPathAngle?model=ConceptualModel)  [`GlidePath`](https://airm.aero/developers/advanced-search/1.2.0/GlidePath?model=ConceptualModel)  [`FinalApproachSegment`](https://airm.aero/developers/advanced-search/1.2.0/FinalApproachSegment?model=ConceptualModel)  
 
-![Image](.//media/cm/RouteAndProcedure-Terminal-Procedure---IAP---Final-Approach-Segment.png)
+![Image](.//media/cm/RouteAndProcedure-Terminal-Procedure-IAP-Final-Approach-Segment.png)
 
 ###  Terminal Procedure - IAP - Other Parts
 
@@ -103,7 +103,7 @@ The diagram lists the segments of an instrument approach procedure for which no 
 
 Key concepts: [`MissedApproachProcedure`](https://airm.aero/developers/advanced-search/1.2.0/MissedApproachProcedure?model=ConceptualModel)  [`FinalApproach`](https://airm.aero/developers/advanced-search/1.2.0/FinalApproach?model=ConceptualModel)  [`CirclingApproach`](https://airm.aero/developers/advanced-search/1.2.0/CirclingApproach?model=ConceptualModel)  [`InstrumentApproachProcedure`](https://airm.aero/developers/advanced-search/1.2.0/InstrumentApproachProcedure?model=ConceptualModel)  
 
-![Image](.//media/cm/RouteAndProcedure-Terminal-Procedure---IAP---Other-Parts.png)
+![Image](.//media/cm/RouteAndProcedure-Terminal-Procedure-IAP-Other-Parts.png)
 
 ###  Terminal Procedure - Procedure Encoding
 
@@ -111,7 +111,7 @@ The diagram provides a description of terminal procedures (and holding procedure
 
 Key concepts: [`DME`](https://airm.aero/developers/advanced-search/1.2.0/DME?model=ConceptualModel)  [`RadioNavigationAid`](https://airm.aero/developers/advanced-search/1.2.0/RadioNavigationAid?model=ConceptualModel)  [`AircraftCapability`](https://airm.aero/developers/advanced-search/1.2.0/AircraftCapability?model=ConceptualModel)  [`AircraftCategory`](https://airm.aero/developers/advanced-search/1.2.0/AircraftCategory?model=ConceptualModel)  [`SegmentPoint`](https://airm.aero/developers/advanced-search/1.2.0/SegmentPoint?model=ConceptualModel)  [`SegmentLeg`](https://airm.aero/developers/advanced-search/1.2.0/SegmentLeg?model=ConceptualModel)  [`ProcedureTransition`](https://airm.aero/developers/advanced-search/1.2.0/ProcedureTransition?model=ConceptualModel)  [`TerminalProcedure`](https://airm.aero/developers/advanced-search/1.2.0/TerminalProcedure?model=ConceptualModel)  [`HoldingProcedure`](https://airm.aero/developers/advanced-search/1.2.0/HoldingProcedure?model=ConceptualModel)  
 
-![Image](.//media/cm/RouteAndProcedure-Terminal-Procedure---Procedure-Encoding.png)
+![Image](.//media/cm/RouteAndProcedure-Terminal-Procedure-Procedure-Encoding.png)
 
 ###  Terminal Procedure - DA/DH and MDA/MDH
 
@@ -119,7 +119,7 @@ The diagram describes the ICAO concepts of Decision Altitude/Height and Minimum 
 
 Key concepts: [`AircraftCategory`](https://airm.aero/developers/advanced-search/1.2.0/AircraftCategory?model=ConceptualModel)  [`DecisionHeight`](https://airm.aero/developers/advanced-search/1.2.0/DecisionHeight?model=ConceptualModel)  [`DecisionAltitude`](https://airm.aero/developers/advanced-search/1.2.0/DecisionAltitude?model=ConceptualModel)  [`MinimumDescentHeight`](https://airm.aero/developers/advanced-search/1.2.0/MinimumDescentHeight?model=ConceptualModel)  [`MinimumDescentAltitude`](https://airm.aero/developers/advanced-search/1.2.0/MinimumDescentAltitude?model=ConceptualModel)  [`PrecisionApproachProcedure`](https://airm.aero/developers/advanced-search/1.2.0/PrecisionApproachProcedure?model=ConceptualModel)  [`ApproachProcedureWithVerticalGuidance`](https://airm.aero/developers/advanced-search/1.2.0/ApproachProcedureWithVerticalGuidance?model=ConceptualModel)  [`NonPrecisionApproachProcedure`](https://airm.aero/developers/advanced-search/1.2.0/NonPrecisionApproachProcedure?model=ConceptualModel)  
 
-![Image](.//media/cm/RouteAndProcedure-Terminal-Procedure---DA/DH-and-MDA/MDH.png)
+![Image](.//media/cm/RouteAndProcedure-Terminal-Procedure-DA/DH-and-MDA/MDH.png)
 
 ###  TAA
 
