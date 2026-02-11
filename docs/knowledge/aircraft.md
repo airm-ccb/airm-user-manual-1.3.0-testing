@@ -40,67 +40,67 @@ Key concepts: [`AircraftEquipment`](https://airm.aero/developers/advanced-search
 
 ## Knowledge
 
-### Aircraft: Aircraft Capability
+###  Aircraft Capability
 
 The diagram provides an overview of the Aircraft Capability concept.
 
 ![Image](.//media/cm/Aircraft-Aircraft-Capability.png)
 
-### Aircraft: Aircraft Characteristics
+###  Aircraft Characteristics
 
 The diagram provides an overview of the Aircraft Characteristics concept, including Aircraft Categories and Weights.
 
 ![Image](.//media/cm/Aircraft-Aircraft-Characteristics.png)
 
-### Aircraft: Aircraft Configuration
+###  Aircraft Configuration
 
 The diagram provides an overview of the Aircraft Configuration concept.
 
 ![Image](.//media/cm/Aircraft-Aircraft-Configuration.png)
 
-### Aircraft: Aircraft Equipment
+###  Aircraft Equipment
 
 The diagram provides an overview of the Aircraft Equipment concept, including Engines and onboard avionic systems.
 
 ![Image](.//media/cm/Aircraft-Aircraft-Equipment.png)
 
-### Aircraft: Aircraft Identifier
+###  Aircraft Identifier
 
 The diagram provides an overview of the various operational means to identify an aircraft (aircraft registration, ICAO Aircraft Address...).
 
 ![Image](.//media/cm/Aircraft-Aircraft-Identifier.png)
 
-### Aircraft: Aircraft Make, Model, Series
+###  Aircraft Make, Model, Series
 
 The diagram describes the concepts of aircraft make, model and series. These concepts are different from the aircraft type.
 
 ![Image](.//media/cm/Aircraft-Aircraft-Make-Model-Series.png)
 
-### Aircraft: Aircraft Registration
+###  Aircraft Registration
 
 The diagram describes the concept of Aircraft Registration that serves as identification means for civil aircraft.
 
 ![Image](.//media/cm/Aircraft-Aircraft-Registration.png)
 
-### Off Configuration
+###  Flight Configuration, Take-Off Configuration
 
 The diagram describes the concepts of Flight and Take-Off Configurations.
 
 ![Image](.//media/cm/Aircraft-Flight-Configuration-Take-Off-Configuration.png)
 
-### Aircraft: Manufacturer Configuration
+###  Manufacturer Configuration
 
 The diagram provides an overview of the Aircraft Manufacturer Configuration concept.
 
 ![Image](.//media/cm/Aircraft-Manufacturer-Configuration.png)
 
-### Aircraft: Operator Configuration
+###  Operator Configuration
 
 The diagram provides an overview of the Aircraft Operator Configuration concept.
 
 ![Image](.//media/cm/Aircraft-Operator-Configuration.png)
 
-### Aircraft: Wake Turbulence
+###  Wake Turbulence
 
 The diagram provides an overview of the wake turbulence category concept.
 
