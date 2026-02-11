@@ -41,13 +41,13 @@ Key concepts: [`TerminalProcedure`](https://airm.aero/developers/advanced-search
 
 ![Image](.//media/cm/RouteAndProcedure-ATS-Route.png)
 
-###  DME/DME Navigation infrastructure
+###  DME DME Navigation infrastructure
 
 The diagram describes the infrastructure enabling DME/DME navigation.
 
 Key concepts: [`SegmentLeg`](https://airm.aero/developers/advanced-search/1.2.0/SegmentLeg?model=ConceptualModel)  [`DME`](https://airm.aero/developers/advanced-search/1.2.0/DME?model=ConceptualModel)  [`RoutePortion`](https://airm.aero/developers/advanced-search/1.2.0/RoutePortion?model=ConceptualModel)  
 
-![Image](.//media/cm/RouteAndProcedure-DME/DME-Navigation-infrastructure.png)
+![Image](.//media/cm/RouteAndProcedure-DME-DME-Navigation-infrastructure.png)
 
 ###  Route Layout
 
