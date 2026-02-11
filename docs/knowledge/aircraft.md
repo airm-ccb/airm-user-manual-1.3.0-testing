@@ -12,31 +12,31 @@ Key concepts: [AircraftEquipment](https://airm.aero/developers/advanced-search/1
 
 ###  Aircraft
 
-![Image](.//media/cm/Aircraft-Hierarchy---Aircraft.png)
+![Image](.//media/cm/Aircraft-Hierarchy-Aircraft.png)
 
 ###  Aircraft Capabilities
 
-![Image](.//media/cm/Aircraft-Hierarchy---Aircraft-Capabilities.png)
+![Image](.//media/cm/Aircraft-Hierarchy-Aircraft-Capabilities.png)
 
 ###  Aircraft Categories
 
-![Image](.//media/cm/Aircraft-Hierarchy---Aircraft-Categories.png)
+![Image](.//media/cm/Aircraft-Hierarchy-Aircraft-Categories.png)
 
 ###  Aircraft Configurations
 
-![Image](.//media/cm/Aircraft-Hierarchy---Aircraft-Configurations.png)
+![Image](.//media/cm/Aircraft-Hierarchy-Aircraft-Configurations.png)
 
 ###  Aircraft Type Designators
 
-![Image](.//media/cm/Aircraft-Hierarchy---Aircraft-Type-Designators.png)
+![Image](.//media/cm/Aircraft-Hierarchy-Aircraft-Type-Designators.png)
 
 ###  Aircraft Equipments
 
-![Image](.//media/cm/Aircraft-Hierarchy---Aircraft-Equipments.png)
+![Image](.//media/cm/Aircraft-Hierarchy-Aircraft-Equipments.png)
 
 ###  Aircraft Weights
 
-![Image](.//media/cm/Aircraft-Hierarchy---Aircraft-Weights.png)
+![Image](.//media/cm/Aircraft-Hierarchy-Aircraft-Weights.png)
 
 ## Knowledge
 
