@@ -119,7 +119,7 @@ The diagram describes the ICAO concepts of Decision Altitude/Height and Minimum 
 
 Key concepts: [`AircraftCategory`](https://airm.aero/developers/advanced-search/1.2.0/AircraftCategory?model=ConceptualModel)  [`DecisionHeight`](https://airm.aero/developers/advanced-search/1.2.0/DecisionHeight?model=ConceptualModel)  [`DecisionAltitude`](https://airm.aero/developers/advanced-search/1.2.0/DecisionAltitude?model=ConceptualModel)  [`MinimumDescentHeight`](https://airm.aero/developers/advanced-search/1.2.0/MinimumDescentHeight?model=ConceptualModel)  [`MinimumDescentAltitude`](https://airm.aero/developers/advanced-search/1.2.0/MinimumDescentAltitude?model=ConceptualModel)  [`PrecisionApproachProcedure`](https://airm.aero/developers/advanced-search/1.2.0/PrecisionApproachProcedure?model=ConceptualModel)  [`ApproachProcedureWithVerticalGuidance`](https://airm.aero/developers/advanced-search/1.2.0/ApproachProcedureWithVerticalGuidance?model=ConceptualModel)  [`NonPrecisionApproachProcedure`](https://airm.aero/developers/advanced-search/1.2.0/NonPrecisionApproachProcedure?model=ConceptualModel)  
 
-![Image](.//media/cm/RouteAndProcedure-Terminal-Procedure-DA,DH-and-MDA,MDH.png)
+![Image](.//media/cm/RouteAndProcedure-Terminal-Procedure-DA-DH-and-MDA-MDH.png)
 
 ###  TAA
 
