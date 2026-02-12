@@ -10,13 +10,6 @@ Key concepts: [`Hazard`](https://airm.aero/developers/advanced-search/1.2.0/Haza
 
 ## Taxonomies
 
-### Obstacle: Terminology
-
-Key concepts: [`ObstacleClearanceHeight`](https://airm.aero/developers/advanced-search/1.2.0/ObstacleClearanceHeight?model=ConceptualModel)  [`ObstacleClearanceAltitude`](https://airm.aero/developers/advanced-search/1.2.0/ObstacleClearanceAltitude?model=ConceptualModel)  [`ObstacleAssessmentArea`](https://airm.aero/developers/advanced-search/1.2.0/ObstacleAssessmentArea?model=ConceptualModel)  [`ObstacleArea`](https://airm.aero/developers/advanced-search/1.2.0/ObstacleArea?model=ConceptualModel)  [`Obstacle`](https://airm.aero/developers/advanced-search/1.2.0/Obstacle?model=ConceptualModel)  [`HoldingAssessment`](https://airm.aero/developers/advanced-search/1.2.0/HoldingAssessment?model=ConceptualModel)  [`Obstruction`](https://airm.aero/developers/advanced-search/1.2.0/Obstruction?model=ConceptualModel)  
-
-
-![Image](.//media/cm/Obstacle-Terminology.png)
-
 ## Analysis
 
 ###  Holding Assessment
