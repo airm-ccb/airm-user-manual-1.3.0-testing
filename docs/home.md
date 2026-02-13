@@ -30,7 +30,7 @@ classDiagram
    AIRM <-- AIRM_API: enables to connect software to 
 
   click AIRM_Rulebook href "https://airm-ccb.github.io/airm-user-manual-1.3.0-testing/#/guidance/airm_rulebook" "Browse the AIRM Rulebook"
-  click AIRM_Knowledge href "https://airm-ccb.github.io/airm-user-manual-1.3.0-testing/#/knowledge/aircraft)" "Discover the AIRM ontologies"
+  click AIRM_Knowledge href "https://airm-ccb.github.io/airm-user-manual-1.3.0-testing/#/knowledge/aircraft" "Discover the AIRM ontologies"
   click AIRM_Search href "https://airm.aero/dictionary/1.2.0/search" "Search for ATM terms, abbreviations and concepts"
   click AIRM_API href "https://airm.aero/developers/api" "Connect your software"
 ```
