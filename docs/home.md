@@ -22,7 +22,7 @@ SUPPLEMENT_AIRM-. provides guidance for supplementing the main part of .-AIRM
 MAP_TO_AIRM-. provides guidance for estrablishing semantic correspondences to .-AIRM
 
 subgraph Knowledge
-  direction LR
+  direction RL
   AIRM_ONTOLOGIES[AIRM<br>Ontologies]
   ONTOLOGY_AIRCRAFT[Aircraft]
   ONTOLOGY_INFRASTRUCTURE[Infrastructure]
