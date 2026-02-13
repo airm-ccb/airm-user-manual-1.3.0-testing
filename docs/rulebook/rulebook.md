@@ -354,53 +354,53 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 ### Properties
 
-| <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `44` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `44` |
 | :- |
 | All properties of an entity, object or datatype shall be given "public" access privileges/scope. |
 
-| <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `46` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `46` |
 | :- |
 | In the AIRM Logical Model, attributes shall only be typed by datatypes.<br><br>*Note: This means that they should not be typed by other entities or objects from the AIRM Logical Model.<br><br>Note: This rule does not apply in the AIRM Conceptual Model, so attributes can be typed by other entities. This can help the readability of the model.* |
 
-| <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `105` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `105` |
 | :- |
 | In the AIRM Logical Model, attributes shall be typed by:<br>- Data types found within the ISO series of standards present in the AIRM Contextual Model; or<br>- Data types found within the AIRM Logical Model’s DataTypes package; or<br>- Codelists found within a Subject.<br><br>Examples:<br>ISO19103 contains primitives for Real, CharacterString, DateTime<br>ISO19107 contains geometry constructs<br>ISO19108 contains temporal constructs<br>ISO 639-2 contains language codes<br><br>*Note: AIRM specific data types which specialise or otherwise reuse the ISO series can be found in the AIRM Logical Model’s DataTypes package.* <br><br>*Note: AIRM specific codelists can be found in dedicated packages within the relevant Subject.* |
 
-| <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `22` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `22` |
 | :- |
 | In the AIRM Logical Model, attributes shall, by default, be represented with multiplicity of [0..1] (zero to one). If an operational constraint has been identified then multiplicities shall be chosen to reflect such constraints.<br><br>*Note: If no explicit attribute multiplicity is given, [0..1] multiplicity is implied. <br><br>Note: Further constraints on multiplicity may be added in "AIRM Derived" models.* |
 
-| <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `26` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `26` |
 | :- |
 | In the AIRM Logical Model, role names shall, by default, be represented with multiplicity `[0..*]` (zero to many). If an operational constraint has been identified then multiplicities shall be chosen to reflect such constraints.<br><br>*Note: If no explicit role name multiplicity is given, `[0..*]` multiplicity is implied.*<br><br>*Note: Further constraints may be added in "AIRM Derived" models such as in Physical Data Models.* |
 
 ### Associations
 
-| <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `47` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `47` |
 | :- |
 | Datatypes shall not be used as an end-point in an `UML::Association`. | 
 
-| <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `45` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `45` |
 | :- |
 | Associations between entities shall be modelled using an `UML::Association` where navigability is unspecified. | 
 
-| <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `82` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `82` |
 | :- |
 | A model element with the stereotype `<<Data_Object>>` shall be made part of a `<<Data_Entity>>` or another `<<Data_Object>>` by means of a `UML::Aggregation` association. | 
 
-| <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `132` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `132` |
 | :- |
 | In the `AIRM Conceptual Model` every association (except specialisation/generalisation) shall have at least:<br>- One association name with a labelled direction, or<br>- One role name. The role names shall be added to the end of the association which has semantic significance (i.e. as the property of an entity). In the case of `UML::Aggregation` and `UML::Composition` the role name shall be added only at the “part” end of the association. | 
 
-| <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `23` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `23` |
 | :- |
 | In the `AIRM Logical Model` every association (except specialisation/generalisation) shall have at least one role name. The role names shall be added to the end of the association which has semantic significance (i.e. as the property of an entity). In the case of `UML::Aggregation` and `UML::Composition` the role name shall be added only at the “part” end of the association. | 
 
-| <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `114` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `114` |
 | :- |
 | Associations shall not be named in the `AIRM Logical Model`.<br><br>*Note: Role names should be used in preference to relationship names. However, it is accepted that naming relationships can improve the readability of the AIRM Conceptual Model which is why this rule is limited in scope.* | 
 
-| <mark style="background-color:lightblue">AIRM_Rule</mark> AIRM_Rule `124` |
+| <mark style="background-color:lightblue">AIRM_Rule</mark> `124` |
 | :- |
 | In the AIRM Conceptual Model, any association name information supplied shall be considered informative, i.e. it will not have to be respected by derived models or by the `AIRM Logical Model`. | 
 
