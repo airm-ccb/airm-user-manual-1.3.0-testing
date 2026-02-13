@@ -2,9 +2,59 @@
 
 Welcome to the AIRM User Manual.
 
-`TODO`
+## Content overview
+
+```mermaid
+flowchart  TD
+
+AIRM((AIRM))
+
+subgraph Guidance
+AIRM_RULEBOOK[AIRM<br>Rulebook]
+DERIVE_AIRM[Deriving the<br>AIRM]
+SUPPLEMENT_AIRM[Supplementing the<br>AIRM]
+MAP_TO_AIRM[Mapping to the<br>AIRM]
+end
+
+AIRM_RULEBOOK-. provides rules for developing of .- AIRM
+DERIVE_AIRM-. provides guidance for creating a derived model from .-AIRM
+SUPPLEMENT_AIRM-. provides guidance for supplementing the main part of .-AIRM
+MAP_TO_AIRM-. provides guidance for estrablishing semantic correspondences to .-AIRM
+
+subgraph Knowledge
+  direction LR
+  AIRM_ONTOLOGIES[AIRM<br>Ontologies]
+  ONTOLOGY_AIRCRAFT[Aircraft]
+  ONTOLOGY_INFRASTRUCTURE[Infrastructure]
+  ONTOLOGY_ATO[Air Traffic Operations]
+  ONTOLOGY_FLIGHT[Flight]
+  ONTOLOGY_METEO[Meteorology]
+  ONTOLOGY_STAKEHOLDER[Stakeholder]
+  AIRM_ONTOLOGIES-.-ONTOLOGY_AIRCRAFT
+  AIRM_ONTOLOGIES-.-ONTOLOGY_INFRASTRUCTURE
+  AIRM_ONTOLOGIES-.-ONTOLOGY_FLIGHT
+  AIRM_ONTOLOGIES-.-ONTOLOGY_METEO
+  AIRM_ONTOLOGIES-.-ONTOLOGY_STAKEHOLDER
+end
+
+AIRM-. exposes ontologies from the conceptual model of the .-AIRM_ONTOLOGIES
+
+subgraph Usage
+AIRM_API[AIRM API]
+AIRM_SEARCH[AIRM Search]
+AIRM_SHOWCASE[AIRM Showcase]
+end
+
+AIRM -. enables to connect software to .- AIRM_API
+AIRM -. provides online access to .- AIRM_SEARCH
+AIRM -. shows who is using the .- AIRM_SHOWCASE
+
+style AIRM stroke-width:3px
+```
 
 ## What do you want to do?
+
+
 
 ```mermaid
 ---
@@ -15,13 +65,14 @@ Welcome to the AIRM User Manual.
 classDiagram
    class AIRM
    class AIRM_Knowledge["AIRM Knowledge"]
+   class AIRM_Usage["AIRM Usage"]
    class AIRM_Rulebook["AIRM Rulebook"]
    class AIRM_API["AIRM API"]
    class AIRM_Search["AIRM Search"]
+   
    %% class AIRM_Contextual_Model["AIRM Contextual Model"]
    %% class AIRM_Conceptual_Model["AIRM Conceptual Model"]
    %% class AIRM_Logical_Model["AIRM Logical Model"]
-
    %% class AIRM_User_Manual["AIRM User Manual"]
 
    AIRM_Rulebook --> AIRM : provides rules for developing
