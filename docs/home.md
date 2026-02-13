@@ -35,9 +35,10 @@ classDiagram
   click AIRM_API href "https://airm.aero/developers/api" "Connect your software"
 ```
 
+## AIRM Release history
+
 ```mermaid
 timeline
-    title History of AIRM
     section  R&D
       2009-2019 : NEXTGEN NAS-EA-OV7
                 : SESAR AIRM
