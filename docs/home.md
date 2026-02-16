@@ -11,15 +11,15 @@ Welcome to the AIRM User Manual.
   
   subgraph Guidance
   AIRM_RULEBOOK[AIRM<br>Rulebook]
-  DERIVE_AIRM[Deriving the<br>AIRM]
-  SUPPLEMENT_AIRM[Supplementing the<br>AIRM]
-  MAP_TO_AIRM[Mapping to the<br>AIRM]
+  %% DERIVE_AIRM[Deriving the<br>AIRM]
+  %% SUPPLEMENT_AIRM[Supplementing the<br>AIRM]
+  %% MAP_TO_AIRM[Mapping to the<br>AIRM]
   end
   
   AIRM_RULEBOOK-. provides rules for developing of .- AIRM
-  DERIVE_AIRM-. provides guidance for creating a derived model from .-AIRM
-  SUPPLEMENT_AIRM-. provides guidance for supplementing the main part of .-AIRM
-  MAP_TO_AIRM-. provides guidance for estrablishing semantic correspondences to .-AIRM
+  %% DERIVE_AIRM-. provides guidance for creating a derived model from .-AIRM
+  %% SUPPLEMENT_AIRM-. provides guidance for supplementing the main part of .-AIRM
+  %% MAP_TO_AIRM-. provides guidance for estrablishing semantic correspondences to .-AIRM
   
   subgraph Knowledge
     %% direction RL
@@ -42,12 +42,12 @@ Welcome to the AIRM User Manual.
   subgraph Usage
   AIRM_API[AIRM API]
   AIRM_SEARCH[AIRM Search]
-  AIRM_SHOWCASE[AIRM Showcase]
+  %% AIRM_SHOWCASE[AIRM Showcase]
   end
   
   AIRM -. enables to connect software to .- AIRM_API
   AIRM -. provides online access to .- AIRM_SEARCH
-  AIRM -. shows who is using the .- AIRM_SHOWCASE
+  %% AIRM -. shows who is using the .- AIRM_SHOWCASE
   
   style AIRM stroke-width:3px
 
@@ -55,7 +55,7 @@ Welcome to the AIRM User Manual.
   click AIRM_ONTOLOGIES href "https://airm-ccb.github.io/airm-user-manual-1.3.0-testing/#/knowledge/aircraft" "Discover the AIRM ontologies"
   click AIRM_SEARCH href "https://airm.aero/dictionary/1.2.0/search" "Search for ATM terms, abbreviations and concepts"
   click AIRM_API href "https://airm.aero/developers/api" "Connect your software to the AIRM"
-  click AIRM_SHOWCASE href "https://airm-ccb.github.io/airm-user-manual-1.3.0-testing/#/usage/showcase" "Discover whos is using the AIRM"
+  %% click AIRM_SHOWCASE href "https://airm-ccb.github.io/airm-user-manual-1.3.0-testing/#/usage/showcase" "Discover whos is using the AIRM"
 ```
 
 ## What do you want to do?
