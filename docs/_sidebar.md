@@ -1,9 +1,5 @@
 - **AIRM Guidance**
   - [AIRM Rulebook](guidance/airm_rulebook.md)
-  - [Deriving the AIRM](guidance/deriving_airm.md)
-  - [Supplementing the AIRM](guidance/supplementing_airm.md)
-  - [Mapping to the AIRM ?](guidance/mapping_to_airm.md)
-
 
 - **AIRM Knowledge** 
   - [AIRCRAFT](knowledge/aircraft.md)
@@ -49,7 +45,8 @@
 
 - **AIRM Usage**
   - [Search & API](usage/search_api.md)
-  - [Showcase](usage/showcase.md)
+
+
 
 
 © 2025 EUROCONTROL
