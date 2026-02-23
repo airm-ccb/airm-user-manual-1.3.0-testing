@@ -29,7 +29,6 @@ the unique identity of the violated principle or rule.
 | `Conceptual Model` | A conceptual model is a model of the information about the concepts in the universe of discourse, relevant to the architecture effort. | 
 | `Logical Model` | The logical model is a specification of business/operational information requirements as a formal data structure, where relationships and classes (entities) are used to specify the logic which underpins the information. |
 | `Mapping` | A set of traces that establishes a semantic correspondence between a concept in an information definition and AIRM concepts. |
-| `Information Definition under Assessment` | A formal representation of information concepts or data concepts which is subject to AIRM Compliance demonstration. |
 | `Physical Data Model` | The physical data model specifies how the logical data model will be instantiated in a particular product or service. It takes into account implementation restrictions and performance issues whilst still enforcing the constraints, relationships and typing of the logical model. |
 | `Trace` | A directed link from a concept in an information definition to an AIRM concept. |
 
