@@ -490,10 +490,6 @@ When the phrase `latest version` is used it always means at the time of publicat
 | :- |
 | Definitions shall contain a “straight definition”. That is, they should not start with “This class defines…” or “This property represents…”. |
 
-| <mark style="background-color:lightblue">AIRM_Rule</mark> `61` |
-| :- |
-| The status of a model element definition shall be represented in an `AIRM::TaggedValue` `Definition:Status`. It shall be one of the following:<br>- `Proposed`: The definition has been created or reworked.<br>- `Under Review`: The definition is under review by experts.<br>- `Approved`: The definition has been approved.<br>- `Under Rework`: The definition has been reviewed and/or approved but is subject to change. |
-
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `62` |
 | :- |
 | Any synonyms for a model element's name shall be represented as a comma separated list in an `AIRM::TaggedValue` `Definition:Synonyms`. |
@@ -568,12 +564,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `65` |
 | :- |
-| The status of a model element shall be given in the `Status` property. The value shall be one of the following: <br>- `Proposed`: The model element has been created but is not mature enough for use by others or for publication.<br>- `Implemented`: The model element has been finalised and has been verified. It is mature enough for use by other parties involved in building the AIRM but is not ready for publication.<br>- `Published`: The model element is implemented and has been included in an official AIRM release.<br>- `Validated`: The model element has been published and validated.<br>- `Under Rework`: The model element has been published/validated but is being reworked. (Note: it is still part of the AIRM in its latest released version.)<br>- `Deprecated`: The model element is no longer fit for use and will deleted in the version stated in the `AIRM::TaggedValue` `Deprecated:TargetRelease`.<br>- `Obsolete`: The model element has been marked deprecated in the current release version and will be deleted in the next release. |
-
-| <mark style="background-color:lightblue">AIRM_Rule</mark> `115` |
-| :- |
-| The allowed combination of model element status (AIRM_Rule 65) and definition status (AIRM_Rule 61) are:<br>- If the status of a model element is `Proposed`, its `Definition:Status` shall be `Proposed`, `Under Review`, `Approved`, or `Under Rework`.<br>- If the status of a model element is `Implemented`, its `Definition:Status` shall be `Under Review` or `Approved`.<br>- If the status of a model element is `Published`, its `Definition:Status` shall be `Under Review` or `Approved`.<br>- If the status of a model element is `Validated`, its `Definition:Status` shall be `Approved`.<br>- If the status of a model element is `Under Rework`, its `Definition:Status` shall be `Proposed`, `Under Review`, `Approved` or `Under Rework`. |
-
+| The status of a model element shall be given in the `Status` property. The value shall be one of the following: <br>- `Published`: The model element is implemented and has been included in an official AIRM release.<br>- `Deprecated`: The model element is no longer fit for use and will deleted in the version stated in the `AIRM::TaggedValue` `Deprecated:TargetRelease`. |
 
 ### Deprecation
 
@@ -833,7 +824,6 @@ Figure 4: Measures in the AIRM meta-model
 | Definition:Abbreviation | Abbreviations |
 | Definition:InLexicon | Whether the term definition is in the ATM Lexicon. |
 | Definition:Source | Source for a definition. |
-| Definition:Status | Status of the definition. |
 | Definition:Synonyms | Synonyms for the definition. |
 | Deprecated:Decision date | Date of deprecation decision. |
 | Deprecated:Rationale | Short rationale for the deprecation. |
