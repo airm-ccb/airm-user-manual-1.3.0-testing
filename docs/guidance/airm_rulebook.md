@@ -25,50 +25,37 @@ the unique identity of the violated principle or rule.
 
 | Term | Definition |
 | :-   | :--------- |
-| AIRM models | Shorthand to include the AIRM Conceptual Model, AIRM Logical Model and AIRM Contextual Model.|
-| Conceptual Model | A conceptual model is a model of the information about the concepts in the universe of discourse, relevant to the architecture effort. | 
-| Logical Model | The logical model is a specification of business/operational information requirements as a formal data structure, where relationships and classes (entities) are used to specify the logic which underpins the information. |
-| Mapping | A set of traces that establishes a semantic correspondence between a concept in an information definition and AIRM concepts. |
-| Information Definition under Assessment | A formal representation of information concepts or data concepts which is subject to AIRM Compliance demonstration. |
-| Physical Data Model| The physical data model specifies how the logical data model will be instantiated in a particular product or service. It takes into account implementation restrictions and performance issues whilst still enforcing the constraints, relationships and typing of the logical model. |
-| Trace | A directed link from a concept in an information definition to an AIRM concept. |
+| `AIRM models` | Shorthand to include the AIRM Conceptual Model, AIRM Logical Model and AIRM Contextual Model.|
+| `Conceptual Model` | A conceptual model is a model of the information about the concepts in the universe of discourse, relevant to the architecture effort. | 
+| `Logical Model` | The logical model is a specification of business/operational information requirements as a formal data structure, where relationships and classes (entities) are used to specify the logic which underpins the information. |
+| `Mapping` | A set of traces that establishes a semantic correspondence between a concept in an information definition and AIRM concepts. |
+| `Information Definition under Assessment` | A formal representation of information concepts or data concepts which is subject to AIRM Compliance demonstration. |
+| `Physical Data Model` | The physical data model specifies how the logical data model will be instantiated in a particular product or service. It takes into account implementation restrictions and performance issues whilst still enforcing the constraints, relationships and typing of the logical model. |
+| `Trace` | A directed link from a concept in an information definition to an AIRM concept. |
 
 ### Acronyms
 
 | Term | Definition |
 | :-   | :--------- |
-| ADS-B | Automatic Dependant Surveillance - Broadcast |
-| ADS-C | Automatic Dependant Surveillance - Contract |
-| AIRM | ATM Information Reference Model |
-| ASCII | American Standard Code for Information Interchange |
-| ATM | Air Traffic Management |
-| BSD | Berkeley Software Distribution |
-| CONOPS | Concept of Operations |
-| EATMA | European ATM Architecture |
-| EBNF | Extended Backus–Naur Form |
-| EXOT | Estimated Taxi-Out Time |
-| FANS | Future Air Navigation System |
-| GUID | Global Unique Identifier |
-| ICAO | International Civil Aviation Organization |
-| IEC | International Electrotechnical Commission |
-| IETF | Internet Engineering Task Force |
-| ISO | International Standards Organization |
-| ISRM | Information Services Reference Model |
-| MODAF| (UK) Ministry of Defence Architecture Framework |
-| NAF | NATO Architecture Framework |
-| NATO | North Atlantic Treaty Organisation |
-| NOV | NAF Operations View |
-| NSS | Namespace Specific String |
-| NSV | NAF System View |
-| OMG | Object Management Group |
-| PDF | Portable Document Format |
-| SES | Single European Sky | 
-| SESAR | Single European Sky Air Traffic Management Research |
-| SJU, SESARJU | SESAR Joint Undertaking | 
-| STANAG | Standardization Agreement (NATO) |
-| SWP | Sub Work Package | 
-| WMO | World Meteorological Organization |
-| XM | Exchange Model |
+| `ADS-B` | Automatic Dependant Surveillance - Broadcast |
+| `ADS-C` | Automatic Dependant Surveillance - Contract |
+| `AIRM` | ATM Information Reference Model |
+| `ASCII` | American Standard Code for Information Interchange |
+| `ATM` | Air Traffic Management |
+| `BSD` | Berkeley Software Distribution |
+| `EBNF` | Extended Backus–Naur Form |
+| `EXOT` | Estimated Taxi-Out Time |
+| `FANS` | Future Air Navigation System |
+| `ICAO` | International Civil Aviation Organization |
+| `IEC` | International Electrotechnical Commission |
+| `IETF` | Internet Engineering Task Force |
+| `ISO` | International Standards Organization |
+| `NAF` | NATO Architecture Framework |
+| `NATO` | North Atlantic Treaty Organisation |
+| `NSS` | Namespace Specific String |
+| `NSV` | NAF System View |
+| `OMG` | Object Management Group |
+| `STANAG` | Standardization Agreement (NATO) |
 
 
 ### Adoption
