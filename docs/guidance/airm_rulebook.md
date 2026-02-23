@@ -514,11 +514,11 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `135` |
 | :- |
-| In the `AIRM Conceptual Model`, every `<<Analysis>>` diagram shall be documented by explaining the following:<br>- Content: What is this diagram about? (mandatory)<br>- (Maturity) Status - <free text> (mandatory) |
+| In the `AIRM Conceptual Model`, every `<<Analysis>>` diagram shall be documented by explaining the following:<br>- Content: What is this diagram about? (mandatory) |
 
 | <mark style="background-color:yellow">AIRM_Recommendation</mark> `25` |
 | :- |
-| In the `AIRM Conceptual Model`, every `<<Analysis>>` diagram should be documented by explaining the following:<br> - Assumptions (optional)<br>- Additional comments (optional)<br>- Link to Requirements (optional) |
+| In the `AIRM Conceptual Model`, every `<<Analysis>>` diagram should be documented by explaining the following:<br>- (Maturity) Status - <free text> (optional)<br> - Assumptions (optional)<br>- Additional comments (optional)<br>- Link to Requirements (optional) |
 
 | <mark style="background-color:yellow">AIRM_Recommendation</mark> `23` |
 | :- |
@@ -774,7 +774,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `75` |
 | :- |
-| Published AIRM model element semantics shall be backward compatible. <br>That is, a given `ELEMENT_NSS` referring to an AIRM model element in development status `published`, `validated`, `under rework` or `deprecated` shall always refer to the same logical concept. Its semantics shall not depend on the context of a `MODEL_NSS`. |
+| Published AIRM model element semantics shall be backward compatible. <br>That is, a given `ELEMENT_NSS` referring to an AIRM model element in development status `published` or `deprecated` shall always refer to the same logical concept. Its semantics shall not depend on the context of a `MODEL_NSS`. |
 
 ## Detailed Rules on Specific AIRM Components
 
