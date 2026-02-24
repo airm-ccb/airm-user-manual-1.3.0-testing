@@ -2,7 +2,7 @@
   - [AIRM Rulebook](guidance/airm_rulebook.md)
 
 
-- **AIRM Ontologies**
+- <br>**AIRM Ontologies**
   - [AIRCRAFT](knowledge/aircraft.md)
   - [INFRA / Airspace](knowledge/airspace.md)
   - [INFRA / Point](knowledge/infrastructure_point.md)
@@ -43,11 +43,10 @@
   - [STK / Organisation, Role and Service ](knowledge/organisation_role_and_service.md)
   - [STK / Role](knowledge/role.md)
 
-
 - **AIRM Usage**
   - [Search & API](usage/search_api.md)
 
 
 
 
-© 2025 EUROCONTROL
+© 2026 EUROCONTROL
