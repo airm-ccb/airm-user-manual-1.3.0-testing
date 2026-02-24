@@ -724,23 +724,23 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `76` |
 | :- |
-| The URN of an AIRM model element shall use the structure: `<URN>::`= "urn:" `<NID>``:``<NSS>`<br><br>Example: A full URN to a property of an entity: `urn:aero:airm:1.0.0:ConceptualModel:Subjects:AirTrafficOperations:AirportOperationsManagement:TaxiOut@EXOT`<br><br>*Note: An AIRM namespace identifier (`NID`) and namespace specific string (`NSS`) are defined in Rules 70-72 and 74, respectively.* |
+| The URN of an AIRM model element shall use the structure: <br> `<URN>`= `urn:` `<NID>` `:` `<NSS>`<br><br>Example: A full URN to a property of an entity: `urn:aero:airm:1.0.0:ConceptualModel:Subjects:AirTrafficOperations:AirportOperationsManagement:TaxiOut@EXOT`<br><br>*Note: An AIRM namespace identifier (`NID`) and namespace specific string (`NSS`) are defined in Rules 70-72 and 74, respectively.* |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `70` |
 | :- |
-| AIRM model elements shall use the namespace identifier (`NID`): `NID` = `aero` |
+| AIRM model elements shall use the namespace identifier (`NID`): <br> `<NID>` = `aero` |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `71` |
 | :- |
-| The namespace specific string (NSS) shall use the structure: `NSS` = `<MODEL_NSS>` `:` `<ELEMENT_NSS>` |
+| The namespace specific string (`NSS`) shall use the structure: <br> `<NSS>` = `<MODEL_NSS>` `:` `<ELEMENT_NSS>` |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `72` |
 | :- |
-| The Model Namespace Specific Strings (`MODEL_NSS`) shall use the structure: `MODEL_NSS` = `<ISSUER>`? `:` `<PRODUCT>`:`<VERSION>`<br>The following terms are used in `<MODEL_NSS>`<br>- `<ISSUER>` defines the agency responsible for the AIRM version in question (where applicable). This item shall be a URI itself.<br>- `<PRODUCT>` identifies the AIRM (or an AIRM Derived Model by the same issuer).<br>- `<VERSION>` is the version number of the product in question. The syntax and semantics are issuer specific (e.g. may or may not include issuer specific branch information).<br><br>*Note: The components of the `MODEL_NSS` are considered as case insensitive, e.g. AIRM and “airm” refer to the same product.* |
+| The Model Namespace Specific Strings (`MODEL_NSS`) shall use the structure: <br> `MODEL_NSS` = `<ISSUER>`? `:` `<PRODUCT>`:`<VERSION>`<br><br>The following terms are used in `<MODEL_NSS>`<br>- `<ISSUER>` defines the agency responsible for the AIRM version in question (where applicable). This item shall be a URI itself.<br>- `<PRODUCT>` identifies the AIRM (or an AIRM Derived Model by the same issuer).<br>- `<VERSION>` is the version number of the product in question. The syntax and semantics are issuer specific (e.g. may or may not include issuer specific branch information).<br><br>*Note: The components of the `MODEL_NSS` are considered as case insensitive, e.g. AIRM and “airm” refer to the same product.* |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `74` |
 | :- |
-| The Element Namespace Specific Strings (`ELEMENT_NSS`) shall use the structure: `ELEMENT_NSS` = (`<NAME_OF_PACKAGE>` `:`)+(`<NAME_OF_CLASS>`(`@` `<NAME_OF_PROPERTY`)?)?<br>The following terms are used in `<ELEMENT_NSS>`<br>- `<NAME_OF_PACKAGE>` is the recursive definition of the model element’s position within the AIRM UML Package structure<br>- `<NAME_OF_CLASS>` is the name of the UML Class in question (where applicable)<br>- `<NAME_OF_PROPERTY>` is the name of the UML property within the class (where applicable)<br><br>*Note: The components of the `ELEMENT_NSS` are considered case sensitive.* |
+| The Element Namespace Specific Strings (`ELEMENT_NSS`) shall use the structure: <br> `ELEMENT_NSS` = (`<NAME_OF_PACKAGE>` `:`)+(`<NAME_OF_CLASS>` (`@` `<NAME_OF_PROPERTY` )?)? <br><br>The following terms are used in `<ELEMENT_NSS>`<br>- `<NAME_OF_PACKAGE>` is the recursive definition of the model element’s position within the AIRM UML Package structure<br>- `<NAME_OF_CLASS>` is the name of the UML Class in question (where applicable)<br>- `<NAME_OF_PROPERTY>` is the name of the UML property within the class (where applicable)<br><br>*Note: The components of the `ELEMENT_NSS` are considered case sensitive.* |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `79` |
 | :- |
