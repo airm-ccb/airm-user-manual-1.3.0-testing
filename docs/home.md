@@ -16,7 +16,7 @@ Welcome to the AIRM User Manual.
   %% MAP_TO_AIRM[Mapping to the<br>AIRM]
   end
   
-  AIRM_RULEBOOK-. provides rules for developing of .- AIRM
+  AIRM_RULEBOOK-. provides rules for developing .- AIRM
   %% DERIVE_AIRM-. provides guidance for creating a derived model from .-AIRM
   %% SUPPLEMENT_AIRM-. provides guidance for supplementing the main part of .-AIRM
   %% MAP_TO_AIRM-. provides guidance for estrablishing semantic correspondences to .-AIRM
