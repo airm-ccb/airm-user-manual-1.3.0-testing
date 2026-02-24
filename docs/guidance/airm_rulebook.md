@@ -25,7 +25,7 @@ the unique identity of the violated principle or rule.
 
 | Term | Definition |
 | :-   | :--------- |
-| `AIRM models` | Shorthand to include the AIRM Conceptual Model, AIRM Logical Model and AIRM Contextual Model.|
+| `AIRM models` | Shorthand to include the `AIRM Conceptual Model`, `AIRM Logical Model` and `AIRM Contextual Model`.|
 | `Conceptual Model` | A conceptual model is a model of the information about the concepts in the universe of discourse, relevant to the architecture effort. | 
 | `Logical Model` | The logical model is a specification of business/operational information requirements as a formal data structure, where relationships and classes (entities) are used to specify the logic which underpins the information. |
 | `Mapping` | A set of traces that establishes a semantic correspondence between a concept in an information definition and AIRM concepts. |
@@ -270,7 +270,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `5` |
 | :- |
-| The name of an entity, object, codelist or datatype shall be expressed using the UpperCamelCase principle.<br><br>*Note: This rule does not apply to imported standards in AIRM Contextual Model. These might deviate from this rule.* |
+| The name of an entity, object, codelist or datatype shall be expressed using the UpperCamelCase principle.<br><br>*Note: This rule does not apply to imported standards in `AIRM Contextual Model`. These might deviate from this rule.* |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `6` |
 | :- |
@@ -302,11 +302,11 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:yellow">AIRM_Recommendation</mark> `20` |
 | :- |
-| In the AIRM Conceptual Model, the name of an association should, where possible, be based on verbs found in the definitions of the associated entities which relate the entities. |
+| In the `AIRM Conceptual Model`, the name of an association should, where possible, be based on verbs found in the definitions of the associated entities which relate the entities. |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `131` |
 | :- |
-| In the AIRM Conceptual Model, associations which are merely possible/probable or imprecise shall be given a multiplicity rather than reflecting this status as part of the association name.<br><br>Example: An association which can be expressed using such words as “can have”, “may have” or “may be” shall have a multiplicity and the association shall not have the word in its name. |
+| In the `AIRM Conceptual Model`, associations which are merely possible/probable or imprecise shall be given a multiplicity rather than reflecting this status as part of the association name.<br><br>Example: An association which can be expressed using such words as “can have”, “may have” or “may be” shall have a multiplicity and the association shall not have the word in its name. |
 
 ### Authorship
 
@@ -318,7 +318,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `21` |
 | :- |
-| Entities shall be stereotyped as `<<Data_Entity>>` in the `AIRM Logical Model` and as `<<Information_Entity>>` in the AIRM Conceptual Model. |
+| Entities shall be stereotyped as `<<Data_Entity>>` in the `AIRM Logical Model` and as `<<Information_Entity>>` in the `AIRM Conceptual Model`. |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `83` |
 | :- |
@@ -346,19 +346,19 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `46` |
 | :- |
-| In the AIRM Logical Model, attributes shall only be typed by datatypes.<br><br>*Note: This means that they should not be typed by other entities or objects from the AIRM Logical Model.<br><br>Note: This rule does not apply in the AIRM Conceptual Model, so attributes can be typed by other entities. This can help the readability of the model.* |
+| In the `AIRM Logical Model`, attributes shall only be typed by datatypes.<br><br>*Note: This means that they should not be typed by other entities or objects from the `AIRM Logical Model`.<br><br>Note: This rule does not apply in the `AIRM Conceptual Model`, so attributes can be typed by other entities. This can help the readability of the model.* |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `105` |
 | :- |
-| In the AIRM Logical Model, attributes shall be typed by:<br>- Data types found within the ISO series of standards present in the AIRM Contextual Model; or<br>- Data types found within the AIRM Logical Model’s DataTypes package; or<br>- Codelists found within a Subject.<br><br>Examples:<br>ISO19103 contains primitives for Real, CharacterString, DateTime<br>ISO19107 contains geometry constructs<br>ISO19108 contains temporal constructs<br>ISO 639-2 contains language codes<br><br>*Note: AIRM specific data types which specialise or otherwise reuse the ISO series can be found in the AIRM Logical Model’s DataTypes package.* <br><br>*Note: AIRM specific codelists can be found in dedicated packages within the relevant Subject.* |
+| In the `AIRM Logical Model`, attributes shall be typed by:<br>- Data types found within the ISO series of standards present in the `AIRM Contextual Model`; or<br>- Data types found within the `AIRM Logical Model`’s DataTypes package; or<br>- Codelists found within a Subject.<br><br>Examples:<br>ISO19103 contains primitives for Real, CharacterString, DateTime<br>ISO19107 contains geometry constructs<br>ISO19108 contains temporal constructs<br>ISO 639-2 contains language codes<br><br>*Note: AIRM specific data types which specialise or otherwise reuse the ISO series can be found in the `AIRM Logical Model`’s DataTypes package.* <br><br>*Note: AIRM specific codelists can be found in dedicated packages within the relevant Subject.* |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `22` |
 | :- |
-| In the AIRM Logical Model, attributes shall, by default, be represented with multiplicity of [0..1] (zero to one). If an operational constraint has been identified then multiplicities shall be chosen to reflect such constraints.<br><br>*Note: If no explicit attribute multiplicity is given, [0..1] multiplicity is implied. <br><br>Note: Further constraints on multiplicity may be added in "AIRM Derived" models.* |
+| In the `AIRM Logical Model`, attributes shall, by default, be represented with multiplicity of [0..1] (zero to one). If an operational constraint has been identified then multiplicities shall be chosen to reflect such constraints.<br><br>*Note: If no explicit attribute multiplicity is given, [0..1] multiplicity is implied. <br><br>Note: Further constraints on multiplicity may be added in "AIRM Derived" models.* |
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `26` |
 | :- |
-| In the AIRM Logical Model, role names shall, by default, be represented with multiplicity `[0..*]` (zero to many). If an operational constraint has been identified then multiplicities shall be chosen to reflect such constraints.<br><br>*Note: If no explicit role name multiplicity is given, `[0..*]` multiplicity is implied.*<br><br>*Note: Further constraints may be added in "AIRM Derived" models such as in Physical Data Models.* |
+| In the `AIRM Logical Model`, role names shall, by default, be represented with multiplicity `[0..*]` (zero to many). If an operational constraint has been identified then multiplicities shall be chosen to reflect such constraints.<br><br>*Note: If no explicit role name multiplicity is given, `[0..*]` multiplicity is implied.*<br><br>*Note: Further constraints may be added in "AIRM Derived" models such as in Physical Data Models.* |
 
 ### Associations
 
@@ -388,7 +388,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `124` |
 | :- |
-| In the AIRM Conceptual Model, any association name information supplied shall be considered informative, i.e. it will not have to be respected by derived models or by the `AIRM Logical Model`. | 
+| In the `AIRM Conceptual Model`, any association name information supplied shall be considered informative, i.e. it will not have to be respected by derived models or by the `AIRM Logical Model`. | 
 
 | <mark style="background-color:yellow">AIRM_Recommendation</mark> `22` |
 | :- |
@@ -578,7 +578,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `137` |
 | :- |
-| In the `AIRM Logical Model`, every entity shall have at least one semantic trace to at least one model element in the AIRM Conceptual Model. |
+| In the `AIRM Logical Model`, every entity shall have at least one semantic trace to at least one model element in the `AIRM Conceptual Model`. |
 
 ### Supplements
 
@@ -752,7 +752,7 @@ When the phrase `latest version` is used it always means at the time of publicat
 
 | <mark style="background-color:lightblue">AIRM_Rule</mark> `73` |
 | :- |
-| The URN of AIRM Contextual Model elements that already have a URN issued by their originator shall be respected. This means that these elements shall uniformly be referenced by the original URN and the AIRM shall not issue an additional URN for these elements. |
+| The URN of `AIRM Contextual Model` elements that already have a URN issued by their originator shall be respected. This means that these elements shall uniformly be referenced by the original URN and the AIRM shall not issue an additional URN for these elements. |
 
 | <mark style="background-color:yellow">AIRM_Recommendation</mark> `16` |
 | :- |
