@@ -3,6 +3,12 @@
 
 
 
+- **AIRM Usage**
+  - [Search & API](usage/search_api.md)
+  - [AIRM Showcase](usage/showcase.md)
+
+
+
 - **AIRM Ontologies**
   - [AIRCRAFT](knowledge/aircraft.md)
   - [INFRA / Airspace](knowledge/airspace.md)
@@ -46,10 +52,4 @@
 
 
 
-- **AIRM Usage**
-  - [Search & API](usage/search_api.md)
-
-
-
-
-© 2026 EUROCONTROL
+© [2026 EUROCONTROL](www.eurocontrol.int)
