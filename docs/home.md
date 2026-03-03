@@ -52,7 +52,7 @@ Welcome to the AIRM User Manual.
   style AIRM stroke-width:3px
 
   click AIRM_RULEBOOK href "https://airm-ccb.github.io/airm-user-manual-1.3.0-testing/#/guidance/airm_rulebook" "Browse the AIRM Rulebook"
-  click AIRM_ONTOLOGIES href "https://airm-ccb.github.io/airm-user-manual-1.3.0-testing/#/knowledge/aircraft" "Discover the AIRM ontologies"
+  click AIRM_ONTOLOGIES href "https://airm-ccb.github.io/airm-user-manual-1.3.0-testing/#/knowledge/overview" "Discover the AIRM ontologies"
   click AIRM_SEARCH href "https://airm.aero/dictionary/1.2.0/search" "Search for ATM terms, abbreviations and concepts"
   click AIRM_API href "https://airm.aero/developers/api" "Connect your software to the AIRM"
   %% click AIRM_SHOWCASE href "https://airm-ccb.github.io/airm-user-manual-1.3.0-testing/#/usage/showcase" "Discover whos is using the AIRM"
