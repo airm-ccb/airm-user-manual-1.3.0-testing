@@ -59,36 +59,36 @@ Operations -- are constrained by --> Infrastructure
 
 | AIRM Subject | Ontology | Description |
 | :- | :- | :-------------------------- |
-| `Stakeholders` | Organisation, Role and Service | Generic framework for modeling organizations, roles and services. This is to be used for typing. Based on the W3C Organization proposal. |
-| `Stakeholders` | Agent | Specific common instances of "Agent" and their specialization relations. |
-| `Stakeholders` | Business Services | Specific common instances of "Service" and their specialization relations. |
-| `Stakeholders` | Document and Agreement | Description of cross-organizational agreements and documents. |
-| `Stakeholders` | Organisation | Specific common instances of "Organisation" and their specialization relations. |
-| `Stakeholders` | Role | Specific common instances of "Role" and their specialization relations |
+| `Stakeholders` | [Organisation, Role and Service](knowledge/organisation_role_and_service.md) | Generic framework for modeling organizations, roles and services. This is to be used for typing. Based on the W3C Organization proposal. |
+| `Stakeholders` | [Agent](agent.md) | Specific common instances of "Agent" and their specialization relations. |
+| `Stakeholders` | [Business Services](knowledge/business_services.md) | Specific common instances of "Service" and their specialization relations. |
+| `Stakeholders` | [Document and Agreement](document_and_agreement.md) | Description of cross-organizational agreements and documents. |
+| `Stakeholders` | [Organisation](organisation.md) | Specific common instances of "Organisation" and their specialization relations. |
+| `Stakeholders` | [Role](knowledge/role.md) | Specific common instances of "Role" and their specialization relations |
 
 ## Infrastructure
 
 | AIRM Subject | Ontology | Description |
 | :- | :- | :-------------------------- |
 | `Aircraft` | [Aircraft](knowledge/aircraft.md) | Information about the aircraft. |
-| `Airspace Infrastructure` | Airspace | Information about the defined three-dimensional portions of the atmosphere relevant to ATS. |
-| `Airspace Infrastructure` | Infrastructure Point | Information about points in an airspace.  |
-| `Airspace Infrastructure` | Route and Procedure | Information about the routes and procedures designed for channelling the flow of traffic en-route and while departing and landing. |
-| `Base Infrastructure` | Aerodrome Infrastructure | Informaion about the  aerodrome including any installations and equipment. |
-| `Base Infrastructure` | Communication Infrastructure | Information about the communication infrastructure. |
-| `Base Infrastructure` | Navigation Infrastructure | Information about the navigation infrastructure.  |
-| `Base Infrastructure` | Surveillance Infrastructure | Information about the surveillance infrastructure. |
-| `Base Infrastructure` | Obstacle | Information about ground based objects that are detrimental to the safe execution of flights. |
-| `Base Infrastructure` | Satellite System | Information about satellite systems. |
+| `Airspace Infrastructure` | [Airspace](knowledge/airspace.md) | Information about the defined three-dimensional portions of the atmosphere relevant to ATS. |
+| `Airspace Infrastructure` | [Infrastructure Point](knowledge/infrastructure_point.md) | Information about points in an airspace.  |
+| `Airspace Infrastructure` | [Route and Procedure](knowledge/route_and_procedure.md) | Information about the routes and procedures designed for channelling the flow of traffic en-route and while departing and landing. |
+| `Base Infrastructure` | [Aerodrome Infrastructure](knowledge/aerodrome_infrastructure.md) | Informaion about the  aerodrome including any installations and equipment. |
+| `Base Infrastructure` | [Communication Infrastructure](knowledge/communication_infrastructure.md) | Information about the communication infrastructure. |
+| `Base Infrastructure` | [Navigation Infrastructure](knowledge/navigation_infrastructure.md) | Information about the navigation infrastructure.  |
+| `Base Infrastructure` | [Surveillance Infrastructure](knowledge/surveillance_infrastructure.md) | Information about the surveillance infrastructure. |
+| `Base Infrastructure` | [Obstacle](knowledge/obstacle.md) | Information about ground based objects that are detrimental to the safe execution of flights. |
+| `Base Infrastructure` | [Satellite System](knowledge/satellite_system.md) | Information about satellite systems. |
 
 ## Other
 
 | AIRM Subject | Ontology | Description |
 | :- | :- | :-------------------------- |
-| `Common` | Geometry | Information about ATM-related geometry concepts. |
-| `Common` | Geospatial | Information related to land, ice and ocean surfaces and any object with vertical extent above and/or under ground. |
-| `Common` | Temporal | Information about ATM-related temporal concepts. |
-| `Meteorology` | Meteorology | Information about meteorological observation, forecast, phenomena and any other statement relating to existing or expected meteorological conditions. |
+| `Common` | [Geometry](knowledge/geometry.md) | Information about ATM-related geometry concepts. |
+| `Common` | [Geospatial](knowledge/geospatial.md) | Information related to land, ice and ocean surfaces and any object with vertical extent above and/or under ground. |
+| `Common` | [Temporal](knowledge/temporal.md) | Information about ATM-related temporal concepts. |
+| `Meteorology` | [Meteorology](knowledge/meteorology.md) | Information about meteorological observation, forecast, phenomena and any other statement relating to existing or expected meteorological conditions. |
 
 
 
