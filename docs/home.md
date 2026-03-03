@@ -37,8 +37,9 @@ Welcome to the AIRM User Manual.
     %% AIRM_ONTOLOGIES-.-ONTOLOGY_STAKEHOLDER
   end
   
-  AIRM-. exposes ontologies from the conceptual model of the .-AIRM_ONTOLOGIES
-  
+  %% AIRM-. exposes ontologies from the conceptual model of the .-AIRM_ONTOLOGIES
+  AIRM_ONTOLOGIES-. exposes ontologies from the conceptual model of the .-AIRM
+
   subgraph Usage
   AIRM_API[AIRM API]
   AIRM_SEARCH[AIRM Search]
