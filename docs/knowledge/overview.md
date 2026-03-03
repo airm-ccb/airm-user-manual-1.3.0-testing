@@ -70,7 +70,7 @@ Operations -- are constrained by --> Infrastructure
 
 | AIRM Subject | Ontology | Description |
 | :- | :- | :-------------------------- |
-| `Aircraft` | Aircraft | Information about the aircraft. |
+| `Aircraft` | [Aircraft](knowledge/aircraft.md) | Information about the aircraft. |
 | `Airspace Infrastructure` | Airspace | Information about the defined three-dimensional portions of the atmosphere relevant to ATS. |
 | `Airspace Infrastructure` | Infrastructure Point | Information about points in an airspace.  |
 | `Airspace Infrastructure` | Route and Procedure | Information about the routes and procedures designed for channelling the flow of traffic en-route and while departing and landing. |
