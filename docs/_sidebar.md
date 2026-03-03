@@ -53,4 +53,4 @@
 
 
 
-© [2026 EUROCONTROL](www.eurocontrol.int)
+©[2026 EUROCONTROL](www.eurocontrol.int)
