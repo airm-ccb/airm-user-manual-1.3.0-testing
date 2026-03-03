@@ -26,12 +26,20 @@ Operations -- are performed by --> Stakeholders
 Operations -- are constrained by --> Infrastructure
 ```
 
+## Traffic
+
 | AIRM Subject | Ontology | Description |
 | :- | :- | :-------------------------- |
-| `Aircraft` | Aircraft | Information about the aircraft. |
-| `Airspace Infrastructure` | Airspace | Information about the defined three-dimensional portions of the atmosphere relevant to ATS. |
-| `Airspace Infrastructure` | Infrastructure Point | Information about points in an airspace.  |
-| `Airspace Infrastructure` | Route and Procedure | Information about the routes and procedures designed for channelling the flow of traffic en-route and while departing and landing. |
+| `Flight` | Flight | Information about a specific flight. |
+| `Flight` | Flight Event | Information about actions, tasks or facts relevant to a specific flight which occur at an instant.|
+| `Flight` | Flight Identifier | Information about identifiers of a flight. |
+| `Flight` | Flight Phase | Information about period-in-time occurrences during a Flight. |
+| `Flight` | Movement | Information about movement of an aircraft both in the air and on the ground including position, time, and at least via calculation, speed and acceleration. |
+
+## Operations
+
+| AIRM Subject | Ontology | Description |
+| :- | :- | :-------------------------- |
 | `Air Traffic Operations` | Aerodrome Operations | Information about planning, execution and analysis of airport airside activities, including, but not limited to, how the aerodrome operators provide the needed ground infrastructure and precise surface guidance to improve safety and maximize aerodrome capacity in all weather conditions. |
 | `Air Traffic Operations` | Airspace Organization and Management | Information about how airspace organizations establish airspace structures in order to accommodate the different types of air activity, volume of traffic and differing levels of service, and about the process by which airspace options are selected and applied to meet the needs of the ATM community. |
 | `Air Traffic Operations` | Airspace User Operations | Information about the ATM-related aspect of flight operations. |
@@ -46,26 +54,41 @@ Operations -- are constrained by --> Infrastructure
 | `Air Traffic Operations` | Flight Information Product |  |
 | `Air Traffic Operations` | Meteorological Information Product |  |
 | `Air Traffic Operations` | Coordination |  |
-| `Base Infrastructure` | Aerodrome Infrastructure | Informaion about the  aerodrome including any installations and equipment. |
-| `Base Infrastructure` | Communication Infrastructure | Information about the communication infrastructure. |
-| `Base Infrastructure` | Navigation Infrastructure | Information about the navigation infrastructure.  |
-| `Base Infrastructure` | Surveillance Infrastructure | Information about the surveillance infrastructure. |
-| `Base Infrastructure` | Obstacle | Information about ground based objects that are detrimental to the safe execution of flights. |
-| `Base Infrastructure` | Satellite System | Information about satellite systems. |
-| `Common` | Geometry | Information about ATM-related geometry concepts. |
-| `Common` | Geospatial | Information related to land, ice and ocean surfaces and any object with vertical extent above and/or under ground. |
-| `Common` | Temporal | Information about ATM-related temporal concepts. |
-| `Flight` | Flight | Information about a specific flight. |
-| `Flight` | Flight Event | Information about actions, tasks or facts relevant to a specific flight which occur at an instant.|
-| `Flight` | Flight Identifier | Information about identifiers of a flight. |
-| `Flight` | Flight Phase | Information about period-in-time occurrences during a Flight. |
-| `Flight` | Movement | Information about movement of an aircraft both in the air and on the ground including position, time, and at least via calculation, speed and acceleration. |
-| `Meteorology` | Meteorology | Information about meteorological observation, forecast, phenomena and any other statement relating to existing or expected meteorological conditions. |
+
+## Stakeholders
+
+| AIRM Subject | Ontology | Description |
+| :- | :- | :-------------------------- |
 | `Stakeholders` | Organisation, Role and Service | Generic framework for modeling organizations, roles and services. This is to be used for typing. Based on the W3C Organization proposal. |
 | `Stakeholders` | Agent | Specific common instances of "Agent" and their specialization relations. |
 | `Stakeholders` | Business Services | Specific common instances of "Service" and their specialization relations. |
 | `Stakeholders` | Document and Agreement | Description of cross-organizational agreements and documents. |
 | `Stakeholders` | Organisation | Specific common instances of "Organisation" and their specialization relations. |
 | `Stakeholders` | Role | Specific common instances of "Role" and their specialization relations |
+
+## Infrastructure
+
+| AIRM Subject | Ontology | Description |
+| :- | :- | :-------------------------- |
+| `Aircraft` | Aircraft | Information about the aircraft. |
+| `Airspace Infrastructure` | Airspace | Information about the defined three-dimensional portions of the atmosphere relevant to ATS. |
+| `Airspace Infrastructure` | Infrastructure Point | Information about points in an airspace.  |
+| `Airspace Infrastructure` | Route and Procedure | Information about the routes and procedures designed for channelling the flow of traffic en-route and while departing and landing. |
+| `Base Infrastructure` | Aerodrome Infrastructure | Informaion about the  aerodrome including any installations and equipment. |
+| `Base Infrastructure` | Communication Infrastructure | Information about the communication infrastructure. |
+| `Base Infrastructure` | Navigation Infrastructure | Information about the navigation infrastructure.  |
+| `Base Infrastructure` | Surveillance Infrastructure | Information about the surveillance infrastructure. |
+| `Base Infrastructure` | Obstacle | Information about ground based objects that are detrimental to the safe execution of flights. |
+| `Base Infrastructure` | Satellite System | Information about satellite systems. |
+
+## Other
+
+| AIRM Subject | Ontology | Description |
+| :- | :- | :-------------------------- |
+| `Common` | Geometry | Information about ATM-related geometry concepts. |
+| `Common` | Geospatial | Information related to land, ice and ocean surfaces and any object with vertical extent above and/or under ground. |
+| `Common` | Temporal | Information about ATM-related temporal concepts. |
+| `Meteorology` | Meteorology | Information about meteorological observation, forecast, phenomena and any other statement relating to existing or expected meteorological conditions. |
+
 
 
