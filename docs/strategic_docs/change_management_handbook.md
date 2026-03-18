@@ -1,9 +1,9 @@
 # AIRM Change Management Handbook
 
-The evolution of the AIRM involves the processing of change requests from stakeholder communities. This requires effective and transparent change management to plan,
-coordinate with the relevant stakeholder communities, and integrate changes into the AIRM. 
+The evolution of the `AIRM` involves the processing of change requests from stakeholder communities. This requires effective and transparent change management to plan,
+coordinate with the relevant stakeholder communities, and integrate changes into the `AIRM`. 
 
-The AIRM Change Management Handbook describes the change management procedures that are used to manage the evolution of the AIRM, 
+The `AIRM Change Management Handbook` describes the change management procedures that are used to manage the evolution of the `AIRM`, 
 with due consideration of the requirements and views of the related stakeholder communities. 
 
 Also AIRM change management can be subjected to change, hence this document includes the procedures for those changes. 
@@ -32,25 +32,25 @@ You are free to copy and redistribute the material in any medium or form under t
 
 ### Purpose and objectives
 
-The AIRM Change Management Handbook describes the change management processes that are used to manage the evolution of the AIRM, 
+The `AIRM Change Management Handbook` describes the change management processes that are used to manage the evolution of the `AIRM`, 
 with due consideration of the requirements and views of the related stakeholder communities. 
 
 The set of items subject to these change control process includes: 
-- The AIRM itself and supporting documentation; 
+- The `AIRM` itself and supporting documentation; 
 - The change management processes themselves, as described in this document. 
 
 For precise details of what objects are subjected to change control, refer to section 5. 
 
 ### Intended readership
 
-The intended readership of the `AIRM Change Management Handbook` consists of stakeholders requesting and proposing changes to the AIRM, 
+The intended readership of the `AIRM Change Management Handbook` consists of stakeholders requesting and proposing changes to the `AIRM`, 
 and experts supporting the `AIRM CCB` activities involved in deciding and implementing changes to the `AIRM`.  These stakeholders are defined in detail in section 3, and can be summarised as follows: 
 - Stakeholders requesting and proposing changes to the `AIRM`; 
 - `AIRM Community` Members; 
-- AIRM CCB Support Office (``CCBSO``); 
-- AIRM CCB Members;  
-- The AIRM Change Request Integration Team; 
-- Any other stakeholder interested in joining either the AIRM Community or the AIRM CCB. 
+- `AIRM CCB Support Office` (`CCBSO`); 
+- `AIRM CCB Members`;  
+- The `AIRM Change Request Integration Team`; 
+- Any other stakeholder interested in joining either the `AIRM Community` or the `AIRM CCB`. 
 
 ### Terminology 
 
@@ -68,7 +68,7 @@ and experts supporting the `AIRM CCB` activities involved in deciding and implem
 ### Normative References 
 
 The following publications, documents and artefacts are considered as normative: 
-- ``AIRM Change Control Board Terms of Reference``. 
+- `AIRM Change Control Board Terms of Reference`. 
 
 
 ## AIRM Change Management Principles 
@@ -78,14 +78,14 @@ The change management processes are based on the following principles:
 **`Open-to-community approach`**
 
 An open and inclusive approach is ensured by the `AIRM CCB` and `CCBSO` to maximise visibility, transparency and widespread acceptance of the AIRM within the ATM community. 
-This requires AIRM CCB and `CCBSO` coordination with AIRM stakeholder communities including: 
+This requires `AIRM CCB` and `CCBSO` coordination with AIRM stakeholder communities including: 
 - transparent sharing of information about AIRM evolution; 
 - collaborative handling of inputs; 
-- management of AIRM  stakeholder community acknowledgements on changes of interest. 
+- management of AIRM stakeholder community acknowledgements on changes of interest. 
 
 **`Formal decision-making`**
 
-Decisions about changes to and evolution of the AIRM are made by the AIRM CCB, supported by subject matter expertise stemming from the AIRM stakeholder community. 
+Decisions about changes to and evolution of the AIRM are made by the `AIRM CCB`, supported by subject matter expertise stemming from the AIRM stakeholder community. 
 This allows the CCB to concentrate on decision-making, coordination and planning. 
 
 **`Efficient evolution`** 
@@ -97,7 +97,7 @@ Change management processes are streamlined to:
 
 **`Global alignment`**
 
-Change management processes dedicated to coordination with global information exchange models and ICAO ensure the integration of the AIRM in a global context. 
+Change management processes dedicated to coordination with global information exchange models and ICAO ensure the integration of the `AIRM` in a global context. 
 
 ## AIRM Stakeholders 
 
@@ -106,7 +106,7 @@ The management of the changes is done under the umbrella of the AIRM change mana
 
 ### AIRM Community 
 
-Following the principle of an Open-to-Community approach, the “AIRM Community” is the group of AIRM stakeholders that participate in the AIRM processes defined 
+Following the principle of an Open-to-Community approach, the `AIRM Community` is the group of AIRM stakeholders that participate in the AIRM processes defined 
 in this change management handbook.  AIRM Community members actively contribute to or monitor the evolution of the AIRM.  The contributions made are provided on a royalty-free basis. 
 
 AIRM Community members can submit a Change Request (CR) on behalf of one or several stakeholders. See Chapter 5 for detailed information about how to submit a CR.  
@@ -121,7 +121,7 @@ endorsements from ICAO. See section 5.3 for more information about AIRM coordina
 
 ### AIRM Change Control Board (CCB)  
 
-The AIRM CCB is the body that has the authority to make final decisions on how change requests to the AIRM should be handled, and for overall management of the maintenance and evolution of the AIRM.  
+The `AIRM CCB` is the body that has the authority to make final decisions on how change requests to the AIRM should be handled, and for overall management of the maintenance and evolution of the AIRM.  
 Its roles, responsibilities and composition are described in the `AIRM Change Control Board Terms of Reference` (ToR). 
 
 ### AIRM CCB support office (`CCBSO`) 
@@ -163,8 +163,8 @@ CRs can refer to the three types of `Managed objects`: (i) AIRM Components, (ii)
 Figure 1 below provides an overview of the activities when processing AIRM CRs following the AIRM Change Management process, also illustrating which stakeholders are involved in which activities.  
 Note that: 
 - The names of the Stakeholders involved are shown along the top of the diagram (refer to chapter 3 and 4 for a description of the different stakeholders). 
-- The rounded rectangles (e.g. “Submit CR”) represent activities. 
-- The diamonds (e.g. “D1”) represent decision points. 
+- The rounded rectangles (e.g. `Submit CR`) represent activities. 
+- The diamonds (e.g. `D1`) represent decision points. 
 - `Approve` indicates a positive outcome of a decision. 
 - `Postpone/Require further discussion` indicates an outcome of a decision that implies further work is needed on a CR.
 - `Reject` indicates a rejection decision. 
@@ -187,21 +187,21 @@ A CR is initially created by filling in the fields in a Change Request Template,
 | Process | Stakeholder(s) |  Description |
 | :-      | :----          | :----------  |
 | `Submit CR` | `Requestor` | The requestor of a CR completes a CR, using a template available in the AIRM Community Area, according to guidelines on how to complete CRs.<br>Appendix A provides information on use of the infrastructure to submit CRs.  Appendix B and Appendix C provide guidance on how to complete CRs in such a way as to ensure good quality in CRs.<br>By default, the initial status is ‘Submitted’ in the AIRM Community Area.|
-| Quality Assessment  | ``CCBSO`` |  At regular intervals, the `CCBSO` examines all CRs that have the “Submitted” status.<br>The `CCBSO` will check each CR against the criteria described in Appendix B Acceptance criteria for a Change Request. |
-|  `D1: Is it a well-formed CR?` | ``CCBSO`` |  If the CR complies with the requirements for a well-formed CR, its status will be changed to “Well formed”.<br>Otherwise, the CR will be returned to the Requestor and its status will be changed to “Returned”.<br>This is a simple quality check, essentially making sure that all required fields have been completed in the CR. In making this assessment, the `CCBSO` will be guided by the checklist provided in Appendix B Acceptance criteria for a Change Request. |
-| `Return CR` |  ``CCBSO`` | After a negative outcome of a CR Quality Assessment in process D1, the `CCBSO` will contact the CR Requestor to communicate this outcome, and the reasons for it.   |
+| `Quality Assessment`  | `CCBSO` |  At regular intervals, the `CCBSO` examines all CRs that have the `Submitted` status.<br>The `CCBSO` will check each CR against the criteria described in Appendix B Acceptance criteria for a Change Request. |
+|  `D1: Is it a well-formed CR?` | `CCBSO` |  If the CR complies with the requirements for a well-formed CR, its status will be changed to `Well formed`.<br>Otherwise, the CR will be returned to the Requestor and its status will be changed to `Returned`.<br>This is a simple quality check, essentially making sure that all required fields have been completed in the CR. In making this assessment, the `CCBSO` will be guided by the checklist provided in Appendix B Acceptance criteria for a Change Request. |
+| `Return CR` |  `CCBSO` | After a negative outcome of a CR Quality Assessment in process D1, the `CCBSO` will contact the CR Requestor to communicate this outcome, and the reasons for it.   |
 | `Improve CR` | `Requestor` | The Requestor is asked to improve the CR according to the Acceptance criteria for well-formed CRs as defined in Appendix B Acceptance criteria for a Change Request.  After it has been improved, the CR can be submitted again. |
-| `D2: Is it ready for CCB Submission?` | ``CCBSO`` |  At regular intervals, the `CCBSO` examines all CRs that have the “Well formed” or “Under Discussion” status.<br>The `CCBSO` will check each CR against the criteria described in Appendix C Acceptance Criteria for a Change Request to submitted for CCB consideration.<br>If the CR complies with the requirements for CCB submission, its status will be changed to “CCB”, and the CCB members will be notified.<br>Otherwise, the `CCBSO` will do one of the following:<br>- Analyse and refine the CR internally in the `CCBSO` so that it meets the requirements for submission to the CCB;<br>- Organise a Technical Session addressing the CR;<br>-If the CR is considered non-urgent, set its status to “Postponed”.<br>Note: At this point the `CCBSO` will also check whether any Postponed CRs are now ready to be addressed. |
-|  `Organise Technical Session`  |  ``CCBSO``  | Following the Is it ready for CCB Submission? assessment, the `CCBSO` will organise a Technical Session if needed. Technical Sessions will be announced in the announcements section of the AIRM Community Area. The CCB members and the CR Requestor will be informed via email of the format and timeframe.  |
-| `Participate in Technical Session`   |  ``CCBSO``, `Requestor`, `AIRM Community`<br>Exception:  For CRs dealing with Management Components: CCB members also take part  and AIRM Community members are not involved (unless invited by the CCB)  | The purpose of a Technical Session is to discuss one or more CRs in detail, looking at detailed technical aspects, and maturing the CRs as appropriate (e.g. to add specific details of proposed changes).  A technical session can be implemented as a discussion board thread, an online teleconference, or a face-to -face meeting.  |
-|  `Submit CR to CCB`  | ``CCBSO``   |  The `CCBSO` will notify the CCB members which CRs are available for their evaluation. Each CR or group of CRs may be annotated with observations by the `CCBSO`.   |
-| `Decision on CR (D3)`   | `CCB`   | The CCB will evaluate each of the CRs that have the “CCB” status. The possible outcomes of the evaluation are: Approved, Rejected, Requires further discussion, or Postponed<br>Section 7 CCB Procedures describes the operation of the AIRM CCB.   |
-| `Communicate CR Rejection`   | `CCBSO`   | When a CR is evaluated by the CCB and the outcome is “Rejected”, the `CCBSO` will contact the CR Requestor to communicate this outcome and the reasons for it. The CR that is rejected, the `CCBSO` will set its status to “Rejected”.   |
-| `Implement`   | `AIRM CR Integration Team`   | When a CR is evaluated by the CCB and the outcome is “Approved”, the AIRM CR Integrator Team will update the Managed Object according to the specific changes described in the CR. The CR that is approved, the `CCBSO` will set its status to “Approved”.   |
+| `D2: Is it ready for CCB Submission?` | `CCBSO` |  At regular intervals, the `CCBSO` examines all CRs that have the `Well formed` or `Under Discussion` status.<br>The `CCBSO` will check each CR against the criteria described in Appendix C Acceptance Criteria for a Change Request to submitted for CCB consideration.<br>If the CR complies with the requirements for CCB submission, its status will be changed to `CCB`, and the CCB members will be notified.<br>Otherwise, the `CCBSO` will do one of the following:<br>- Analyse and refine the CR internally in the `CCBSO` so that it meets the requirements for submission to the CCB;<br>- Organise a Technical Session addressing the CR;<br>-If the CR is considered non-urgent, set its status to `Postponed`.<br>Note: At this point the `CCBSO` will also check whether any Postponed CRs are now ready to be addressed. |
+|  `Organise Technical Session`  |  `CCBSO`  | Following the Is it ready for CCB Submission? assessment, the `CCBSO` will organise a Technical Session if needed. Technical Sessions will be announced in the announcements section of the AIRM Community Area. The CCB members and the CR Requestor will be informed via email of the format and timeframe.  |
+| `Participate in Technical Session`   |  `CCBSO`, `Requestor`, `AIRM Community`<br>Exception:  For CRs dealing with Management Components: CCB members also take part  and AIRM Community members are not involved (unless invited by the CCB)  | The purpose of a Technical Session is to discuss one or more CRs in detail, looking at detailed technical aspects, and maturing the CRs as appropriate (e.g. to add specific details of proposed changes).  A technical session can be implemented as a discussion board thread, an online teleconference, or a face-to -face meeting.  |
+|  `Submit CR to CCB`  | `CCBSO`   |  The `CCBSO` will notify the CCB members which CRs are available for their evaluation. Each CR or group of CRs may be annotated with observations by the `CCBSO`.   |
+| `Decision on CR (D3)`   | `CCB`   | The CCB will evaluate each of the CRs that have the `CCB` status. The possible outcomes of the evaluation are: Approved, Rejected, Requires further discussion, or Postponed<br>Section 7 CCB Procedures describes the operation of the AIRM CCB.   |
+| `Communicate CR Rejection`   | `CCBSO`   | When a CR is evaluated by the CCB and the outcome is `Rejected`, the `CCBSO` will contact the CR Requestor to communicate this outcome and the reasons for it. The CR that is rejected, the `CCBSO` will set its status to `Rejected`.   |
+| `Implement`   | `AIRM CR Integration Team`   | When a CR is evaluated by the CCB and the outcome is `Approved`, the AIRM CR Integrator Team will update the Managed Object according to the specific changes described in the CR. The CR that is approved, the `CCBSO` will set its status to `Approved`.   |
 
 #### Change Requests: Status Values 
 
-Each CR has an associated “Status” value, indicating the stage in the process shown in Figure 1 that the CR has reached. These status values indicate the progress of the CR management . 
+Each CR has an associated `Status` value, indicating the stage in the process shown in Figure 1 that the CR has reached. These status values indicate the progress of the CR management . 
 
 The `CCBSO` ensures that the Status value stored for each CR is accurate at all times.  It needs to be updated as the CR moves through the process e.g. when decisions are made by the `CCBSO` or CCB. 
 
@@ -216,9 +216,9 @@ The meanings of the different Status values are described in the table below:
 | Status |  Description |
 | :-     | :----        |
 | `Submitted`  | The CR has been Submitted by the Requestor but it has not yet been assessed by the `CCBSO`.  |
-| `Returned`   | The `CCBSO` has carried out a quality check of the CR and considers that it is not “well-formed” (see description of decision point D1 above).<br>The CR will be returned to the Requester for refinement.   |
-| `Well Formed`   |  The `CCBSO` has carried out a simple quality check of the CR and considers that it is “well-formed” (see description of decision point D1 above).<br>The CR will be passed on to decision point D2 to determine whether it can be passed to the CCB or it requires further refinement.  |
-| `Under Discussion`   | The `CCBSO` has carried out a detailed quality check of the CR and considers that it is not ready to be assessed by the CCB (see description of decision point D2 above).<br>The CCB can also decide (at D3) that the status of a CR should be changed to this value, indicating that they consider that it was not sufficiently mature for them to make a decision (even though the `CCBSO` had earlier set the status to “CCB”).  |
+| `Returned`   | The `CCBSO` has carried out a quality check of the CR and considers that it is not `well-formed` (see description of decision point D1 above).<br>The CR will be returned to the Requester for refinement.   |
+| `Well Formed`   |  The `CCBSO` has carried out a simple quality check of the CR and considers that it is `well-formed` (see description of decision point D1 above).<br>The CR will be passed on to decision point D2 to determine whether it can be passed to the CCB or it requires further refinement.  |
+| `Under Discussion`   | The `CCBSO` has carried out a detailed quality check of the CR and considers that it is not ready to be assessed by the CCB (see description of decision point D2 above).<br>The CCB can also decide (at D3) that the status of a CR should be changed to this value, indicating that they consider that it was not sufficiently mature for them to make a decision (even though the `CCBSO` had earlier set the status to `CCB`).  |
 | `CCB`  | The `CCBSO` has carried out a detailed quality check of the CR and considers that it is ready to be assessed by the CCB (see description of decision point D2 above).<br>The `CCBSO` will arrange that the CR is assessed by the CCB at its next meeting.  |
 | `Rejected`  | The CR has been evaluated by the CCB with a negative outcome.  It will not be implemented.  |
 | `Approved`  | The CR has been evaluated by the CCB with a positive outcome. The CR will be implemented.  |
@@ -424,7 +424,7 @@ Meeting dates will normally be planned one meeting in advance i.e. part of the a
 
 CCB meetings are open to all members of the CCB. However, it is not mandatory that all members should attend all meetings. The `CCBSO` will always make it clear, in the invitation to attend a CCB meeting, which topics will be discussed (including which CRs are to be considered) at that meeting. An individual CCB member can use that information to decide whether or not to attend. Where the attendance of a particular member is considered by the `CCBSO` to be of particular importance for a specific meeting, the `CCBSO` will make the member aware of this in the invitation. 
 
-CCB members who are unable to attend a meeting are free to send their input/opinions to the meeting beforehand, and the CCB Chairman undertakes to make sure that these are presented to the meeting.  CCB members can also appoint someone else as their “deputy” for a particular meeting, by informing the CCB Chairman beforehand. 
+CCB members who are unable to attend a meeting are free to send their input/opinions to the meeting beforehand, and the CCB Chairman undertakes to make sure that these are presented to the meeting.  CCB members can also appoint someone else as their `deputy` for a particular meeting, by informing the CCB Chairman beforehand. 
 
 If a CCB meeting is attended by fewer than five CCB members, the decisions that are taken during CCB meeting will be shared with all CCB members for feedback. In the case that a CCB member (who was not able to attend the meeting) disagrees with the decisions, (s)he should provide his feedback within three weeks after the meeting. The `CCBSO` will coordinate with the member concerned and organise additional session if needed.    
 
@@ -455,15 +455,15 @@ When a CR Approval Session (see below) is planned for a given CCB meeting, the `
 
 `CR Approval Session` 
 
-The purpose of an approval session is to make a decision about each CR with status “CCB”. It will normally be preceded by a CR Presentation Session in the CCB meeting itself, and there may also have been a pre-CCB CR Presentation Session some weeks before (see section 8.3.5). 
+The purpose of an approval session is to make a decision about each CR with status `CCB`. It will normally be preceded by a CR Presentation Session in the CCB meeting itself, and there may also have been a pre-CCB CR Presentation Session some weeks before (see section 8.3.5). 
 
 Based on the CCB Presentation Session(s), CCB members will be asked to agree on how to handle each CR (i.e. Approve or Reject). If no consensus is reached, the following options are foreseen: 
 - Postpone any decision on the CR. 
 - Return CR to `CCBSO` for further Technical Sessions (requires a CCB statement). 
 
-After the meeting, the `CCBSO` will document the decisions made in the meeting (primarily by updating the “status” and other fields in the CRs), and communicate the updates to the Requestors. 
+After the meeting, the `CCBSO` will document the decisions made in the meeting (primarily by updating the `status` and other fields in the CRs), and communicate the updates to the Requestors. 
 
-The aim is that the CCB will deal with all CRs with status “CCB” in each meeting. If time does not permit this, then the status of the unhandled CRs remains unchanged, and the `CCBSO` informs the Requestors that their CRs must wait until the next CCB meeting. 
+The aim is that the CCB will deal with all CRs with status `CCB` in each meeting. If time does not permit this, then the status of the unhandled CRs remains unchanged, and the `CCBSO` informs the Requestors that their CRs must wait until the next CCB meeting. 
 
 It is important to mention that a CR Approval Session is not a session to discuss improvements to a CR.  If the CCB feel that further technical discussion is needed before being able to make a decision, then the CR should be returned to the `CCBSO` to arrange a Technical Session. 
 
