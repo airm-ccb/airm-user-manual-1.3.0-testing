@@ -1,6 +1,6 @@
 - **AIRM Strategic documents**
   - [AIRM CCB ToR](strategic_docs/ccb_tor.md)
-  - [Change Management Handbook](strategic_docs/handbook.md)
+  - [Change Management Handbook](strategic_docs/change_management_handbook.md)
   - [AIRM Rulebook](guidance/airm_rulebook.md)
 
 
