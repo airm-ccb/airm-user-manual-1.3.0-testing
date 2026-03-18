@@ -268,7 +268,7 @@ When an official AIRM version/release is published, the new release will contain
 
 `TODO add picture`
 
-## `Managed objects` 
+## Managed objects
 
 The sub-sections below list all `Managed objects` i.e. the artefacts to which the change management procedures defined in this handbook shall apply. 
 
@@ -305,7 +305,7 @@ Such supplementary materials are not within the scope of the change management p
 | `Sparx Enterprise Architect`   | Tool for editing and updating the AIRM (specifically: the AIRM Conceptual Model and AIRM Logical Model). |
 | `Microsoft SharePoint`   | For maintaining the AIRM Community Area.  |
 
-### `AIRM Supplement`s 
+### AIRM Supplements 
 
 The `AIRM`, as a global reference for the ATM vocabulary, is expected to exhibit the concepts and definitions that are relevant to all ATM actors worldwide. This includes concepts and definitions that are applicable at global level and may include concepts and definitions that meet the requirements of specific geographic region (where no requirements were defined at the ICAO level) but that are still relevant to ATM actors such as airlines which commonly operate in several countries and/or regions.  
 
