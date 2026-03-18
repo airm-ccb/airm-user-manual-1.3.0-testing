@@ -22,7 +22,6 @@ You are free to copy and redistribute the material in any medium or form under t
 - NonCommercial — You may not use the material for commercial purposes
 - NoDerivatives — If you remix, transform, or build upon the material, you may not distribute the modified material.  
 
----
 
 ## Introduction 
 
