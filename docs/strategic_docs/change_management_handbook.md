@@ -8,13 +8,9 @@ with due consideration of the requirements and views of the related stakeholder 
 
 Also AIRM change management can be subjected to change, hence this document includes the procedures for those changes. 
 
----
-
 **Document History** 
 
 `TODO`
-
----
 
 **Notice of Creative Commons Attribution Licence** 
 
@@ -492,4 +488,72 @@ Note that a CR Presentation Session is not a session to discuss improvements to 
 `AIRM Change Control Board Terms of Reference` 
 AIRM Change Request Template 
 ICAO IMP WG7 WP-10 on AIRM RELEASE AND CHANGE MANAGEMENT 
+
+
+## Appendix - Acceptance criteria for a Change Request to be considered “well-formed” 
+
+The set of criteria here defined will be used as a checklist by the CCBSO when determining whether a CR is considered “well-formed”.  This provides a basic quality assurance check.  A CR is considered “well-formed” if it contains all key information needed for further processing of the CR. 
+
+For each CR, the CCBSO will check whether the criteria below have been satisfied.  Only if all criteria have been satisfied will the CR be accepted for further evaluation.   The CCBSO updates the status of the CR accordingly.   
+
+**`Completeness`**
+
+1) Have all of the required fields been completed? 
+
+**`Summary/Subject`**
+
+2) Does the field adequately summarise the objective of CR, as described in the “Description” field, in a concise and easily understood manner? 
+
+**`Target AIRM Release`** 
+
+3) Is the identified AIRM release still open for changes? 
+
+**`Related CRs`** 
+
+4) Does the field accurately indicate whether there are any other CRs related to this one?  
+
+**`Description`** 
+
+5) Is it easy for all CCB members to gain an overall understanding of the CR from reading this field, without having to read a large volume of background text? 
+
+6) Is the field sufficiently comprehensive: 
+- Is the reason / need for the CR stated? 
+- Is the objective stated, in terms of what needs to be changed? 
+
+**`Change Proposal`** 
+
+7) Has this field been completed? NB:  It is not essential for a CR to contain a change proposal to be considered well-formed.  In cases where no change proposal has yet been developed, the field must nevertheless be completed with the text “Change Proposal Pending”. 
+
+8) Is it easy for all CCB members to gain an overall understanding of the change proposal from reading this field, without having to refer to full details provided in attachments? 
+
+**`Impact`** 
+
+9) Has this field been completed? 
+
+10) Have affected stakeholders been identified?  
+
+11) Have possible side effects been identified (e.g. between Conceptual Model and Logical Model and Contextual Model)?  
+
+12) Is evidence for coordination with on-going activities in the same subject field provided? 
+
+## Appendix - Acceptance Criteria for a Change Request to be submitted for CCB consideration 
+
+The set of criteria here defined will be used as a checklist by the CCBSO when determining whether a CR is ready to be submitted to the CCB to make a formal accept/reject decision.  They are designed to ensure that the CR is understandable and complete.   Applying these criteria before submission to the CCB provides a quality assurance check to avoid time being wasted in CCB meetings.  Note that the quality check supported by these criteria do not make judgements on the merits or otherwise of intention of the CR. 
+
+For each CR, the CCBSO will check whether the criteria below have been satisfied.  Only if all criteria have been satisfied will the CR be passed on to the CCB.   The CCBSO updates the status of the CR accordingly. 
+
+| Field(s)  | Quality Criteria Checklist  |
+| :-     | :-------------------------  |
+| `Status` `Requesting Projects`   | 1) Have all of these fields been completed?  |
+| `Target Release Date`  | 1) Has this field been completed?<br>Is it aligned with the “AIRM target release” field?  |
+| `Expected resolution date` | 1) Has this field been completed?<br>2) Is the date before the Target Release Date?  |
+| `Related CRs` | 1) Does the field accurately indicate whether there are any other CRs related to this one?     |
+| `Summary ` | 1) Does the field adequately summarise the objective of the CR, as described in the “Description” field, in a concise and easily understood manner?  |
+| `Description ` | 1) Is it easy for all CCB members to gain an overall understanding of the CR from reading this field, without having to read a large volume of background text?<br>2) Is the field sufficiently comprehensive:<br>- Is the reason / need for the CR stated? <br>- Is the objective stated, in terms of what needs to be changed?  |
+| `Class`  | 1) Have all potentially affected managed objects (e.g. AIRM Conceptual Model, AIRM Logical Model, the AIRM Change Management Handbook) been identified?  |
+| `Target AIRM Release` | 1) Is the identified AIRM release still open for changes?   |
+| `Change Proposal` | 1) Has this field been completed?<br>2) Is it easy for all CCB members to gain an overall understanding of the change proposal(s) from reading this field, without having to refer to full details provided in attachments?  |
+|  |  |
+|  |  |
+
 
