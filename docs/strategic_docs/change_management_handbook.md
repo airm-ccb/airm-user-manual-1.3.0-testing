@@ -538,22 +538,57 @@ For each CR, the CCBSO will check whether the criteria below have been satisfied
 
 ## Appendix - Acceptance Criteria for a Change Request to be submitted for CCB consideration 
 
-The set of criteria here defined will be used as a checklist by the CCBSO when determining whether a CR is ready to be submitted to the CCB to make a formal accept/reject decision.  They are designed to ensure that the CR is understandable and complete.   Applying these criteria before submission to the CCB provides a quality assurance check to avoid time being wasted in CCB meetings.  Note that the quality check supported by these criteria do not make judgements on the merits or otherwise of intention of the CR. 
+The set of criteria here defined will be used as a checklist by the `CCBSO` when determining whether a CR is ready to be submitted to the CCB to make a formal accept/reject decision.  They are designed to ensure that the CR is understandable and complete. Applying these criteria before submission to the CCB provides a quality assurance check to avoid time being wasted in CCB meetings.  Note that the quality check supported by these criteria do not make judgements on the merits or otherwise of intention of the CR. 
 
-For each CR, the CCBSO will check whether the criteria below have been satisfied.  Only if all criteria have been satisfied will the CR be passed on to the CCB.   The CCBSO updates the status of the CR accordingly. 
+For each CR, the `CCBSO` will check whether the criteria below have been satisfied.  Only if all criteria have been satisfied will the CR be passed on to the CCB.   The `CCBSO` updates the status of the CR accordingly. 
 
-| Field(s)  | Quality Criteria Checklist  |
-| :-     | :-------------------------  |
-| `Status` `Requesting Projects`   | 1) Have all of these fields been completed?  |
-| `Target Release Date`  | 1) Has this field been completed?<br>Is it aligned with the “AIRM target release” field?  |
-| `Expected resolution date` | 1) Has this field been completed?<br>2) Is the date before the Target Release Date?  |
-| `Related CRs` | 1) Does the field accurately indicate whether there are any other CRs related to this one?     |
-| `Summary ` | 1) Does the field adequately summarise the objective of the CR, as described in the “Description” field, in a concise and easily understood manner?  |
-| `Description ` | 1) Is it easy for all CCB members to gain an overall understanding of the CR from reading this field, without having to read a large volume of background text?<br>2) Is the field sufficiently comprehensive:<br>- Is the reason / need for the CR stated? <br>- Is the objective stated, in terms of what needs to be changed?  |
-| `Class`  | 1) Have all potentially affected managed objects (e.g. AIRM Conceptual Model, AIRM Logical Model, the AIRM Change Management Handbook) been identified?  |
-| `Target AIRM Release` | 1) Is the identified AIRM release still open for changes?   |
-| `Change Proposal` | 1) Has this field been completed?<br>2) Is it easy for all CCB members to gain an overall understanding of the change proposal(s) from reading this field, without having to refer to full details provided in attachments?  |
-|  |  |
-|  |  |
+**`Status`** **`Requesting Projects`**
+1) Have all of these fields been completed?
+
+**`Target Release Date`**
+
+1) Has this field been completed?<br>Is it aligned with the “AIRM target release” field?
+
+**`Expected resolution date`**
+
+1) Has this field been completed?
+
+2) Is the date before the Target Release Date?
+
+**`Related CRs`**
+
+1) Does the field accurately indicate whether there are any other CRs related to this one?
+
+**`Summary`**
+
+1) Does the field adequately summarise the objective of the CR, as described in the “Description” field, in a concise and easily understood manner? 
+
+**`Description`**
+
+1) Is it easy for all CCB members to gain an overall understanding of the CR from reading this field, without having to read a large volume of background text?
+
+2) Is the field sufficiently comprehensive:
+- Is the reason / need for the CR stated?
+- Is the objective stated, in terms of what needs to be changed?
+
+**`Class`**  
+1) Have all potentially affected managed objects (e.g. AIRM Conceptual Model, AIRM Logical Model, the AIRM Change Management Handbook) been identified?
+
+**`Target AIRM Release`**
+
+1) Is the identified AIRM release still open for changes?
+
+**`Change Proposal`** 
+
+1) Has this field been completed?
+
+2) Is it easy for all CCB members to gain an overall understanding of the change proposal(s) from reading this field, without having to refer to full details provided in attachments?
 
 
+## Appendix - AIRM Release
+
+Each AIRM release should be a subject of discussion at AIRM CCB meetings. The CCB will decide the appropriate timeframe for AIRM releases, taking into account coordination with the ICAO IMP.  
+
+The publication of major AIRM release will be subject to ICAO IMP endorsement, whilst AIRM CCB may decide on the publication of minor releases. It is anticipated that no more than one major AIRM release can be published per year.  
+
+The AIRM CCB will discuss the nature and impact of the release and decide whether a release is considered as major or minor with appropriate versioning.   
