@@ -97,14 +97,6 @@ Key concepts: [`Disembarkation`](https://airm.aero/developers/advanced-search/1.
 
 ![Image](.//media/cm/Turnaround-Ground-Handling.png)
 
-### Turnaround Overview
-
-An overview of the turnaround processes supported by the handling agent and occurring at the gate and aircraft stand.
-
-Key concepts: [`StartUpClearance`](https://airm.aero/developers/advanced-search/1.3.0/StartUpClearance?model=ConceptualModel)  [`GroundHandling`](https://airm.aero/developers/advanced-search/1.3.0/GroundHandling?model=ConceptualModel)  [`InBlock`](https://airm.aero/developers/advanced-search/1.3.0/InBlock?model=ConceptualModel)  [`OffBlock`](https://airm.aero/developers/advanced-search/1.3.0/OffBlock?model=ConceptualModel)  [`Gate`](https://airm.aero/developers/advanced-search/1.3.0/Gate?model=ConceptualModel)  [`AircraftStand`](https://airm.aero/developers/advanced-search/1.3.0/AircraftStand?model=ConceptualModel)  [`OffBlockReady`](https://airm.aero/developers/advanced-search/1.3.0/OffBlockReady?model=ConceptualModel)  [`Embarkation`](https://airm.aero/developers/advanced-search/1.3.0/Embarkation?model=ConceptualModel)  
-
-![Image](.//media/cm/Turnaround.png)
-
 ###  Surface Contamination
 
 An overview of the contamination which may affect the aerodrome surface e.g. taxiway and runway. This information is usually a part of a SNOWTAM Message.
@@ -113,3 +105,10 @@ Key concepts: [`SNOWTAM`](https://airm.aero/developers/advanced-search/1.3.0/SNO
 
 ![Image](.//media/cm/AerodromeOperations-Surface-Contamination.png)
 
+### Turnaround Overview
+
+An overview of the turnaround processes supported by the handling agent and occurring at the gate and aircraft stand.
+
+Key concepts: [`StartUpClearance`](https://airm.aero/developers/advanced-search/1.3.0/StartUpClearance?model=ConceptualModel)  [`GroundHandling`](https://airm.aero/developers/advanced-search/1.3.0/GroundHandling?model=ConceptualModel)  [`InBlock`](https://airm.aero/developers/advanced-search/1.3.0/InBlock?model=ConceptualModel)  [`OffBlock`](https://airm.aero/developers/advanced-search/1.3.0/OffBlock?model=ConceptualModel)  [`Gate`](https://airm.aero/developers/advanced-search/1.3.0/Gate?model=ConceptualModel)  [`AircraftStand`](https://airm.aero/developers/advanced-search/1.3.0/AircraftStand?model=ConceptualModel)  [`OffBlockReady`](https://airm.aero/developers/advanced-search/1.3.0/OffBlockReady?model=ConceptualModel)  [`Embarkation`](https://airm.aero/developers/advanced-search/1.3.0/Embarkation?model=ConceptualModel)  
+
+![Image](.//media/cm/Turnaround.png)
