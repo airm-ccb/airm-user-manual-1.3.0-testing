@@ -29,7 +29,6 @@
   - [Obstacle Infrastructure](knowledge/obstacle.md)
   - [Satellite System](knowledge/satellite_system.md)
   - [Aerodrome Operations](knowledge/aerodrome_operations.md)
-  - [Airspace Organization and Management](knowledge/airspace_organization_and_management.md)
   - [Airspace User Operations](knowledge/airspace_user_operations.md)
   - [ATM Phases](knowledge/atm_phases.md)
   - [ATM Service Delivery Management](knowledge/atm_service_delivery_management.md)
