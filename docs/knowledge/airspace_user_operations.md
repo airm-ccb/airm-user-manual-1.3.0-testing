@@ -8,7 +8,6 @@ Key concepts: [`OperationalFlightPlan`](https://airm.aero/developers/advanced-se
 
 ![Image](.//media/cm/AirspaceUserOperations.png)
 
-## Taxonomies
 
 ## Analysis
 
