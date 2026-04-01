@@ -96,15 +96,16 @@ timeline
 | Term | Definition |
 | :-   | :--------- |
 | `AIRM models` | Shorthand to include the `AIRM Conceptual Model`, `AIRM Logical Model` and `AIRM Contextual Model`.|
+| `Change proposal` | Part of a change request describing a solution to the issue identified in the request. |
+| `Change request` | A request to modify a managed object. |
 | `Conceptual Model` | A conceptual model is a model of the information about the concepts in the universe of discourse, relevant to the architecture effort. | 
 | `Logical Model` | The logical model is a specification of business/operational information requirements as a formal data structure, where relationships and classes (entities) are used to specify the logic which underpins the information. |
+| `Managed object` | An artefact which can only be modified by using the AIRM change management procedures here defined. |
 | `Mapping` | A set of traces that establishes a semantic correspondence between a concept in an information definition and AIRM concepts. |
 | `Physical Data Model` | The physical data model specifies how the logical data model will be instantiated in a particular product or service. It takes into account implementation restrictions and performance issues whilst still enforcing the constraints, relationships and typing of the logical model. |
+| `Requestor` | Stakeholder submitting a change request. |
 | `Trace` | A directed link from a concept in an information definition to an AIRM concept. |
-| `Change proposal`  | Part of a change request describing a solution to the issue identified in the request. |
-| `Change request`  | A request to modify a managed object.   |
-| `Managed object`  | An artefact which can only be modified by using the AIRM change management procedures here defined. (For a list of `Managed objects`, see section 5). |
-| `Requestor`  | Stakeholder submitting a change request. |
+
 
 ## Acronyms
 
