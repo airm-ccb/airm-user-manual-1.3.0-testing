@@ -58,17 +58,17 @@ of the number of members in terms of stakeholder representation whilst ensuring 
 
 #### CCB Member 
 
-`AIRM CCB members`: 
+**`AIRM CCB members`** 
 - are expected to make an active contribution to the subject content on a voluntary basis; and 
 - are responsible for reporting back to their nominating organisation. 
 
 At AIRM CCB meetings, `AIRM CCB members` may be accompanied by advisers and observers. In addition, `AIRM CCB members` may, ad-hoc, bring an expert in support of discussions of a change request. 
 
-`CCB Chair`
+**`CCB Chair`**
 
 The `Chair` is elected by the `AIRM CCB members` through majority of votes for an undetermined period. The `Chair`’s responsibility is to seek consensus and buy-in on `AIRM` to the benefit of the international air transport community. It is the `Chair`’s responsibility to ensure that necessary coordination with the relevant parties is effective. 
 
-`CCB Support Office` (`CCBSO`)
+**`CCB Support Office`** (`CCBSO`)
 
 The `AIRM CCB secretariat support office` is responsible for the day-to-day running of the change management process including: 
 - managing and implementing the change requests; 
@@ -81,7 +81,7 @@ The `AIRM CCB secretariat support office` is responsible for the day-to-day runn
 
 It is envisaged that `CCBSO` activities are performed by volunteering member organisations (e.g. EUROCONTROL). 
 
-`AIRM coordination` 
+**`AIRM coordination`**
 
 Coordination with `XM communities`: 
 - the purpose is mutual information sharing on XM related CRs and their acknowledgement by the concerned XM community when applicable; 
@@ -99,7 +99,7 @@ Note: ICAO internal coordination among the related ICAO panels is not in scope o
 
 #### Working Arrangements
 
-`Meetings`
+**`Meetings`**
 
 The `AIRM CCB` uses: 
 - Face-to-face meetings according to a published schedule 
@@ -107,10 +107,10 @@ The `AIRM CCB` uses:
 
 The `AIRM CCB` decides by consensus. If no agreement can be found about a particular change request within the `AIRM CCB`, the chair is entrusted to make a decision in the best interests of the AIRM community.  
 
-`Resources and Cost Covering` 
+**`Resources and Cost Covering`** 
 
 The nominating organisation is responsible for covering all costs associated with the member’s contribution to the `AIRM CCB`.  
 
-`Sunset`
+**`Sunset`**
 
 The `AIRM CCB` will remain active until its members decide that it is no longer required. In order to assess this, the `AIRM CCB` takes into account any evolution of SWIM that may affect the `AIRM`. 
