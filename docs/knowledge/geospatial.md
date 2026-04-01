@@ -8,7 +8,3 @@ Key concepts: [`Volcano`](https://airm.aero/developers/advanced-search/1.3.0/Vol
 
 ![Image](.//media/cm/Geospatial.png)
 
-## Taxonomies
-
-## Analysis
-
