@@ -71,7 +71,7 @@ This diagram shows the three level of granularity that exists when describing th
 
 Key concepts: [`RouteTrajectoryGroup`](https://airm.aero/developers/advanced-search/1.3.0/RouteTrajectoryGroup?model=ConceptualModel)  [`ExpandedRoute`](https://airm.aero/developers/advanced-search/1.3.0/ExpandedRoute?model=ConceptualModel)  [`RouteTrajectoryElement`](https://airm.aero/developers/advanced-search/1.3.0/RouteTrajectoryElement?model=ConceptualModel)  [`TrajectorySegment`](https://airm.aero/developers/advanced-search/1.3.0/TrajectorySegment?model=ConceptualModel)  [`4DTrajectory`](https://airm.aero/developers/advanced-search/1.3.0/4DTrajectory?model=ConceptualModel)  [`FlightRoute`](https://airm.aero/developers/advanced-search/1.3.0/FlightRoute?model=ConceptualModel)  
 
-![Image](.//media/cm/Movement-FF-ICE/R1-Relationship-of-Route-to-Trajectory.png)
+![Image](.//media/cm/Movement-FF-ICE-R1-Relationship-of-Route-to-Trajectory.png)
 
 ###  FF-ICE/R1 RouteTrajectoryGroup
 
@@ -79,7 +79,7 @@ This diagram describes the ICAO FF-ICE/R1 concept of RouteTrajectoryGroup.
 
 Key concepts: [`EstimatedTakeOffWeight`](https://airm.aero/developers/advanced-search/1.3.0/EstimatedTakeOffWeight?model=ConceptualModel)  [`PerformanceProfile`](https://airm.aero/developers/advanced-search/1.3.0/PerformanceProfile?model=ConceptualModel)  [`AlongRouteDistance`](https://airm.aero/developers/advanced-search/1.3.0/AlongRouteDistance?model=ConceptualModel)  [`PredictedGroundSpeed`](https://airm.aero/developers/advanced-search/1.3.0/PredictedGroundSpeed?model=ConceptualModel)  [`CruisingLevel`](https://airm.aero/developers/advanced-search/1.3.0/CruisingLevel?model=ConceptualModel)  [`TerminalProcedure`](https://airm.aero/developers/advanced-search/1.3.0/TerminalProcedure?model=ConceptualModel)  [`TotalEstimatedElapsedTime`](https://airm.aero/developers/advanced-search/1.3.0/TotalEstimatedElapsedTime?model=ConceptualModel)  [`4DTrajectoryPoint`](https://airm.aero/developers/advanced-search/1.3.0/4DTrajectoryPoint?model=ConceptualModel)  [`ATSRoute`](https://airm.aero/developers/advanced-search/1.3.0/ATSRoute?model=ConceptualModel)  [`RouteTrajectoryElement`](https://airm.aero/developers/advanced-search/1.3.0/RouteTrajectoryElement?model=ConceptualModel)  [`RouteTrajectoryGroup`](https://airm.aero/developers/advanced-search/1.3.0/RouteTrajectoryGroup?model=ConceptualModel)  [`SpeedSchedule`](https://airm.aero/developers/advanced-search/1.3.0/SpeedSchedule?model=ConceptualModel)  [`DirectFlightSegment`](https://airm.aero/developers/advanced-search/1.3.0/DirectFlightSegment?model=ConceptualModel)  [`CruisingSpeed`](https://airm.aero/developers/advanced-search/1.3.0/CruisingSpeed?model=ConceptualModel)  [`InfrastructurePoint`](https://airm.aero/developers/advanced-search/1.3.0/InfrastructurePoint?model=ConceptualModel)  [`PlannedDelay`](https://airm.aero/developers/advanced-search/1.3.0/PlannedDelay?model=ConceptualModel)  [`RoutePoint`](https://airm.aero/developers/advanced-search/1.3.0/RoutePoint?model=ConceptualModel)  [`PredictedAirspeed`](https://airm.aero/developers/advanced-search/1.3.0/PredictedAirspeed?model=ConceptualModel)  
 
-![Image](.//media/cm/Movement-FF-ICE/R1-RouteTrajectoryGroup.png)
+![Image](.//media/cm/Movement-FF-ICE-R1-RouteTrajectoryGroup.png)
 
 ###  FF-ICE/R1 Trajectory point properties: Carrying out particular operations
 
@@ -87,7 +87,7 @@ This diagram lists the properties of trajectory points associated with particula
 
 Key concepts: [`FlightEvent`](https://airm.aero/developers/advanced-search/1.3.0/FlightEvent?model=ConceptualModel)  [`TrajectoryPointUsage`](https://airm.aero/developers/advanced-search/1.3.0/TrajectoryPointUsage?model=ConceptualModel)  [`FlightRules`](https://airm.aero/developers/advanced-search/1.3.0/FlightRules?model=ConceptualModel)  [`EstimatedElapsedTime`](https://airm.aero/developers/advanced-search/1.3.0/EstimatedElapsedTime?model=ConceptualModel)  [`PrescribedEETReportingPoint`](https://airm.aero/developers/advanced-search/1.3.0/PrescribedEETReportingPoint?model=ConceptualModel)  [`CrossOverAltitudePoint`](https://airm.aero/developers/advanced-search/1.3.0/CrossOverAltitudePoint?model=ConceptualModel)  [`EstimatedElapsedTimeReporting`](https://airm.aero/developers/advanced-search/1.3.0/EstimatedElapsedTimeReporting?model=ConceptualModel)  [`EndOfExpectVectors`](https://airm.aero/developers/advanced-search/1.3.0/EndOfExpectVectors?model=ConceptualModel)  [`StartOfExpectVectors`](https://airm.aero/developers/advanced-search/1.3.0/StartOfExpectVectors?model=ConceptualModel)  [`FlightInformationRegion`](https://airm.aero/developers/advanced-search/1.3.0/FlightInformationRegion?model=ConceptualModel)  [`FlightRulesChange`](https://airm.aero/developers/advanced-search/1.3.0/FlightRulesChange?model=ConceptualModel)  
 
-![Image](.//media/cm/Movement-FF-ICE/R1-Trajectory-point-properties-Carrying-out-particular-operations.png)
+![Image](.//media/cm/Movement-FF-ICE-R1-Trajectory-point-properties-Carrying-out-particular-operations.png)
 
 ###  FF-ICE/R1 Trajectory point properties: Change of aircraft dynamics
 
@@ -95,7 +95,7 @@ This diagram lists the properties of trajectory points associated with particula
 
 Key concepts: [`CruisingLevel`](https://airm.aero/developers/advanced-search/1.3.0/CruisingLevel?model=ConceptualModel)  [`CruisingSpeed`](https://airm.aero/developers/advanced-search/1.3.0/CruisingSpeed?model=ConceptualModel)  [`TrajectoryChangePoint`](https://airm.aero/developers/advanced-search/1.3.0/TrajectoryChangePoint?model=ConceptualModel)  [`Heading`](https://airm.aero/developers/advanced-search/1.3.0/Heading?model=ConceptualModel)  [`Course`](https://airm.aero/developers/advanced-search/1.3.0/Course?model=ConceptualModel)  [`Track`](https://airm.aero/developers/advanced-search/1.3.0/Track?model=ConceptualModel)  [`LateralChange`](https://airm.aero/developers/advanced-search/1.3.0/LateralChange?model=ConceptualModel)  [`Altitude`](https://airm.aero/developers/advanced-search/1.3.0/Altitude?model=ConceptualModel)  [`Height`](https://airm.aero/developers/advanced-search/1.3.0/Height?model=ConceptualModel)  [`FlightLevel`](https://airm.aero/developers/advanced-search/1.3.0/FlightLevel?model=ConceptualModel)  [`Level`](https://airm.aero/developers/advanced-search/1.3.0/Level?model=ConceptualModel)  [`CrossBorderArea`](https://airm.aero/developers/advanced-search/1.3.0/CrossBorderArea?model=ConceptualModel)  [`SpeedChange`](https://airm.aero/developers/advanced-search/1.3.0/SpeedChange?model=ConceptualModel)  [`LevelChange`](https://airm.aero/developers/advanced-search/1.3.0/LevelChange?model=ConceptualModel)  
 
-![Image](.//media/cm/Movement-FF-ICE/R1-Trajectory-point-properties-Change-of-aircraft-dynamics.png)
+![Image](.//media/cm/Movement-FF-ICE-R1-Trajectory-point-properties-Change-of-aircraft-dynamics.png)
 
 ###  FF-ICE/R1 Trajectory point properties: Crossing airspace
 
@@ -103,7 +103,7 @@ This diagram lists the properties of trajectory points associated with the cross
 
 Key concepts: [`TransitionLayer`](https://airm.aero/developers/advanced-search/1.3.0/TransitionLayer?model=ConceptualModel)  [`ConstrainedAirspaceCrossing`](https://airm.aero/developers/advanced-search/1.3.0/ConstrainedAirspaceCrossing?model=ConceptualModel)  [`ExitIntoConstrainedAirspace`](https://airm.aero/developers/advanced-search/1.3.0/ExitIntoConstrainedAirspace?model=ConceptualModel)  [`EntryIntoConstrainedAirspace`](https://airm.aero/developers/advanced-search/1.3.0/EntryIntoConstrainedAirspace?model=ConceptualModel)  [`ExitFromRestrictedORReservedAirspace`](https://airm.aero/developers/advanced-search/1.3.0/ExitFromRestrictedORReservedAirspace?model=ConceptualModel)  [`AirspaceRestriction`](https://airm.aero/developers/advanced-search/1.3.0/AirspaceRestriction?model=ConceptualModel)  [`EntryIntoAnRestrictedOrReservedAirspace`](https://airm.aero/developers/advanced-search/1.3.0/EntryIntoAnRestrictedOrReservedAirspace?model=ConceptualModel)  [`FlightInformationRegion`](https://airm.aero/developers/advanced-search/1.3.0/FlightInformationRegion?model=ConceptualModel)  [`FIRBoundaryCrossing`](https://airm.aero/developers/advanced-search/1.3.0/FIRBoundaryCrossing?model=ConceptualModel)  [`TransitionAltitude`](https://airm.aero/developers/advanced-search/1.3.0/TransitionAltitude?model=ConceptualModel)  [`TransitionLevel`](https://airm.aero/developers/advanced-search/1.3.0/TransitionLevel?model=ConceptualModel)  [`TransitionAltitudeOrLevelCrossing`](https://airm.aero/developers/advanced-search/1.3.0/TransitionAltitudeOrLevelCrossing?model=ConceptualModel)  
 
-![Image](.//media/cm/Movement-FF-ICE/R1-Trajectory-point-properties-Crossing-airspace.png)
+![Image](.//media/cm/Movement-FF-ICE-R1-Trajectory-point-properties-Crossing-airspace.png)
 
 ###  FF-ICE/R1 Trajectory point properties: Start or end of flight phases
 
@@ -119,7 +119,7 @@ This diagram lists the properties of the trajectory points matching infrastructu
 
 Key concepts: [`AerodromeReferencePoint`](https://airm.aero/developers/advanced-search/1.3.0/AerodromeReferencePoint?model=ConceptualModel)  [`4DTrajectoryPoint`](https://airm.aero/developers/advanced-search/1.3.0/4DTrajectoryPoint?model=ConceptualModel)  [`InfrastructurePoint`](https://airm.aero/developers/advanced-search/1.3.0/InfrastructurePoint?model=ConceptualModel)  [`InfrastructurePointUsage`](https://airm.aero/developers/advanced-search/1.3.0/InfrastructurePointUsage?model=ConceptualModel)  [`LandingThresholdPoint`](https://airm.aero/developers/advanced-search/1.3.0/LandingThresholdPoint?model=ConceptualModel)  
 
-![Image](.//media/cm/Movement-FF-ICE/R1-Trajectory-point-properties-Use-of-the-aerodrome-infrastructure.png)
+![Image](.//media/cm/Movement-FF-ICE-R1-Trajectory-point-properties-Use-of-the-aerodrome-infrastructure.png)
 
 ###  Aircraft Perspective - Aircraft Intent
 
