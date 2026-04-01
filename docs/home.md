@@ -87,7 +87,7 @@ timeline
     section ICAO deployment
       2019-2022 : AIRM 1.0.0, AIRM 1.1.0
       2024      : AIRM 1.2.0, CURRENT VERSION ENDORSED BY ICAO
-      Coming soon (Q1 2025) : AIRM 1.3.0
+      Coming soon (Q2 2026) : AIRM 1.3.0, docs.airm.aero
 ```
 
 
