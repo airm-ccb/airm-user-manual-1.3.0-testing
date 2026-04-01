@@ -29,7 +29,7 @@ Key concepts: [`SearchAndRescueService`](https://airm.aero/developers/advanced-s
 
 ###  LADR
 
-i>Content: The diagram describes the ground and satellite-based infrastructure components of the GADSS, and the new type of aircraft equipment performing the GADSS ADT function . The notion of accredited ADTServiceProvider is further explained in Subject Stakeholders.
+The diagram describes the ground and satellite-based infrastructure components of the GADSS, and the new type of aircraft equipment performing the GADSS ADT function . The notion of accredited ADTServiceProvider is further explained in Subject Stakeholders.
 
 Key concepts: [`SearchAndRescueService`](https://airm.aero/developers/advanced-search/1.3.0/SearchAndRescueService?model=ConceptualModel)  [`AutonomousDistressTrackingServiceProvider`](https://airm.aero/developers/advanced-search/1.3.0/AutonomousDistressTrackingServiceProvider?model=ConceptualModel)  [`DistressTrackingEmergencyLocatorTransmitter`](https://airm.aero/developers/advanced-search/1.3.0/DistressTrackingEmergencyLocatorTransmitter?model=ConceptualModel)  [`PostFlightLocalisation`](https://airm.aero/developers/advanced-search/1.3.0/PostFlightLocalisation?model=ConceptualModel)  [`AutonomousDistressTracking`](https://airm.aero/developers/advanced-search/1.3.0/AutonomousDistressTracking?model=ConceptualModel)  [`LocationOfAnAircraftInDistressRepository`](https://airm.aero/developers/advanced-search/1.3.0/LocationOfAnAircraftInDistressRepository?model=ConceptualModel)  [`SatelliteBasedDistressTrackingSystem`](https://airm.aero/developers/advanced-search/1.3.0/SatelliteBasedDistressTrackingSystem?model=ConceptualModel)  
 
@@ -52,7 +52,7 @@ Key concepts: [`RescueCoordinationCentre`](https://airm.aero/developers/advanced
 
 ###  Distress Event
 
-i>Content: The diagram describes the concept of DistressEvent that is central to the LADR operations.
+The diagram describes the concept of DistressEvent that is central to the LADR operations.
 
 Key concepts: [`4DTrajectoryPoint`](https://airm.aero/developers/advanced-search/1.3.0/4DTrajectoryPoint?model=ConceptualModel)  [`LocationOfAnAircraftInDistressRepository`](https://airm.aero/developers/advanced-search/1.3.0/LocationOfAnAircraftInDistressRepository?model=ConceptualModel)  [`DistressPhase`](https://airm.aero/developers/advanced-search/1.3.0/DistressPhase?model=ConceptualModel)  [`DistressEvent`](https://airm.aero/developers/advanced-search/1.3.0/DistressEvent?model=ConceptualModel)  
 
