@@ -1,21 +1,18 @@
-# AirspaceUserOperations
+# ATMPhases
 
 ## Overview
 
-An overview of airspace user operations including, for example, the filing of an air-filed flight plan by the pilot in command.
+The diagram describes the basic notion of ATM phases from initial flight planning (months in advance) through day of operations to post-flight activities. This breakdown is generally agreed, whereas there are many different breakdowns of the individual ATM phases.
 
-Key concepts: [`OperationalFlightPlan`](https://airm.aero/developers/advanced-search/1.3.0/OperationalFlightPlan?model=ConceptualModel)  [`AirFiledFlightPlan`](https://airm.aero/developers/advanced-search/1.3.0/AirFiledFlightPlan?model=ConceptualModel)  [`FiledFlightPlan`](https://airm.aero/developers/advanced-search/1.3.0/FiledFlightPlan?model=ConceptualModel)  [`Operator`](https://airm.aero/developers/advanced-search/1.3.0/Operator?model=ConceptualModel)  [`Flight`](https://airm.aero/developers/advanced-search/1.3.0/Flight?model=ConceptualModel)  [`PilotInCommand`](https://airm.aero/developers/advanced-search/1.3.0/PilotInCommand?model=ConceptualModel)  [`FlightOperationsOfficerOrFlightDispatcher`](https://airm.aero/developers/advanced-search/1.3.0/FlightOperationsOfficerOrFlightDispatcher?model=ConceptualModel)  
+Key concepts: [`4DTrajectory`](https://airm.aero/developers/advanced-search/1.3.0/4DTrajectory?model=ConceptualModel)  [`Flight`](https://airm.aero/developers/advanced-search/1.3.0/Flight?model=ConceptualModel)  [`PostFlight`](https://airm.aero/developers/advanced-search/1.3.0/PostFlight?model=ConceptualModel)  [`FlightExecution`](https://airm.aero/developers/advanced-search/1.3.0/FlightExecution?model=ConceptualModel)  [`FlightPlanning`](https://airm.aero/developers/advanced-search/1.3.0/FlightPlanning?model=ConceptualModel)  [`ATMPhase`](https://airm.aero/developers/advanced-search/1.3.0/ATMPhase?model=ConceptualModel)  
 
-![Image](.//media/cm/AirspaceUserOperations.png)
+![Image](.//media/cm/ATMPhases.png)
+
+## Taxonomies
+
+###  ATM Phases
+
+Key concepts: [`FlightPlanning`](https://airm.aero/developers/advanced-search/1.3.0/FlightPlanning?model=ConceptualModel)  [`ATMPhase`](https://airm.aero/developers/advanced-search/1.3.0/ATMPhase?model=ConceptualModel)  [`FlightExecution`](https://airm.aero/developers/advanced-search/1.3.0/FlightExecution?model=ConceptualModel)  [`PostFlight`](https://airm.aero/developers/advanced-search/1.3.0/PostFlight?model=ConceptualModel)  
 
 
-## Analysis
-
-###  Operational Flight Plan
-
-An overview of the operational flight plan which is completed for a commercial flight.
-
-Key concepts: [`OperationalFlightPlan`](https://airm.aero/developers/advanced-search/1.3.0/OperationalFlightPlan?model=ConceptualModel)  [`FlightOperationsOfficerOrFlightDispatcher`](https://airm.aero/developers/advanced-search/1.3.0/FlightOperationsOfficerOrFlightDispatcher?model=ConceptualModel)  [`PilotInCommand`](https://airm.aero/developers/advanced-search/1.3.0/PilotInCommand?model=ConceptualModel)  [`Flight`](https://airm.aero/developers/advanced-search/1.3.0/Flight?model=ConceptualModel)  
-
-![Image](.//media/cm/AirspaceUserOperations-Operational-Flight-Plan.png)
-
+![Image](.//media/cm/ATMPhases-Hierarchy-ATM-Phases.png)
