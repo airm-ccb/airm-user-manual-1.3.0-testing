@@ -63,7 +63,7 @@ This diagram highlights the Flight Route the 4D Trajectory (in its FF-ICE Step 1
 
 Key concepts: [`FlightEvent`](https://airm.aero/developers/advanced-search/1.3.0/FlightEvent?model=ConceptualModel)  [`TrajectoryPointUsage`](https://airm.aero/developers/advanced-search/1.3.0/TrajectoryPointUsage?model=ConceptualModel)  [`FlightPhase`](https://airm.aero/developers/advanced-search/1.3.0/FlightPhase?model=ConceptualModel)  [`RoutePoint`](https://airm.aero/developers/advanced-search/1.3.0/RoutePoint?model=ConceptualModel)  [`4DTrajectoryPoint`](https://airm.aero/developers/advanced-search/1.3.0/4DTrajectoryPoint?model=ConceptualModel)  [`DepartureSurfaceSegment`](https://airm.aero/developers/advanced-search/1.3.0/DepartureSurfaceSegment?model=ConceptualModel)  [`ArrivalSurfaceSegment`](https://airm.aero/developers/advanced-search/1.3.0/ArrivalSurfaceSegment?model=ConceptualModel)  [`AirborneSegment`](https://airm.aero/developers/advanced-search/1.3.0/AirborneSegment?model=ConceptualModel)  [`TrajectorySegment`](https://airm.aero/developers/advanced-search/1.3.0/TrajectorySegment?model=ConceptualModel)  [`Flight`](https://airm.aero/developers/advanced-search/1.3.0/Flight?model=ConceptualModel)  [`4DTrajectory`](https://airm.aero/developers/advanced-search/1.3.0/4DTrajectory?model=ConceptualModel)  [`FlightRoute`](https://airm.aero/developers/advanced-search/1.3.0/FlightRoute?model=ConceptualModel)  
 
-![Image](.//media/cm/Flight-FF-ICE/R1-Description-of-predicted-movement.png)
+![Image](.//media/cm/Flight-FF-ICE-R1-Description-of-predicted-movement.png)
 
 ###  Flight Capability
 
