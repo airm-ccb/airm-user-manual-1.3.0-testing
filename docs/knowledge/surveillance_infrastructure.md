@@ -24,5 +24,5 @@ Key concepts: [`AutomaticDependentSurveillanceBroadcast`](https://airm.aero/deve
 
 ![Image](.//media/cm/SurveillanceInfrastructure-Hierarchy-Automatic-Dependent-Surveillance-Types.png)
 
-## Analysis
+
 
