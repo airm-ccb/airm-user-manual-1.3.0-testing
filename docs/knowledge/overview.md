@@ -32,9 +32,9 @@ Operations -- are constrained by --> Infrastructure
 | :- | :- | :-------------------------- |
 | `Flight` | [Flight](knowledge/flight.md) | Information about a specific flight. |
 | `Flight` | [Flight Event](knowledge/flight_event.md) | Information about actions, tasks or facts relevant to a specific flight which occur at an instant.|
-| `Flight` | [Flight Identifier](flight_identifier.md) | Information about identifiers of a flight. |
-| `Flight` | [Flight Phase](flight_phase.md) | Information about period-in-time occurrences during a Flight. |
-| `Flight` | [Movement](movement.md) | Information about movement of an aircraft both in the air and on the ground including position, time, and at least via calculation, speed and acceleration. |
+| `Flight` | [Flight Identifier](knowledge/flight_identifier.md) | Information about identifiers of a flight. |
+| `Flight` | [Flight Phase](knowledge/flight_phase.md) | Information about period-in-time occurrences during a Flight. |
+| `Flight` | [Movement](knowledge/movement.md) | Information about movement of an aircraft both in the air and on the ground including position, time, and at least via calculation, speed and acceleration. |
 
 ## Operations
 
@@ -42,28 +42,28 @@ Operations -- are constrained by --> Infrastructure
 | :- | :- | :-------------------------- |
 | `Air Traffic Operations` | [Aerodrome Operations](knowledge/aerodrome_operations.md) | Information about planning, execution and analysis of airport airside activities, including, but not limited to, how the aerodrome operators provide the needed ground infrastructure and precise surface guidance to improve safety and maximize aerodrome capacity in all weather conditions. |
 | `Air Traffic Operations` | [Airspace Organization and Management](knowledge/airspace_organization_and_management.md) | Information about how airspace organizations establish airspace structures in order to accommodate the different types of air activity, volume of traffic and differing levels of service, and about the process by which airspace options are selected and applied to meet the needs of the ATM community. |
-| `Air Traffic Operations` | [Airspace User Operations](airspace_user_operations.md) | Information about the ATM-related aspect of flight operations. |
-| `Air Traffic Operations` | [ATM Phases](atm_phases.md) | Information about groupings of related collaborative ATM activities relative to a flight or a group of flights. |
+| `Air Traffic Operations` | [Airspace User Operations](knowledge/airspace_user_operations.md) | Information about the ATM-related aspect of flight operations. |
+| `Air Traffic Operations` | [ATM Phases](knowledge/atm_phases.md) | Information about groupings of related collaborative ATM activities relative to a flight or a group of flights. |
 | `Air Traffic Operations` | [ATM Service Delivery Management](knowledge/atm_service_delivery_management.md) | Information about the balance and consolidation of the decisions of the various other processes/services, as well as the time horizon at which, and the conditions under which, these decisions are made. |
-| `Air Traffic Operations` | [Cargo Operations](cargo_operations.md) | Information on all activities required to enable the safe transport of cargo by air. |
-| `Air Traffic Operations` | [Conflict Management](conflict_management.md) | Information about a) the strategic conflict management through airspace organization and management, the demand and capacity balancing, and traffic synchronization; b) separation provision; c) and collision avoidance. |
-| `Air Traffic Operations` | [Demand and Capacity Balancing](demand_and_capacity_balancing.md) | Information about the strategic evaluation of the system-wide traffic flows and aerodrome capacities to allow airspace users to determine when, where and how they operate, while mitigating conflicting needs for airspace and aerodrome capacity. |
-| `Air Traffic Operations` | [Emergency Operations](emergency_operations.md) | Information about the activities carried out in case of an emergency. |
-| `Air Traffic Operations` | [Information Services Products](information_services_products.md) | Information about the products exchanged by information services. |
-| `Air Traffic Operations` | [Aeronautical Information Product](aeronautical_information_product.md) |  |
-| `Air Traffic Operations` | [Flight Information Product](flight_information_product.md) |  |
-| `Air Traffic Operations` | [Meteorological Information Product](meteorological_information_product.md) |  |
-| `Air Traffic Operations` | [Coordination](coordination.md) |  |
+| `Air Traffic Operations` | [Cargo Operations](knowledge/cargo_operations.md) | Information on all activities required to enable the safe transport of cargo by air. |
+| `Air Traffic Operations` | [Conflict Management](knowledge/conflict_management.md) | Information about a) the strategic conflict management through airspace organization and management, the demand and capacity balancing, and traffic synchronization; b) separation provision; c) and collision avoidance. |
+| `Air Traffic Operations` | [Demand and Capacity Balancing](knowledge/demand_and_capacity_balancing.md) | Information about the strategic evaluation of the system-wide traffic flows and aerodrome capacities to allow airspace users to determine when, where and how they operate, while mitigating conflicting needs for airspace and aerodrome capacity. |
+| `Air Traffic Operations` | [Emergency Operations](knowledge/emergency_operations.md) | Information about the activities carried out in case of an emergency. |
+| `Air Traffic Operations` | [Information Services Products](knowledge/information_services_products.md) | Information about the products exchanged by information services. |
+| `Air Traffic Operations` | [Aeronautical Information Product](knowledge/aeronautical_information_product.md) |  |
+| `Air Traffic Operations` | [Flight Information Product](knowledge/flight_information_product.md) |  |
+| `Air Traffic Operations` | [Meteorological Information Product](knowledge/meteorological_information_product.md) |  |
+| `Air Traffic Operations` | [Coordination](knowledge/coordination.md) |  |
 
 ## Stakeholders
 
 | AIRM Subject | Ontology | Description |
 | :- | :- | :-------------------------- |
 | `Stakeholders` | [Organisation, Role and Service](knowledge/organisation_role_and_service.md) | Generic framework for modeling organizations, roles and services. This is to be used for typing. Based on the W3C Organization proposal. |
-| `Stakeholders` | [Agent](agent.md) | Specific common instances of "Agent" and their specialization relations. |
+| `Stakeholders` | [Agent](knowledge/agent.md) | Specific common instances of "Agent" and their specialization relations. |
 | `Stakeholders` | [Business Services](knowledge/business_services.md) | Specific common instances of "Service" and their specialization relations. |
-| `Stakeholders` | [Document and Agreement](document_and_agreement.md) | Description of cross-organizational agreements and documents. |
-| `Stakeholders` | [Organisation](organisation.md) | Specific common instances of "Organisation" and their specialization relations. |
+| `Stakeholders` | [Document and Agreement](knowledge/document_and_agreement.md) | Description of cross-organizational agreements and documents. |
+| `Stakeholders` | [Organisation](knowledge/organisation.md) | Specific common instances of "Organisation" and their specialization relations. |
 | `Stakeholders` | [Role](knowledge/role.md) | Specific common instances of "Role" and their specialization relations |
 
 ## Infrastructure
