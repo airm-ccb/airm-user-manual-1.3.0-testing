@@ -8,7 +8,7 @@ Key concepts: [`CoordinationAndTransfer`](https://airm.aero/developers/advanced-
 
 ![Image](.//media/cm/Coordination.png)
 
-## Taxonomies
+
 
 ## Analysis
 
