@@ -7,7 +7,4 @@ Key concepts: [`SatelliteServiceArea`](https://airm.aero/developers/advanced-sea
 
 ![Image](.//media/cm/SatelliteSystem.png)
 
-## Taxonomies
-
-## Analysis
 
