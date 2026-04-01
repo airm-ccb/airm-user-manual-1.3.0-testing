@@ -112,21 +112,40 @@ timeline
 | :-   | :--------- |
 | `ADS-B` | Automatic Dependant Surveillance - Broadcast |
 | `ADS-C` | Automatic Dependant Surveillance - Contract |
+| `AIM` | Aeronautical Information Management |
 | `AIRM` | ATM Information Reference Model |
+| `AIXM` | Aeronautical Information Exchange Model |
+| `ANSP` | Air Navigation Service Provider |
 | `ASCII` | American Standard Code for Information Interchange |
 | `ATM` | Air Traffic Management |
+| `ATMRPP` | (ICAO) ATM Requirements and Performance Panel |
 | `BSD` | Berkeley Software Distribution |
+| `CCB` | Change Control Board |
+| `CCBSO` | Change Control Board Support Office |
+| `CP` | Change Proposal |
+| `CR` | Change Request |
+| `EASCG` | European ATM Standards Coordination Group |
 | `EBNF` | Extended Backus–Naur Form |
 | `EXOT` | Estimated Taxi-Out Time |
 | `FANS` | Future Air Navigation System |
+| `FIXM` | Flight Information Exchange Model |
 | `ICAO` | International Civil Aviation Organization |
 | `IEC` | International Electrotechnical Commission |
 | `IETF` | Internet Engineering Task Force |
+| `IMP` | (ICAO) Information Management Panel |
 | `ISO` | International Standards Organization |
+| `iWXXM` | ICAO Weather Information Exchange Model |
+| `METP` | (ICAO) Meteorology Panel |
 | `NAF` | NATO Architecture Framework |
 | `NATO` | North Atlantic Treaty Organisation |
 | `NSS` | Namespace Specific String |
 | `NSV` | NAF System View |
 | `OMG` | Object Management Group |
+| `PANS` | Procedure for Air Navigation Services |
+| `SDO` | Standard Developing Organisation |
 | `STANAG` | Standardization Agreement (NATO) |
+| `SWIM` | System Wide Information Management |
+| `ToR` | Terms of Reference |
+| `UML` | Unified Modelling Language |
+| `XM` | Information Exchange Model |
 
