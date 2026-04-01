@@ -44,19 +44,6 @@ and experts supporting the `AIRM CCB` activities involved in deciding and implem
 - The `AIRM Change Request Integration Team`; 
 - Any other stakeholder interested in joining either the `AIRM Community` or the `AIRM CCB`. 
 
-### Terminology 
-
-| Term | Definition |
-| :-   | :--------- |
-| `Change proposal`  | Part of a change request describing a solution to the issue identified in the request. |
-| `Change request`  | A request to modify a managed object.   |
-| `Managed object`  | An artefact which can only be modified by using the AIRM change management procedures here defined. (For a list of `Managed objects`, see section 5). |
-| `Requestor`  | Stakeholder submitting a change request. |
-
-### Acronyms 
-
-`TODO`
-
 ### Normative References 
 
 The following publications, documents and artefacts are considered as normative: 
