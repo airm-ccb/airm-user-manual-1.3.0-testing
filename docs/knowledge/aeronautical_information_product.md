@@ -8,14 +8,6 @@ Key concepts: [`StandardLevelTable`](https://airm.aero/developers/advanced-searc
 
 ![Image](.//media/cm/AeronauticalInformationProduct.png)
 
-## Taxonomies
-
-### AeronauticalInformationProduct: Terminology
-
-Key concepts: 
-
-
-![Image](.//media/cm/AeronauticalInformationProduct-Terminology.png)
 
 ## Analysis
 
