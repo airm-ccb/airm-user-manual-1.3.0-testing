@@ -10,10 +10,9 @@ Key concepts: [`4DTrajectory`](https://airm.aero/developers/advanced-search/1.3.
 
 ## Taxonomies
 
-### ATMPhases: Hierarchy
+###  ATM Phases
 
 Key concepts: [`FlightPlanning`](https://airm.aero/developers/advanced-search/1.3.0/FlightPlanning?model=ConceptualModel)  [`ATMPhase`](https://airm.aero/developers/advanced-search/1.3.0/ATMPhase?model=ConceptualModel)  [`FlightExecution`](https://airm.aero/developers/advanced-search/1.3.0/FlightExecution?model=ConceptualModel)  [`PostFlight`](https://airm.aero/developers/advanced-search/1.3.0/PostFlight?model=ConceptualModel)  
 
 
-![Image](.//media/cm/ATMPhases-Hierarchy.png)
-
+![Image](.//media/cm/ATMPhases-Hierarchy-ATM-Phases.png)
