@@ -1,12 +1,12 @@
 - **AIRM Strategic documents**
-  - [CCB Terms of Reference](strategic_docs/ccb_tor.md)
-  - [Change Management Handbook](strategic_docs/change_management_handbook.md)
+  - [Change Management](strategic_docs/change_management.md)
+  - [CCB ToR](strategic_docs/ccb_tor.md)
   - [Rulebook](strategic_docs/rulebook.md)
 
 
 
 - **How to ...**
-  - [Prepare and submit a CR](guidance/prepare_submit_cr.md)
+  - [Join the AIRM Community](guidance/join_community.md)
 
 
 
