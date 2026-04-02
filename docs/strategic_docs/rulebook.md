@@ -70,19 +70,19 @@ The following layout is adopted to ease the use of the document.
 
 #### Rule template
 
-| <mark style="background-color:lightblue">AIRM_Rule</mark> *`number`* | 
+| :hammer: <mark style="background-color:lightblue">AIRM_Rule</mark> *`number`* | 
 | :- |
 | Rule statement |
 
 #### Recommendation template
 
-| <mark style="background-color:yellow">AIRM_Recommendation</mark> *`number`* |
+| :cool: <mark style="background-color:yellow">AIRM_Recommendation</mark> *`number`* |
 | :- |
 | Recommendation statement |
 
 #### Principle template
 
-| <mark style="background-color:lightgrey">AIRM_Principle</mark> *`number`* |
+| :bulb: <mark style="background-color:lightgrey">AIRM_Principle</mark> *`number`* |
 | :- |
 | Principle statement |
 
