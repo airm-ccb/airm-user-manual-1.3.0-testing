@@ -2,24 +2,19 @@
 
 This document sets out the terms of reference for the AIRM Change Control Board
 
-## Introduction 
-
-### Purpose of the document 
+**`Purpose of the document`** 
 
 The ATM Information Reference Model (`AIRM`) is a key standard within the context of `SWIM` deployment. As such, procedures must be put in place to manage the evolution of the `AIRM` in an effective manner and to ensure that the requirements and views of all stakeholders are taken into account. 
 
 This document sets out the terms of reference for the `AIRM Change Control Board` (`AIRM CCB`). The `AIRM CCB` is the body that has the authority to make decisions on how changes to the `AIRM` should be handled.  
 
-### Intended readership 
+**`Intended readership`** 
 
 The primary intended readership of this document consists of  
 - The AIRM community of interest. 
 
-## Terms of Reference 
 
-### Change Control Board
-
-#### Purpose and Scope 
+## Purpose and Scope 
 
 The `AIRM Change Control Board` is entrusted with the role of making decisions on how changes to the `AIRM` content should be handled. 
 
@@ -40,7 +35,7 @@ The `AIRM CCB`:
 - Coordinate the content of the `AIRM Supplements`.
 
 
-#### Composition 
+## Composition 
 
 The `AIRM CCB` is composed of SWIM experts and subject matter experts. The `AIRM CCB` is open to relevant members of the ATM Community including, but not limited to members who represent:  
 - States; 
@@ -56,7 +51,7 @@ Each organisation may be represented by only one member. However, a member may r
 (something which is common for members who, for example, represent international organisations). The `AIRM CCB` ensures the appropriateness 
 of the number of members in terms of stakeholder representation whilst ensuring that the `AIRM CCB` proceedings remains workable and practical.  
 
-#### CCB Member 
+## CCB Member 
 
 **`AIRM CCB members`** 
 - are expected to make an active contribution to the subject content on a voluntary basis; and 
@@ -97,7 +92,7 @@ This includes the AIRM coordination processes that describe the coordination act
 
 Note: ICAO internal coordination among the related ICAO panels is not in scope of this ToR. 
 
-#### Working Arrangements
+## Working Arrangements
 
 **`Meetings`**
 
