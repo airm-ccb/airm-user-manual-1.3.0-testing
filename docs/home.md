@@ -1,79 +1,25 @@
-# Welcome to the AIRM User Manual
+# Welcome to docs.airm.aero
 
-Welcome to the AIRM User Manual.
 
 ## Content overview
 
-```mermaid
-  flowchart  TD
-  
-  AIRM((AIRM))
-  
-  subgraph Guidance
-  AIRM_RULEBOOK[AIRM<br>Rulebook]
-  %% DERIVE_AIRM[Deriving the<br>AIRM]
-  %% SUPPLEMENT_AIRM[Supplementing the<br>AIRM]
-  %% MAP_TO_AIRM[Mapping to the<br>AIRM]
-  end
-  
-  AIRM_RULEBOOK-. provides rules for developing .- AIRM
-  %% DERIVE_AIRM-. provides guidance for creating a derived model from .-AIRM
-  %% SUPPLEMENT_AIRM-. provides guidance for supplementing the main part of .-AIRM
-  %% MAP_TO_AIRM-. provides guidance for establishing semantic correspondences to .-AIRM
-  
-  subgraph Knowledge
-    %% direction RL
-    AIRM_ONTOLOGIES[AIRM Ontologies]
-    %% ONTOLOGY_AIRCRAFT[Aircraft]
-    %% ONTOLOGY_INFRASTRUCTURE[Infrastructure]
-    %% ONTOLOGY_ATO[Air Traffic Operations]
-    %% ONTOLOGY_FLIGHT[Flight]
-    %% ONTOLOGY_METEO[Meteorology]
-    %% ONTOLOGY_STAKEHOLDER[Stakeholder]
-    %% AIRM_ONTOLOGIES-.-ONTOLOGY_AIRCRAFT
-    %% AIRM_ONTOLOGIES-.-ONTOLOGY_INFRASTRUCTURE
-    %% AIRM_ONTOLOGIES-.-ONTOLOGY_FLIGHT
-    %% AIRM_ONTOLOGIES-.-ONTOLOGY_METEO
-    %% AIRM_ONTOLOGIES-.-ONTOLOGY_STAKEHOLDER
-  end
-  
-  %% AIRM-. exposes ontologies from the conceptual model of the .-AIRM_ONTOLOGIES
-  AIRM_ONTOLOGIES-. exposes ontologies from the conceptual model of the .-AIRM
+| Content | Description |
+| :-      | :---------- |
+| `AIRM STRATEGIC DOCUMENTS` | Includes an overview of the [`Change Management`](strategic_docs/change_management.md) for the AIRM, the [`Terms of Reference`](strategic_docs/ccb_tor.md) of the AIRM CCB and the [`AIRM Rulebook`](strategic_docs/rulebook.md) that specifies the rules for developing the AIRM. |
+| `HOW TO...` | Includes a series of articles providing guidance about specific aspects of the AIRM. |
+| `AIRM USAGE` | For understanding what you can do with the AIRM, and how the AIRM is used operationally. Includes information about the [`AIRM Search & API`](usage/search_api.md) and the [`AIRM Showcase`](usage/showcase.md) for discovering who's using the AIRM. |
+| `AIRM ONTOLOGIES`  | All the knowledge from the AIRM Conceptual Model, classified by subjects. [`Learn more`](knowledge/overview.md) |
 
-  subgraph Usage
-  AIRM_API[AIRM API]
-  AIRM_SEARCH[AIRM Search]
-  AIRM_SHOWCASE[AIRM Showcase]
-  end
-  
-  AIRM -. enables to connect software to .- AIRM_API
-  AIRM -. provides online access to .- AIRM_SEARCH
-  AIRM -. shows who is using the .- AIRM_SHOWCASE
-  
-  style AIRM stroke-width:3px
+## How to use this Web Site
 
-  click AIRM_RULEBOOK href "https://airm-ccb.github.io/airm-user-manual-1.3.0-testing/#/guidance/airm_rulebook" "Browse the AIRM Rulebook"
-  click AIRM_ONTOLOGIES href "https://airm-ccb.github.io/airm-user-manual-1.3.0-testing/#/knowledge/overview" "Discover the AIRM ontologies"
-  click AIRM_SEARCH href "https://airm.aero/dictionary/1.2.0/search" "Search for ATM terms, abbreviations and concepts"
-  click AIRM_API href "https://airm.aero/developers/api" "Connect your software to the AIRM"
-  click AIRM_SHOWCASE href "https://airm-ccb.github.io/airm-user-manual-1.3.0-testing/#/usage/showcase" "Discover whos is using the AIRM"
-```
+▶️ Use the side bar opposite to access the various sections of the site;
 
-## What do you want to do?
+▶️ Use the search engine to look for a specific entry;
 
-| Your AIRM use case | Chapters relevant to you |
-|:------------------ | :------------------------|
-| Use the terms and information constructs of the AIRM to support operational concept development. | [`AIRM Search`](https://airm.aero/dictionary/1.2.0/search), [`AIRM Ontologies`](https://airm-ccb.github.io/airm-user-manual-1.3.0-testing/#/knowledge/overview) `...` |
-| Use the AIRM when defining IERs / to express requirements | [`AIRM Search`](https://airm.aero/dictionary/1.2.0/search), [`AIRM Ontologies`](https://airm-ccb.github.io/airm-user-manual-1.3.0-testing/#/knowledge/overview) `...` |
-| Use the AIRM by importing its content into a regional or local architecture repository or a regional or local reference model | `...` |
-| Use the AIRM as a reference for cross-domain coordination activities | `...` |
-| Use the AIRM as a reference to align a data catalogue, a data dictionary or a standard information service payload to the AIRM | `...` |
-| Use the AIRM as a semantic reference when reading information inputs from various sources and writing outputs. | `...` |
-| Provide a dedicated evidence of the alignment of the information service payload with the AIRM. | `...` |
-| Derive service payload structure from the AIRM | `...` |
+▶️ Use the buttons `< PREVIOUS` and `NEXT >` at the bottom of each page to navigate across the different sections of the manual.
 
 
-## AIRM Release history
+## The AIRM Release History at glance
 
 ```mermaid
 ---
@@ -84,14 +30,16 @@ timeline
     section Research
       2009-2019 : NEXTGEN NAS-EA-OV7
                 : SESAR AIRM
-    section ICAO deployment
+    section Deployment
       2019-2022 : AIRM 1.0.0, AIRM 1.1.0
       2024      : AIRM 1.2.0, CURRENT VERSION ENDORSED BY ICAO
       Coming soon (Q2 2026) : AIRM 1.3.0, docs.airm.aero
 ```
 
 
-## Terminology
+## Terminology & Acronyms
+
+The following terms and acronyms are used across the whole site.
 
 | Term | Definition |
 | :-   | :--------- |
@@ -107,9 +55,7 @@ timeline
 | `Trace` | A directed link from a concept in an information definition to an AIRM concept. |
 
 
-## Acronyms
-
-| Term | Definition |
+| Acronym | Definition |
 | :-   | :--------- |
 | `ADS-B` | Automatic Dependant Surveillance - Broadcast |
 | `ADS-C` | Automatic Dependant Surveillance - Contract |
