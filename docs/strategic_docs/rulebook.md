@@ -21,41 +21,6 @@ It shall be used by participants in harmonisation and consolidation activities i
 structure, semantics and other aspects. If a requested change or submission does not conform to a principle or rule then the breach may be reported back with 
 the unique identity of the violated principle or rule.
 
-### Terminology
-
-| Term | Definition |
-| :-   | :--------- |
-| `AIRM models` | Shorthand to include the `AIRM Conceptual Model`, `AIRM Logical Model` and `AIRM Contextual Model`.|
-| `Conceptual Model` | A conceptual model is a model of the information about the concepts in the universe of discourse, relevant to the architecture effort. | 
-| `Logical Model` | The logical model is a specification of business/operational information requirements as a formal data structure, where relationships and classes (entities) are used to specify the logic which underpins the information. |
-| `Mapping` | A set of traces that establishes a semantic correspondence between a concept in an information definition and AIRM concepts. |
-| `Physical Data Model` | The physical data model specifies how the logical data model will be instantiated in a particular product or service. It takes into account implementation restrictions and performance issues whilst still enforcing the constraints, relationships and typing of the logical model. |
-| `Trace` | A directed link from a concept in an information definition to an AIRM concept. |
-
-### Acronyms
-
-| Term | Definition |
-| :-   | :--------- |
-| `ADS-B` | Automatic Dependant Surveillance - Broadcast |
-| `ADS-C` | Automatic Dependant Surveillance - Contract |
-| `AIRM` | ATM Information Reference Model |
-| `ASCII` | American Standard Code for Information Interchange |
-| `ATM` | Air Traffic Management |
-| `BSD` | Berkeley Software Distribution |
-| `EBNF` | Extended Backus–Naur Form |
-| `EXOT` | Estimated Taxi-Out Time |
-| `FANS` | Future Air Navigation System |
-| `ICAO` | International Civil Aviation Organization |
-| `IEC` | International Electrotechnical Commission |
-| `IETF` | Internet Engineering Task Force |
-| `ISO` | International Standards Organization |
-| `NAF` | NATO Architecture Framework |
-| `NATO` | North Atlantic Treaty Organisation |
-| `NSS` | Namespace Specific String |
-| `NSV` | NAF System View |
-| `OMG` | Object Management Group |
-| `STANAG` | Standardization Agreement (NATO) |
-
 
 ### Adoption
 This section describes external documents and other artefacts that, through reference in this text, provide provisions that are considered as normative
