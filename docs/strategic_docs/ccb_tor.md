@@ -83,6 +83,8 @@ Coordination with `XM communities`:
 - the coordination is performed by a liaison with the necessary subject matter expertise and who is active in both the `AIRM CCB` and the concerned XM community. 
 - promotes the coordination between `AIRM CCB` and XM communities on practical matters of mutual interest. 
 
+**`Coordination with the ICAO IMP`**
+
 Coordination with the `ICAO IMP` occurs at two levels: 
 - IMP observations on work to be done towards the next release, based on the  AIRM work/release plan provided by the AIRM CCB; 
 - IMP endorsement on AIRM release, based on the change report provided by the AIRM CCB. 
