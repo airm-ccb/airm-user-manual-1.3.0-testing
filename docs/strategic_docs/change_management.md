@@ -32,7 +32,7 @@ Change management processes are streamlined to:
 Change management processes dedicated to coordination with global information exchange models and ICAO ensure the integration of the `AIRM` in a global context. 
 
 
-## Stakeholders & Groups
+## :raising_hand_woman: Stakeholders & Groups :raising_hand_man:
 
 
 ### AIRM Community 
@@ -76,7 +76,7 @@ ensures the synchronisation of AIRM evolution with the XM communities.  Coordina
 endorsements from ICAO.
 
 
-## Handbook
+## :blue_book: Handbook
 
 The [`AIRM Change Management Handbook`](https://eurocontrol.sharepoint.com/:w:/r/sites/coll-AIRM/Document%20Repository/AIRM_Change_Management_Handbook.docx?d=wc0259c2beb1042efae7843bafbbea945&csf=1&web=1&e=LeR3yM) 
 further details the change management procedures that are used to manage the evolution of the `AIRM`, 
