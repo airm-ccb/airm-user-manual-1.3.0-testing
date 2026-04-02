@@ -6,7 +6,7 @@
 
 
 - **How to ...**
-  - [Join the AIRM Community](guidance/join_community.md)
+  - [Join the AIRM Community](guidance/joining_airm_community.md)
 
 
 
