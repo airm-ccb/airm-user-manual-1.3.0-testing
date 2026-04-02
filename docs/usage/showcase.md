@@ -6,7 +6,7 @@ Discover who's been using the AIRM. :+1: :+1:
 
 ## Regulations 🔨 & Means of compliance ✅
 
-- [x] The  [`ICAO PANS-IM`](https://store.icao.int/en/procedures-for-air-navigation-services-information-management-doc-10199), the ICAO Procedures for Air Navigation Services - Information Management, have recommendations for achieving a common understanding of the meaning of the information exchanged, which can be done by aligning with a global reference model, specifically the `AIRM`.
+- [x] The [`ICAO PANS-IM`](https://store.icao.int/en/procedures-for-air-navigation-services-information-management-doc-10199), the ICAO Procedures for Air Navigation Services - Information Management, have recommendations for achieving a common understanding of the meaning of the information exchanged, which can be done by aligning with a global reference model, specifically the `AIRM`.
 
 - [x] The [`EUROCONTROL Specification on SWIM Information Definition`](https://www.eurocontrol.int/publication/eurocontrol-specification-swim-information-definition) has requirements to ensure that information definitions conform to the semantics of the `AIRM`.
 
