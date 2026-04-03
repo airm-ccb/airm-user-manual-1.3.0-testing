@@ -36,7 +36,6 @@ timeline
       Coming soon (Q2 2026) : AIRM 1.3.0, docs.airm.aero
 ```
 
-
 ## Terminology & Acronyms
 
 The following terms and acronyms are used across the whole site.
@@ -44,27 +43,23 @@ The following terms and acronyms are used across the whole site.
 | Term | Definition |
 | :-   | :--------- |
 | `AIRM models` | Shorthand to include the `AIRM Conceptual Model`, `AIRM Logical Model` and `AIRM Contextual Model`.|
-| `Change proposal` | Part of a change request describing a solution to the issue identified in the request. |
 | `Change request` | A request to modify a managed object. |
 | `Conceptual Model` | A conceptual model is a model of the information about the concepts in the universe of discourse, relevant to the architecture effort. | 
 | `Logical Model` | The logical model is a specification of business/operational information requirements as a formal data structure, where relationships and classes (entities) are used to specify the logic which underpins the information. |
 | `Managed object` | An artefact which can only be modified by using the AIRM change management procedures here defined. |
 | `Mapping` | A set of traces that establishes a semantic correspondence between a concept in an information definition and AIRM concepts. |
-| `Physical Data Model` | The physical data model specifies how the logical data model will be instantiated in a particular product or service. It takes into account implementation restrictions and performance issues whilst still enforcing the constraints, relationships and typing of the logical model. |
-| `Requestor` | Stakeholder submitting a change request. |
-| `Trace` | A directed link from a concept in an information definition to an AIRM concept. |
 
 
 | Acronym | Definition |
 | :-   | :--------- |
-| `ADS-B` | Automatic Dependant Surveillance - Broadcast |
-| `ADS-C` | Automatic Dependant Surveillance - Contract |
-| `AIM` | Aeronautical Information Management |
-| `AIRM` | ATM Information Reference Model |
-| `AIXM` | Aeronautical Information Exchange Model |
-| `ANSP` | Air Navigation Service Provider |
+| [`ADS-B`](https://airm.aero/dictionary/1.2.0/ADS-B?model=ContextualModel) | Automatic Dependant Surveillance - Broadcast |
+| [`ADS-C`](https://airm.aero/dictionary/1.2.0/ADS-C?model=ContextualModel) | Automatic Dependant Surveillance - Contract |
+| [`AIM`](https://airm.aero/dictionary/1.2.0/AIM?model=ContextualModel) | Aeronautical Information Management |
+| [`AIRM`](https://airm.aero/dictionary/1.2.0/AIRM?model=ContextualModel) | ATM Information Reference Model |
+| [`AIXM`](https://airm.aero/dictionary/1.2.0/AIXM?model=ContextualModel) | Aeronautical Information Exchange Model |
+| [`ANSP`](https://airm.aero/dictionary/1.2.0/ANSP?model=ContextualModel) | Air Navigation Service Provider |
 | `ASCII` | American Standard Code for Information Interchange |
-| `ATM` | Air Traffic Management |
+| [`ATM`](https://airm.aero/dictionary/1.2.0/ATM?model=ContextualModel)  | Air Traffic Management |
 | `ATMRPP` | (ICAO) ATM Requirements and Performance Panel |
 | `BSD` | Berkeley Software Distribution |
 | `CCB` | Change Control Board |
@@ -73,26 +68,26 @@ The following terms and acronyms are used across the whole site.
 | `CR` | Change Request |
 | `EASCG` | European ATM Standards Coordination Group |
 | `EBNF` | Extended Backus–Naur Form |
-| `EXOT` | Estimated Taxi-Out Time |
-| `FANS` | Future Air Navigation System |
-| `FIXM` | Flight Information Exchange Model |
-| `ICAO` | International Civil Aviation Organization |
-| `IEC` | International Electrotechnical Commission |
-| `IETF` | Internet Engineering Task Force |
+| [`EXOT`](https://airm.aero/dictionary/1.2.0/EXOT?model=ContextualModel)  | Estimated Taxi-Out Time |
+| [`FANS`](https://airm.aero/dictionary/1.2.0/FANS?model=ContextualModel)  | Future Air Navigation System |
+| [`FIXM`](https://airm.aero/dictionary/1.2.0/FIXM?model=ContextualModel)  | Flight Information Exchange Model |
+| [`ICAO`](https://airm.aero/dictionary/1.2.0/ICAO?model=ContextualModel)  | International Civil Aviation Organization |
+| [`IEC`](https://airm.aero/dictionary/1.2.0/IEC?model=ContextualModel)  | International Electrotechnical Commission |
+| `IETF`  | Internet Engineering Task Force |
 | `IMP` | (ICAO) Information Management Panel |
-| `ISO` | International Standards Organization |
+| [`ISO`](https://airm.aero/dictionary/1.2.0/ISO?model=ContextualModel) | International Standards Organization |
 | `iWXXM` | ICAO Weather Information Exchange Model |
 | `METP` | (ICAO) Meteorology Panel |
-| `NAF` | NATO Architecture Framework |
-| `NATO` | North Atlantic Treaty Organisation |
+| [`NAF`](https://airm.aero/dictionary/1.2.0/NAF?model=ContextualModel)  | NATO Architecture Framework |
+| [`NATO`](https://airm.aero/dictionary/1.2.0/NATO?model=ContextualModel)  | North Atlantic Treaty Organisation |
 | `NSS` | Namespace Specific String |
 | `NSV` | NAF System View |
-| `OMG` | Object Management Group |
-| `PANS` | Procedure for Air Navigation Services |
+| [`OMG`](https://airm.aero/dictionary/1.2.0/OMG?model=ContextualModel)  | Object Management Group |
+| [`PANS`](https://airm.aero/dictionary/1.2.0/PANS?model=ContextualModel)  | Procedure for Air Navigation Services |
 | `SDO` | Standard Developing Organisation |
-| `STANAG` | Standardization Agreement (NATO) |
-| `SWIM` | System Wide Information Management |
+| [`STANAG`](https://airm.aero/dictionary/1.2.0/STANAG?model=ContextualModel)  | Standardization Agreement (NATO) |
+| [`SWIM`](https://airm.aero/dictionary/1.2.0/SWIM?model=ContextualModel)  | System Wide Information Management |
 | `ToR` | Terms of Reference |
-| `UML` | Unified Modelling Language |
+| [`UML`](https://airm.aero/dictionary/1.2.0/UML?model=ContextualModel)  | Unified Modelling Language |
 | `XM` | Information Exchange Model |
 
