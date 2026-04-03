@@ -49,6 +49,6 @@ Discover who's been using the `AIRM`. :+1:
 
 ## 💡 Corporate usages
 
-- [EUROCONTROL](https://www.eurocontrol.int/) has been using the `AIRM` to build Collibra, its central data governance platform.
+- [`EUROCONTROL`](https://www.eurocontrol.int/) has been using the `AIRM` to build Collibra, its central data governance platform.
 
 - ...
