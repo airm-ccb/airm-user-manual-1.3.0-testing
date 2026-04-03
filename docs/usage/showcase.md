@@ -24,15 +24,15 @@ Discover who's been using the `AIRM`. :+1:
 
 ## 📨 Information Exchange Models
 
-- [`FIXM`](www.FIXM.aero), the Flight Information Exchange Model, recognises as a [strategic objective](https://docs.fixm.aero/#/strategic-docs/strategy?id=_243-fixm-and-the-airm) to achieve semantic alignment with the `AIRM`, is practically [mapped](https://airm.aero/developers/semantic-correspondences) to the `AIRM`, and further leverages the `AIRM` logical model to establish encoding rules for some FIXM properties.
+- [`FIXM`](https://www.FIXM.aero), the Flight Information Exchange Model, recognises as a [strategic objective](https://docs.fixm.aero/#/strategic-docs/strategy?id=_243-fixm-and-the-airm) to achieve semantic alignment with the `AIRM`, is practically [mapped](https://airm.aero/developers/semantic-correspondences) to the `AIRM`, and further leverages the `AIRM` logical model to establish encoding rules for some FIXM properties.
 
-- [`AIXM`](www.AIXM.aero), the Aeronautical Information Exchange Model, is mapped to the `AIRM`.
+- [`AIXM`](https://www.AIXM.aero), the Aeronautical Information Exchange Model, is mapped to the `AIRM`.
 
 - [`IWXXM`](https://github.com/wmo-im/iwxxm), the ICAO Meteorological Information Exchange Model, is mapped to the `AIRM`
 
 - [`AMXM`](https://www.amxm.aero/), the Aerodrome Mapping Exchange Model, is mapped to the `AIRM`.
 
-- [`PIXM`](www.pixm.aero/), the Performance Information Exchange Model, is derived from the `AIRM`.
+- [`PIXM`](https://www.pixm.aero/), the Performance Information Exchange Model, is derived from the `AIRM`.
 
 
 ## 💻 Information Services
@@ -49,6 +49,6 @@ Discover who's been using the `AIRM`. :+1:
 
 ## 💡 Corporate usages
 
-- EUROCONTROL has been using the `AIRM` to build Collibra, its central data governance platform.
+- [EUROCONTROL](https://www.eurocontrol.int/) has been using the `AIRM` to build Collibra, its central data governance platform.
 
 - ...
