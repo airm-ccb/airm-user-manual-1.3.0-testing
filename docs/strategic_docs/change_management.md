@@ -43,7 +43,7 @@ actively contribute to or monitor the evolution of the AIRM.  The contributions 
 AIRM Community members can submit a Change Request (CR) on behalf of one or several stakeholders.
 
 
-### AIRM Change Control Board (CCB)  
+### AIRM Change Control Board (`CCB`)  
 
 The `AIRM CCB` is the body that has the authority to make final decisions on how change requests to the AIRM should be handled, and for overall management of the maintenance and evolution of the AIRM.  
 Its roles, responsibilities and composition are described in the [`AIRM Change Control Board Terms of Reference`](). 
