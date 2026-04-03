@@ -58,4 +58,4 @@
   - [Meteorology](knowledge/meteorology.md)
 
 
-©️[Eurocontrol](https://www.eurocontrol.int)
+[(c) Eurocontrol](https://www.eurocontrol.int)
