@@ -54,17 +54,6 @@ Operations -- are constrained by --> Infrastructure
 | `Air Traffic Operations` | [Meteorological Information Product](knowledge/meteorological_information_product.md) |  |
 | `Air Traffic Operations` | [Coordination](knowledge/coordination.md) |  |
 
-## Stakeholders
-
-| AIRM Subject | Ontology | Description |
-| :- | :- | :-------------------------- |
-| `Stakeholders` | [Organisation, Role and Service](knowledge/organisation_role_and_service.md) | Generic framework for modeling organizations, roles and services. This is to be used for typing. Based on the W3C Organization proposal. |
-| `Stakeholders` | [Agent](knowledge/agent.md) | Specific common instances of "Agent" and their specialization relations. |
-| `Stakeholders` | [Business Services](knowledge/business_services.md) | Specific common instances of "Service" and their specialization relations. |
-| `Stakeholders` | [Document and Agreement](knowledge/document_and_agreement.md) | Description of cross-organizational agreements and documents. |
-| `Stakeholders` | [Organisation](knowledge/organisation.md) | Specific common instances of "Organisation" and their specialization relations. |
-| `Stakeholders` | [Role](knowledge/role.md) | Specific common instances of "Role" and their specialization relations |
-
 ## Infrastructure
 
 | AIRM Subject | Ontology | Description |
@@ -79,6 +68,17 @@ Operations -- are constrained by --> Infrastructure
 | `Base Infrastructure` | [Surveillance Infrastructure](knowledge/surveillance_infrastructure.md) | Information about the surveillance infrastructure. |
 | `Base Infrastructure` | [Obstacle](knowledge/obstacle.md) | Information about ground based objects that are detrimental to the safe execution of flights. |
 | `Base Infrastructure` | [Satellite System](knowledge/satellite_system.md) | Information about satellite systems. |
+
+## Stakeholders
+
+| AIRM Subject | Ontology | Description |
+| :- | :- | :-------------------------- |
+| `Stakeholders` | [Organisation, Role and Service](knowledge/organisation_role_and_service.md) | Generic framework for modeling organizations, roles and services. This is to be used for typing. Based on the W3C Organization proposal. |
+| `Stakeholders` | [Agent](knowledge/agent.md) | Specific common instances of "Agent" and their specialization relations. |
+| `Stakeholders` | [Business Services](knowledge/business_services.md) | Specific common instances of "Service" and their specialization relations. |
+| `Stakeholders` | [Document and Agreement](knowledge/document_and_agreement.md) | Description of cross-organizational agreements and documents. |
+| `Stakeholders` | [Organisation](knowledge/organisation.md) | Specific common instances of "Organisation" and their specialization relations. |
+| `Stakeholders` | [Role](knowledge/role.md) | Specific common instances of "Role" and their specialization relations |
 
 ## Other
 
