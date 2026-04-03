@@ -6,7 +6,7 @@ Discover who's been using the `AIRM`. :+1:
 
 - The [`ICAO PANS-IM`](https://store.icao.int/en/procedures-for-air-navigation-services-information-management-doc-10199), the ICAO Procedures for Air Navigation Services - Information Management, have recommendations for achieving a common understanding of the meaning of the information exchanged, which can be done by aligning with a global reference model, specifically the `AIRM`.
 
-- [`ICAO Doc 10039`](https://portal.icao.int/icao-net/Pages/Doc10199.aspx) the ICAO Manual on the SWIM concept, explains that the `AIRM` is a crosscutting reference for aviation information, serving as a common reference to enable semantic interoperability, at the level of information, in the global interoperability framework.
+- [`ICAO Doc 10039`](https://portal.icao.int/icao-net/Pages/Doc10199.aspx), the ICAO Manual on the SWIM concept, explains that the `AIRM` is a crosscutting reference for aviation information, serving as a common reference to enable semantic interoperability, at the level of information, in the global interoperability framework.
 
 - [`ICAO Doc 10203`](https://portal.icao.int/icao-net/Pages/Doc10199.aspx), the ICAO Manual on the SWIM Implementation, details `AIRM` usage scenarios to achieve semantic interoperability at the cross-domain level, and in relation to service orientation process.
   
