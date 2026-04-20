@@ -1,5 +1,4 @@
 - **AIRM Ontologies**
-  - [Overview](knowledge/overview.md)
   - [Flight](knowledge/flight.md)
   - [Flight Event](knowledge/flight_event.md)
   - [Flight Identifier](knowledge/flight_identifier.md)
