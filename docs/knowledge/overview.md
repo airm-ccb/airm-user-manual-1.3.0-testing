@@ -1,4 +1,4 @@
-# AIRM Ontologies
+# AIRM Ontology
 
 
 ```mermaid
