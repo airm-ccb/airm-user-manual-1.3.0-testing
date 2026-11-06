@@ -1,6 +1,6 @@
 # AIRM ontologies
 
-![Image](.//media/airm_ontology.png)
+![Image](.//media/airm_ontology_small.png)
 
 All the knowledge from the AIRM Conceptual Model, classified by subjects. 
 
