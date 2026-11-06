@@ -3,8 +3,7 @@
 | Header |   |
 |:- | :----- |
 | ![Image](.//media/airm_ontology_small.png) |  |
-| **AIRM Ontology** |  |
-| All the knowledge from the AIRM <br>Conceptual Model, classified by subjects. |  |
+| **AIRM Ontology**<br>All the knowledge from the AIRM <br>Conceptual Model, classified by subjects. |  |
 
 
 
