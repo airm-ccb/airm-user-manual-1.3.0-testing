@@ -1,8 +1,14 @@
 # AIRM ontologies
 
-![Image](.//media/airm_ontology_small.png)
+||
+|:-|
+|![Image](.//media/airm_ontology_small.png)|
+|**AIRM Ontology**|
+|All the knowledge from the AIRM <br>Conceptual Model, classified by subjects.|
 
-All the knowledge from the AIRM Conceptual Model, classified by subjects. 
+
+
+
 
 ```mermaid
 ---
