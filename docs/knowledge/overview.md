@@ -1,5 +1,6 @@
 # AIRM Ontologies
 
+
 ```mermaid
 ---
 title: Strategic Concepts
@@ -88,6 +89,5 @@ Operations -- are constrained by --> Infrastructure
 | `Common` | [Geospatial](knowledge/geospatial.md) | Information related to land, ice and ocean surfaces and any object with vertical extent above and/or under ground. |
 | `Common` | [Temporal](knowledge/temporal.md) | Information about ATM-related temporal concepts. |
 | `Meteorology` | [Meteorology](knowledge/meteorology.md) | Information about meteorological observation, forecast, phenomena and any other statement relating to existing or expected meteorological conditions. |
-
 
 
