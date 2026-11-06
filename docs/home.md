@@ -1,5 +1,7 @@
 # AIRM ontologies
 
+![Image](.//media/airm_ontology.png)
+
 All the knowledge from the AIRM Conceptual Model, classified by subjects. 
 
 ```mermaid
