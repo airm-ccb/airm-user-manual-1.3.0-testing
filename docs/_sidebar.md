@@ -92,7 +92,7 @@
   - [Overview](knowledge/overview.md)
 
 
-- **AIRM Ontology: Traffic**
+- **Traffic**
   - [Flight](knowledge/flight.md)
   - [Flight Event](knowledge/flight_event.md)
   - [Flight Identifier](knowledge/flight_identifier.md)
@@ -100,7 +100,7 @@
   - [Movement](knowledge/movement.md)
 
 
-- **AIRM Ontology: Operations**
+- **Operations**
   - [Aerodrome Operations](knowledge/aerodrome_operations.md)
   - [Aeronautical Information Product](knowledge/aeronautical_information_product.md)
   - [Airspace User Operations](knowledge/airspace_user_operations.md)
@@ -116,7 +116,7 @@
   - [Meteorological Information Product](knowledge/meteorological_information_product.md)
 
 
-- **AIRM Ontology: Infrastructure**
+- **Infrastructure**
   - [Aerodrome Infrastructure](knowledge/aerodrome_infrastructure.md)
   - [Aircraft](knowledge/aircraft.md)
   - [Airspace](knowledge/airspace.md)
@@ -129,7 +129,7 @@
   - [Surveillance Infrastructure](knowledge/surveillance_infrastructure.md)  
 
 
-- **AIRM Ontology: Stakeholders**
+- **Stakeholders**
   - [Agent](knowledge/agent.md)
   - [Business Services](knowledge/business_services.md)
   - [Document and Agreement](knowledge/document_and_agreement.md)
@@ -138,7 +138,7 @@
   - [Role](knowledge/role.md)
 
 
-- **AIRM Ontology: Other**
+- **Other**
   - [Geometry](knowledge/geometry.md)
   - [Geospatial](knowledge/geospatial.md)
   - [Meteorology](knowledge/meteorology.md)
